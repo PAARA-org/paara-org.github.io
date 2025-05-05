@@ -28,7 +28,7 @@ find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year ; do
 		topic=`grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-`
 		has_youtube=`grep "www.youtube.com" $meet_month`
 		if [[ -n "$has_youtube" ]]; then
-			echo -n "* [$month](/$meet_month_html) (with recording) "
+			echo -n "* [$month](/$meet_month_html) ![youtube.ico](/images/youtube.ico) "
 		else
 			echo -n "* [$month](/$meet_month_html) "
 		fi
