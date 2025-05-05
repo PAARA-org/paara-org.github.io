@@ -19,53 +19,53 @@ Zoom Tips:
 * [202505](/meetings/2025/202505.html)  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack`
 * [202504](/meetings/2025/202504.html)  **Mike McClary, N6MO** : `Stealth HF Antennas`
 * [202503](/meetings/2025/202503.html)  **Many, not just one** : `Home Brew Night`
-* [202502](/meetings/2025/202502.html)  **Ben Eadie, VE6SFX** : `From Rookie to Innovator: Experimenting with (Slot) Antennas on a Budget` (**with recording**)
-* [202501](/meetings/2025/202501.html)  **Connie Stillinger, W6EFI** : `Instant Tuning for a Manual Tuner` (**with recording**)
+* [202502](/meetings/2025/202502.html)  **Ben Eadie, VE6SFX** : `From Rookie to Innovator: Experimenting with (Slot) Antennas on a Budget` (<mark>with recording</mark>)
+* [202501](/meetings/2025/202501.html)  **Connie Stillinger, W6EFI** : `Instant Tuning for a Manual Tuner` (<mark>with recording</mark>)
 
 ### 2024
 
-* [202412](/meetings/2024/202412.html)  **Wayne Burdick, N6KR** : `Four Feet and Five Watts from Six-Land, A Search for Peak Experience` (**with recording**)
-* [202411](/meetings/2024/202411.html)  **Katrina Barnett, MD** : `Service, Emotional Support, and Therapy Dogs` (**with recording**)
-* [202410](/meetings/2024/202410.html)  **Geoff Abreu K6ERA**, **The USS Hornet Radio Club NB6GC** : `Amateur Radio aboard the USS Hornet` (**with recording**)
-* [202409](/meetings/2024/202409.html)  **George Zafiropoulos, KJ6VU** : `Introduction to the Adventure Radio Protocol` (**with recording**)
+* [202412](/meetings/2024/202412.html)  **Wayne Burdick, N6KR** : `Four Feet and Five Watts from Six-Land, A Search for Peak Experience` (<mark>with recording</mark>)
+* [202411](/meetings/2024/202411.html)  **Katrina Barnett, MD** : `Service, Emotional Support, and Therapy Dogs` (<mark>with recording</mark>)
+* [202410](/meetings/2024/202410.html)  **Geoff Abreu K6ERA**, **The USS Hornet Radio Club NB6GC** : `Amateur Radio aboard the USS Hornet` (<mark>with recording</mark>)
+* [202409](/meetings/2024/202409.html)  **George Zafiropoulos, KJ6VU** : `Introduction to the Adventure Radio Protocol` (<mark>with recording</mark>)
 * [202408](/meetings/2024/202408.html)  **Leigh Ann Weiland, K6WXO** : `Nodes - Internet-mediated gateways`
-* [202407](/meetings/2024/202407.html)  **Andreas Junge, N6NU** : `TX5S - DX Expedition to Clipperton Island` (**with recording**)
-* [202406](/meetings/2024/202406.html)  **Benjamin Faershtein, KO6CNT** : `What's so fantastic about Meshtastic` (**with recording**)
+* [202407](/meetings/2024/202407.html)  **Andreas Junge, N6NU** : `TX5S - DX Expedition to Clipperton Island` (<mark>with recording</mark>)
+* [202406](/meetings/2024/202406.html)  **Benjamin Faershtein, KO6CNT** : `What's so fantastic about Meshtastic` (<mark>with recording</mark>)
 * [202405](/meetings/2024/202405.html)  **Darryl Presley, KI6LDM** : `Emergency Communications in Cupertino and Santa Clara County ARES / RACES`
-* [202404](/meetings/2024/202404.html)  **Many, not just one** : `HOMEBREW NIGHT` (**with recording**)
+* [202404](/meetings/2024/202404.html)  **Many, not just one** : `HOMEBREW NIGHT` (<mark>with recording</mark>)
 * [202403](/meetings/2024/202403.html)  **Joshua Edwards, KO6ASM** : `Rescued Thanks to Radio: Rescue Beacons and how Search and Rescue Forces Find Them`
-* [202402](/meetings/2024/202402.html)  **Kristen McIntyre, K6WX** : `Bonaire to Connecticut` (**with recording**)
+* [202402](/meetings/2024/202402.html)  **Kristen McIntyre, K6WX** : `Bonaire to Connecticut` (<mark>with recording</mark>)
 * [202401](/meetings/2024/202401.html)  **Chuck Leader, NA6XX, and Russ Bentson, K6KLY** : `6M DX-ing from Northern California`
 
 ### 2023
 
-* [202312](/meetings/2023/202312.html)  **Eric Swartz, WA6HHQ** : `Elecraft updates  with Q&A` (**with recording**)
-* [202311](/meetings/2023/202311.html)  **Rachel Kinoshita, KK6DAC** : `Bay Area Mesh Network for Emergency Communication` (**with recording**)
-* [202310](/meetings/2023/202310.html)  **Bryan St Clair, K6CBR** : `Direction Finding with the Kraken SDR` (**with recording**)
-* [202309](/meetings/2023/202309.html)  **JEFF K1NSS** : `JEFF K1NSS CONFIDENTIAL` (**with recording**)
-* [202308](/meetings/2023/202308.html)  **Craig Thompson, K9CT** : `Building and Maintaining a Contest/DXing Station` (**with recording**)
-* [202307](/meetings/2023/202307.html)  **Steve Stearns, K6OIK** : `Antenna Potpouri` (**with recording**)
-* [202306](/meetings/2023/202306.html)  **Jeff Stupartis, W4DD** : `Locating Power Line Noise (and other RFI)` (**with recording**)
-* [202305](/meetings/2023/202305.html)  **Jeri Ellsworth, AI6TK, and Amy Herndon, AI6ZU** : `Ham Radio and Gaming?` (**with recording**)
+* [202312](/meetings/2023/202312.html)  **Eric Swartz, WA6HHQ** : `Elecraft updates  with Q&A` (<mark>with recording</mark>)
+* [202311](/meetings/2023/202311.html)  **Rachel Kinoshita, KK6DAC** : `Bay Area Mesh Network for Emergency Communication` (<mark>with recording</mark>)
+* [202310](/meetings/2023/202310.html)  **Bryan St Clair, K6CBR** : `Direction Finding with the Kraken SDR` (<mark>with recording</mark>)
+* [202309](/meetings/2023/202309.html)  **JEFF K1NSS** : `JEFF K1NSS CONFIDENTIAL` (<mark>with recording</mark>)
+* [202308](/meetings/2023/202308.html)  **Craig Thompson, K9CT** : `Building and Maintaining a Contest/DXing Station` (<mark>with recording</mark>)
+* [202307](/meetings/2023/202307.html)  **Steve Stearns, K6OIK** : `Antenna Potpouri` (<mark>with recording</mark>)
+* [202306](/meetings/2023/202306.html)  **Jeff Stupartis, W4DD** : `Locating Power Line Noise (and other RFI)` (<mark>with recording</mark>)
+* [202305](/meetings/2023/202305.html)  **Jeri Ellsworth, AI6TK, and Amy Herndon, AI6ZU** : `Ham Radio and Gaming?` (<mark>with recording</mark>)
 * [202304](/meetings/2023/202304.html)  **Many, not just one** : `HOMEBREW NIGHT`
-* [202303](/meetings/2023/202303.html)  **Michael Walker, VA3MW** : `So what is FlexRadio all about?` (**with recording**)
-* [202302](/meetings/2023/202302.html)  **Corey Ruth, KD3CR** : `All Bands From An HOA: The Broadband Butterfly Terminated Dipole` (**with recording**)
-* [202301](/meetings/2023/202301.html)  : `Falling from the Sky: Chasing WX Balloon Transmitters` (**with recording**)
+* [202303](/meetings/2023/202303.html)  **Michael Walker, VA3MW** : `So what is FlexRadio all about?` (<mark>with recording</mark>)
+* [202302](/meetings/2023/202302.html)  **Corey Ruth, KD3CR** : `All Bands From An HOA: The Broadband Butterfly Terminated Dipole` (<mark>with recording</mark>)
+* [202301](/meetings/2023/202301.html)  : `Falling from the Sky: Chasing WX Balloon Transmitters` (<mark>with recording</mark>)
 
 ### 2022
 
 * [202212](/meetings/2022/202212.html)  **Eric Swartz, WA6HHQ** : `Elecraft update  with Q&A`
-* [202211](/meetings/2022/202211.html)  **Mikko Sannala AB6RF** : `Remote Control of HF Rig` (**with recording**)
-* [202210](/meetings/2022/202210.html)  **Vince d'Eon, AI7LK** : `Go-Kit Building Design` (**with recording**)
-* [202209](/meetings/2022/202209.html)  **Kevin Zanjani** : `Bioenno batteries and specifications` (**with recording**)
-* [202208](/meetings/2022/202208.html)  **OES Chief Ken Dueker, KB6BPM** : `Community Hazards and Emergency Planning` (**with recording**)
-* [202207](/meetings/2022/202207.html)  **Fred Cirera, W6BSD** : `Software Antenna Modeling` (**with recording**)
-* [202206](/meetings/2022/202206.html)  **Cindy Bertsch, KG6IMU** : `Caldor Fire Animal Evacuations: Western El Dorado County` (**with recording**)
-* [202205](/meetings/2022/202205.html)  **George Zafiropoulos, KJ6VU** : `Think Like A Backpacker` (**with recording**)
-* [202204](/meetings/2022/202204.html)  **Brian Basura, N6CVO** : `Pico-Ballooning and Ham Radio` (**with recording**)
-* [202203](/meetings/2022/202203.html)  **Rob Orr, K9RST** : `Ham Radio: Serving Large public events` (**with recording**)
-* [202202](/meetings/2022/202202.html)  **n/a** : `HF Propagation with a Twist` (**with recording**)
-* [202201](/meetings/2022/202201.html)  **Many, not just one** : `Home Brew Night` (**with recording**)
+* [202211](/meetings/2022/202211.html)  **Mikko Sannala AB6RF** : `Remote Control of HF Rig` (<mark>with recording</mark>)
+* [202210](/meetings/2022/202210.html)  **Vince d'Eon, AI7LK** : `Go-Kit Building Design` (<mark>with recording</mark>)
+* [202209](/meetings/2022/202209.html)  **Kevin Zanjani** : `Bioenno batteries and specifications` (<mark>with recording</mark>)
+* [202208](/meetings/2022/202208.html)  **OES Chief Ken Dueker, KB6BPM** : `Community Hazards and Emergency Planning` (<mark>with recording</mark>)
+* [202207](/meetings/2022/202207.html)  **Fred Cirera, W6BSD** : `Software Antenna Modeling` (<mark>with recording</mark>)
+* [202206](/meetings/2022/202206.html)  **Cindy Bertsch, KG6IMU** : `Caldor Fire Animal Evacuations: Western El Dorado County` (<mark>with recording</mark>)
+* [202205](/meetings/2022/202205.html)  **George Zafiropoulos, KJ6VU** : `Think Like A Backpacker` (<mark>with recording</mark>)
+* [202204](/meetings/2022/202204.html)  **Brian Basura, N6CVO** : `Pico-Ballooning and Ham Radio` (<mark>with recording</mark>)
+* [202203](/meetings/2022/202203.html)  **Rob Orr, K9RST** : `Ham Radio: Serving Large public events` (<mark>with recording</mark>)
+* [202202](/meetings/2022/202202.html)  **n/a** : `HF Propagation with a Twist` (<mark>with recording</mark>)
+* [202201](/meetings/2022/202201.html)  **Many, not just one** : `Home Brew Night` (<mark>with recording</mark>)
 
 ### 2021
 
@@ -133,7 +133,7 @@ Zoom Tips:
 * [201711](/meetings/2017/201711.html)  **Misa Siemons, Pacificon 2017 Chair** : `Pacificon 2017: Facts & Figures`
 * [201710](/meetings/2017/201710.html)  **Ken Dueker** : `Hazards, Risks & Emergency Operations in the Palo Alto Area`
 * [201709](/meetings/2017/201709.html)  **Rachel Kinoshita, KK6DAC** : `Alternative Emergency Power Methods`
-* [201708](/meetings/2017/201708.html)  **Clayton Hall, NF1R** : `Summits On The Air` (**with recording**)
+* [201708](/meetings/2017/201708.html)  **Clayton Hall, NF1R** : `Summits On The Air` (<mark>with recording</mark>)
 * [201707](/meetings/2017/201707.html)  **Dave Crocker, W6VYC** : `National Parks On The Air`
 * [201706](/meetings/2017/201706.html)  **John Miller, K6MM** : `The Lighter Side Of Ham Radio: Why We Do...What We Do`
 * [201705](/meetings/2017/201705.html)  **Bob Vallio, W6RGG & Jim Tiemstra, K6JAT** : `A Tour Through The ARRL Headquarters`
