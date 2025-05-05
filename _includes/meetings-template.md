@@ -15,13 +15,7 @@ Zoom Tips:
 
 ### 2025
 
-* [202512](meetings/2025/202512.html) |  **To be announced** : `December Monthly Meeting`
-* [202511](meetings/2025/202511.html) |  **To be announced** : `November Monthly Meeting`
-* [202510](meetings/2025/202510.html) |  **To be announced** : `October Monthly Meeting`
-* [202509](meetings/2025/202509.html) |  **To be announced** : `September Monthly Meeting`
-* [202508](meetings/2025/202508.html) |  **To be announced** : `August Monthly Meeting`
-* [202507](meetings/2025/202507.html) |  **__PRESENTER__** : `July Monthly Meeting`
-* [202506](meetings/2025/202506.html) |  **__PRESENTER__** : `June Monthly Meeting`
+* [202506](meetings/2025/202506.html) |  **To be announced** : `June Monthly Meeting`
 * [202505](meetings/2025/202505.html) |  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack`
 * [202504](meetings/2025/202504.html) |  **Mike McClary, N6MO** : `Stealth HF Antennas`
 * [202503](meetings/2025/202503.html) |  **Many, not just one** : `Home Brew Night`
