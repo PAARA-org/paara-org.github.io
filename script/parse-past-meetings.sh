@@ -22,16 +22,17 @@ find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year ; do
 	echo "### $year"
 	echo ""
 	find $meet_year -type f | egrep ".md$" | sort -nr | while read meet_month ; do
+		meet_month_html=`echo $meet_month | sed 's/\.md/.html/'`
 		month=`echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1`
 		presenter=`grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/\`/**/g'`
 		topic=`grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-`
 		has_youtube=`grep "www.youtube.com" $meet_month`
 		if [[ -n "$has_youtube" ]]; then
-			echo "* [$month]($meet_month) - [with recording]"
+			echo -n "* [$month]($meet_month_html) (with recording) | "
 		else
-			echo "* [$month]($meet_month)"
+			echo -n "* [$month]($meet_month_html) | "
 		fi
-		echo "  * $presenter :$topic"
+		echo "$presenter :$topic"
 	done
 	echo ""
 done
