@@ -54,6 +54,9 @@ Zoom Tips:
 
 ### 2022
 
+<details>
+    <summary>Click to expand meetings</summary>
+
 * [202212](/meetings/2022/202212.html)  **Eric Swartz, WA6HHQ** : `Elecraft update  with Q&A`
 * [202211](/meetings/2022/202211.html) <with recording>  **Mikko Sannala AB6RF** : `Remote Control of HF Rig`
 * [202210](/meetings/2022/202210.html) <with recording>  **Vince d'Eon, AI7LK** : `Go-Kit Building Design`
@@ -66,6 +69,8 @@ Zoom Tips:
 * [202203](/meetings/2022/202203.html) <with recording>  **Rob Orr, K9RST** : `Ham Radio: Serving Large public events`
 * [202202](/meetings/2022/202202.html) <with recording>  **n/a** : `HF Propagation with a Twist`
 * [202201](/meetings/2022/202201.html) <with recording>  **Many, not just one** : `Home Brew Night`
+
+</details>
 
 ### 2021
 
