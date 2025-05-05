@@ -27,12 +27,12 @@ find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year ; do
 		presenter=`grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/\`/**/g'`
 		topic=`grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-`
 		has_youtube=`grep "www.youtube.com" $meet_month`
+		echo -n "* [$month](/$meet_month_html) "
 		if [[ -n "$has_youtube" ]]; then
-			echo -n "* [$month](/$meet_month_html) **with recording** "
+			echo "$presenter :$topic (**with recording**)"
 		else
-			echo -n "* [$month](/$meet_month_html) "
+			echo "$presenter :$topic"
 		fi
-		echo "$presenter :$topic"
 	done
 	echo ""
 done
