@@ -8,10 +8,6 @@ layout: default
 
 ---
 
-[![PAARA In The Park 2025](/events/images/PITP_banner_2025.jpg)](/events.html)
-
----
-
 **Field Day** is June 28 and 29. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
 
 PAARA has a 2025 edition Feid Day T-shirt available for purchase. Check out the example below. To ensure that you receive your T-shirt in time for Field Day, you must [place your order](https://forms.gle/Q4fXjM3HWyiZ34mc9) by the end of Friday, May 2.
