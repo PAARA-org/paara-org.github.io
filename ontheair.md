@@ -18,23 +18,23 @@ You need to make 10 contacts for a successful activation, and the activator is t
 
 ![pota-bay-area-map](/images/pota-bay-area-map.jpeg))
 
-A few parks nearby in the table below:
+A few nearby parks:
 
-| ID | Park Name | Comments |
-|----|-----------|----------|
-| [US-1161](https://pota.app/#/park/US-1161) | `Henry W. Coe State Park` | Nice views, short hike from the parking lot |
-| [US-1136](https://pota.app/#/park/US-1136) | `Castle Rock State Park` | |
-| [US-1187](https://pota.app/#/park/US-1187) | `Portola Redwoods State Park` | You need to hike up to higher ground from the Visitors Center |
-| [US-0189](https://pota.app/#/park/US-0189) | `Don Edwards San Francisco Bay National Wildlife Refuge` | There are two locations, Newark and close to Alviso |
-| | All the State Beaches along Highway 1 |
-| [US-3473](https://pota.app/#/park/US-3473) | `Martial Cottle Park State Recreation Area` | Accessible, but many people have complained about QRM, not recommended |
+| **ID** | **Park Name** | **Comments** |
+| ------ | ------------- | ------------ |
+| [US-1161](https://pota.app/#/park/US-1161) | **Henry W. Coe State Park** | Nice views, short hike from the parking lot |
+| [US-1136](https://pota.app/#/park/US-1136) | **Castle Rock State Park** | Features waterfalls and rock climbing, has EV charging |
+| [US-1187](https://pota.app/#/park/US-1187) | **Portola Redwoods State Park** | You need to hike up to higher ground from the Visitor Center |
+| [US-0189](https://pota.app/#/park/US-0189) | **Don Edwards San Francisco Bay National Wildlife Refuge** | Multiple locations around the south tip of the Bay are within park limits |
+| [US-3473](https://pota.app/#/park/US-3473) | **Martial Cottle Park State Recreation Area** | Accessible, but many people have complained about QRM, not recommended |
+| | **State Beaches along Highway 1** | 30+ entities between SF and Monterey offer multi-park roving routes
 
 ### Nearby Historic Trails
 
-There are two historic trails crossing the Bay Area, and you can activate from any publicly accessible space along them:
+There are two historic trails crossing the Bay Area. You can activate from any publicly accessible space within 100 feet of the trail route:
 
-1.  [US-4571](https://pota.app/#/park/US-4571) `Juan Bautista de Anza National Historic Trail`: <https://www.nps.gov/juba/planyourvisit/maps.htm>
-2. [US-9757](https://pota.app/#/park/US-9757) `Butterfield Overland`: <https://www.nps.gov/buov/planyourvisit/maps.htm>
+1. [US-4571](https://pota.app/#/park/US-4571) **Juan Bautista de Anza National Historic Trail**: <https://www.nps.gov/juba/planyourvisit/maps.htm>
+2. [US-9757](https://pota.app/#/park/US-9757) **Butterfield Overland National Historic Trail**: <https://www.nps.gov/buov/planyourvisit/maps.htm>
 
 **NOTE**: If you activate from a location where these two historic trails overlap, you'll be able to score a "2-fer"! In Parks on the Air (POTA), a "2-fer" refers to an activator operating from a location that is within the boundary of two POTA parks. This means you're essentially activating both parks simultaneously during one QSO (radio contact). 
 
@@ -54,11 +54,11 @@ A few of the taller mountains nearby that would work pretty well for UHF/VHF con
 
 A few of the higher peaks and somewhat accessible in the Bay Area below:
 
-| ID | Summit Name | Comments |
-| ---|-------------|----------|
-| [W6/NC-049](https://www.sotadata.org.uk/en/summit/W6/NC-049) | Black Mountain | 1204m, 2 points |
-| [W6/CC-052](https://www.sotadata.org.uk/en/summit/W6/CC-052) | Mount Umunhum  | 1063m, 2 points |
-| [W6/CC-045](https://www.sotadata.org.uk/en/summit/W6/CC-045) | Mount Diablo  | 1173m, 2 points |
+| **ID** | **Summit Name** | **Comments** |
+| ------ | --------------- | ------------ |
+| [W6/NC-049](https://www.sotadata.org.uk/en/summit/W6/NC-049) | **Black Mountain** | 1204m, 2 points |
+| [W6/CC-045](https://www.sotadata.org.uk/en/summit/W6/CC-045) | **Mount Diablo**  | 1173m, 2 points |
+| [W6/CC-052](https://www.sotadata.org.uk/en/summit/W6/CC-052) | **Mount Umunhum**  | 1063m, 2 points |
 
 
 ## Useful Apps
