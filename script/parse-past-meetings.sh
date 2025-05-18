@@ -4,13 +4,19 @@ echo """## Notes on using zoom
 
 ---
 
-NOTE: Please make sure you're running the latest version of ZOOM in order to connect.
+**NOTE**: \`Please make sure you're running the latest version of ZOOM in order to connect.\`
 
-Zoom Tips:
+**Zoom Tips:**
 1. (Jim, K6SV) Download [Zoom PDF Guide](/meetings/ZoomGuide.pdf)
 2. (Rob, KC6TYD) [How To Change Your Zoom Name Before Entering](http://www.youtube.com/watch?v=TJisWaSTYFg)
 
 ---
+
+## YouTube recordings
+
+Around 2021 (during the COVID pandemic), we started recording our monthly presentations, which you can find either under the individual meetings below, or in our [YouTube channel](https://youtube.com/@paarapresentations-c3w?si=0nIFJeYS5yRwfU9A).
+
+<iframe style=\"max-width: 480px\" width=\"100%\" height=\"360\" src=\"https://www.youtube.com/embed/videoseries?list=UUmIe9q2LiRcDk0swxNGfw6A\" frameborder="0" allowfullscreen></iframe>
 
 ## Past Meetings
 

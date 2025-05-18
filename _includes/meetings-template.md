@@ -2,13 +2,19 @@
 
 ---
 
-NOTE: Please make sure you're running the latest version of ZOOM in order to connect.
+**NOTE**: `Please make sure you're running the latest version of ZOOM in order to connect.`
 
-Zoom Tips:
+**Zoom Tips:**
 1. (Jim, K6SV) Download [Zoom PDF Guide](/meetings/ZoomGuide.pdf)
 2. (Rob, KC6TYD) [How To Change Your Zoom Name Before Entering](http://www.youtube.com/watch?v=TJisWaSTYFg)
 
 ---
+
+## YouTube recordings
+
+Around 2021 (during the COVID pandemic), we started recording our monthly presentations, which you can find either under the individual meetings below, or in our [YouTube channel](https://youtube.com/@paarapresentations-c3w?si=0nIFJeYS5yRwfU9A).
+
+<iframe style="max-width: 480px" width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=UUmIe9q2LiRcDk0swxNGfw6A" frameborder=0 allowfullscreen></iframe>
 
 ## Past Meetings
 
@@ -73,14 +79,14 @@ Zoom Tips:
 * [202111](/meetings/2021/202111.html)  **Kristen, K6WX** : `Sausage-Making at the ARRL`
 * [202110](/meetings/2021/202110.html)  **Michael T Workman** : `Alpha Hotel Six Charlie Yankee: Ham Radio documentary`
 * [202109](/meetings/2021/202109.html)  **Andreas Junge, N6NU** : `Node-RED. What Is It?`
-* [202108](/meetings/2021/202108.html)  **Carl Luetzelschwab, K9LA** : `Space Weather and HF Propagation`
-* [202107](/meetings/2021/202107.html)  **Dave Minster, NA2AA** : `Spend time with Dave Minster, NA2AA`
-* [202106](/meetings/2021/202106.html)  **Steve Galchutt, WGØAT** : `Ham Radio Adventures`
-* [202105](/meetings/2021/202105.html)  **Rob French, AC6GO** : `Radio Waves in Planetary Research`
-* [202104](/meetings/2021/202104.html)  **Bob Heil, KN9EID** : `Bob Heil from Heil Sound`
-* [202103](/meetings/2021/202103.html)  **Rick Ferranti, W6NIR** : `Early Digital Communications: 176 Years of Telegraph Apparatus`
-* [202102](/meetings/2021/202102.html)  **Lucian Ploias, VA7LDT** : `A portable magnetic loop antenna covering 80 through 20m ham bands`
-* [202101](/meetings/2021/202101.html)  **Mark Meltzer, AF6IM** : `DB Cooper Skyjack. Cold Case Revisited`
+* [202108](/meetings/2021/202108.html)  **Carl Luetzelschwab, K9LA** : `Space Weather and HF Propagation` (<mark>with recording</mark>)
+* [202107](/meetings/2021/202107.html)  **Dave Minster, NA2AA** : `Spend time with Dave Minster, NA2AA` (<mark>with recording</mark>)
+* [202106](/meetings/2021/202106.html)  **Steve Galchutt, WGØAT** : `Ham Radio Adventures` (<mark>with recording</mark>)
+* [202105](/meetings/2021/202105.html)  **Rob French, AC6GO** : `Radio Waves in Planetary Research` (<mark>with recording</mark>)
+* [202104](/meetings/2021/202104.html)  **Bob Heil, KN9EID** : `Bob Heil from Heil Sound` (<mark>with recording</mark>)
+* [202103](/meetings/2021/202103.html)  **Rick Ferranti, W6NIR** : `Early Digital Communications: 176 Years of Telegraph Apparatus` (<mark>with recording</mark>)
+* [202102](/meetings/2021/202102.html)  **Lucian Ploias, VA7LDT** : `A portable magnetic loop antenna covering 80 through 20m ham bands` (<mark>with recording</mark>)
+* [202101](/meetings/2021/202101.html)  **Mark Meltzer, AF6IM** : `DB Cooper Skyjack. Cold Case Revisited` (<mark>with recording</mark>)
 
 ### 2020
 
