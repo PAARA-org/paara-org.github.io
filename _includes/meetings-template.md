@@ -77,8 +77,8 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 * [202112](/meetings/2021/202112.html)  **Eric Swartz, WA6HHQ** : `23 Years of Elecraft`
 * [202111](/meetings/2021/202111.html)  **Kristen, K6WX** : `Sausage-Making at the ARRL`
-* [202110](/meetings/2021/202110.html)  **Michael T Workman** : `Alpha Hotel Six Charlie Yankee: Ham Radio documentary`
-* [202109](/meetings/2021/202109.html)  **Andreas Junge, N6NU** : `Node-RED. What Is It?`
+* [202110](/meetings/2021/202110.html)  **Michael T Workman** : `Alpha Hotel Six Charlie Yankee: Ham Radio documentary` (<mark>with recording</mark>)
+* [202109](/meetings/2021/202109.html)  **Andreas Junge, N6NU** : `Node-RED. What Is It?` (<mark>with recording</mark>)
 * [202108](/meetings/2021/202108.html)  **Carl Luetzelschwab, K9LA** : `Space Weather and HF Propagation` (<mark>with recording</mark>)
 * [202107](/meetings/2021/202107.html)  **Dave Minster, NA2AA** : `Spend time with Dave Minster, NA2AA` (<mark>with recording</mark>)
 * [202106](/meetings/2021/202106.html)  **Steve Galchutt, WGØAT** : `Ham Radio Adventures` (<mark>with recording</mark>)
