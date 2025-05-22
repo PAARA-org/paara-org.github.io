@@ -23,8 +23,9 @@ Located near Alum Rock Park, San Jose
 
 ### 33cm (902 MHz) FM  
 
-* **927.225 MHz -25 MHz PL 100 Hz**
-* AllstarLink Node 45121
+* **927.225 MHz -25 MHz PL 107.2 Hz**
+* AllstarLink Node 65314
+* Echolink Node W6OTX-R
 
 ## Notes about using Dynamic Talkgroups on W6OTX
 

@@ -91,7 +91,8 @@ Public Affairs                  | __VACANT__            |           |
 QSL Manager                     | Marty Wayne           | W6NEV     | <w6nev@arrl.net>
 Raffle Coordinator              | Rob Fenn              | KC6TYD    | <kc6tyd@gmail.com>
 Speaker Coordinator             | Rob Fenn              | KC6TYD    | <kc6tyd@gmail.com>
-Station Trustee - W6OTX, W6ARA  | Gerry Tucker          | N6NV      | 
+Station Trustee - W6ARA         | Gerry Tucker          | N6NV      |
+Station Trustee - W6OTX         | Christopher Hoover    | AI6KG     | <ai6kg@arrl.net>
 Station Trustee - K6YQT         | Doug Teter            | KG6LWE    | <dteter@wcwi.com>
 Technical Coordinator           | Christopher Hoover    | AI6KG     | <ai6kg@arrl.net>
 Webmaster                       | Shrikumar H.          | KA6Q      | <shri.paara@enablery.org>
