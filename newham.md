@@ -3,21 +3,29 @@ layout: default
 ---
 
 # Welcome, New Hams
+As a new ham, you’re eligible for a one year free PAARA membership! Please talk to the club’s `Secretary` **Ric Hulett** [N6AJS](https://www.qrz.com/db/N6AJS) in person at our next monthly meeting, or by email at <secretary@paara.org>. We welcome both members and non members to all our meetings!
 
-Welcome to the world of ham radio!  Congratulations, youve just made the world smaller by getting your ham license. What other way can you easily talk directly with someone in any corner of the world in real-time?  Regardless of your skillset, there are many activities to enjoy and explore in this hobby.  From rag chewing, experimenting, antenna building, moon bounce, satellite communications, DX hunting, contesting, CW/SSB/digital modes, or emergency communications to name a few.
+We invite all PAARA members and friends to join our [Discord server](https://discord.gg/E2s4rez64d) and discuss anything ham radio related, such as: homebrew, [POTA, SOTA](https://paara.org/ontheair.html), digital modes, or anything else that you might be interested in.
 
-PAARA, The Friendliest Ham Radio Club Around, is a general interest club that has members enjoying almost all aspects of amateur radio. With around 200 active members, surely someone in the club has experience in whatever activity you may find interesting. PAARA holds monthly meetings on the 1st Friday of every month, except when holidays fall on that Friday. Our meetings are held at the Cubberley Community Center in Palo Alto. Meetings are open to anyone, licensed or not, members or not. We do, however, invite you to join and learn with the rest of us.
+The club publishes a [monthly newsletter](https://paara.org/newsletter.html) full of interesting stories and information, with the archive going all the way back to 1971! Members get immediate access to a digital or a hard copy (mailed) delivered a few days before the monthly meeting.
 
-Meetings include information on current ham radio news, upcoming on-air activities, and announcements of local events. Every meeting has a speaker whose topic is generally related to some aspect of amateur radio but may be more of a general interest topic. A raffle is held at the conclusion of the meeting when lucky winners take away a variety of prizes, most related to our hobby.  About one meeting a year is Home Brew night where members bring various projects on which theyve been working for show and tell.  The December meeting features our Dream to Reality raffle where the grand prize is an HF radio!
+We recommend you to check out our [monthly meeting archive](https://paara.org/meetings.html#past-meetings), where you’ll find video recordings of the great speakers we had over the years. Alternatively, you can browse recordings on the [YouTube Channel](https://www.youtube.com/@paarapresentations-c3w) directly.
 
-Once a year, we have a field trip to some interesting destination. Amateur radio may or may not be directly involved with the destination but they are all interesting places to visit with fellow PAARA members.
+<iframe style="max-width: 480px" width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=UUmIe9q2LiRcDk0swxNGfw6A" frameborder=0 allowfullscreen></iframe>
 
-Our big event of the year is the ARRL sponsored Field Day, which runs for 24 hours on the last full weekend of June.  Field Day is a national emergency preparedness public outreach event and PAARA sets up one of the larger sites in the bay area at a local park. This event is a great way to learn about antennas, operate on large aluminum (BIG!) antennas, and have a great time. We set up multiple stations operating various modes including CW, phone, and digital, and one GOTA (Get On The Air) station.  Multiple towers are set up to get the antennas up in the air. If you have a technician license and havent worked HF before, the GOTA station is a great place to start as an experienced operator is there to coach you through the process of making HF contacts. Were always looking for help in setup, operating, and teardown, so please consider joining the activity.  No experience is required, and its a great place to learn a lot.  As always, theres plenty of great food provided to keep you going.
+Besides the monthly meetings, we organize a big [field day](https://paara.org/fieldday.html) event every June, two PAARA in the Park events (check out the [May 2025](https://paara.org/events/20250503.html) one), and one other club event (check out the [August 2024](https://paara.org/events/20240824.html) one).
 
-Explore our web site to see what else is going on.  Make sure to check out some of the back issues of our newsletter, PAARAgraphs, for interesting stories and information.  All are welcome to attend our meetings and get a feel for the hobby. We have plenty of new hams, old-timers, and people curious about amateur radio, so the club is a great place to find an Elmer.  If you have received your first ham radio license in the last 12 months, PAARA offers free membership for your first year!  I hope to see you at one of our upcoming meetings!  Welcome to amateur radio!
+We also recommend the following YouTube channels which have great content:
+* [K4OGO - Coastal Waves & Wires](https://www.youtube.com/@COASTALWAVESWIRES/videos)
+* [KI6NAZ - Ham Radio Crash Course](https://www.youtube.com/@HamRadioCrashCourse/videos)
+* [KB9VBR - Antennas](https://www.youtube.com/@KB9VBRAntennas/videos)
+* [KC5HWB - Ham Radio 2.0](https://www.youtube.com/@HamRadio2/videos)
+* [KD4BMG - HOA Ham](https://www.youtube.com/@HOAHamRadio/videos)
+* [W4EEY](https://www.youtube.com/@W4EEY/videos)
+* [AD6DM - TheSmokinApe Ham Radio](https://www.youtube.com/@TheSmokinApe/videos)
 
+Looking forward to seeing you at our next meeting or event!
 
-<PRE>
-Bob Ridenour, KN6YGN
-President
-</PRE>
+**Bob Ridenour** [KN6YGN](https://www.qrz.com/db/KN6YGN)
+
+`PAARA President`
