@@ -1,8 +1,6 @@
-# Nets
+# Monday Night Net
 
-## Monday Night Net
-
-### Net Control Schedule
+## Net Control Schedule
 
 Week | Operator
 ---|---
@@ -12,9 +10,9 @@ Week | Operator
 4th Monday  | Rob Fenn, KC6TYD
 5th Monday  | Rob Fenn, KC6TYD
 
-<mark>If you would like to be a Net Control Operator contact Doug at <kg6lwe@paara.org></mark>
+If you would like to be a Net Control Operator contact Doug at <mailto:kg6lwe@paara.org>
 
-### Net Script
+## Net Script
 
 Is this frequency in use? [`Pause`]
 
@@ -59,7 +57,7 @@ Are there any late check-ins? [`pause`]
 
 **Close the Net** - `We wish to thank the owners and trustees of the repeater for use of their system, and everyone for checking in this evening. This is net control [callsign] returning the N6NFI machine to normal use.`
 
-### PAARA Net History
+## PAARA Net History
 
 The PAARA Net has taken many forms over the years. For many years, the club held VHF simplex nets. During the 1970s it begain at 8:15pm on 145.224 MHz—with AM modulation! (As a 1974 PAARAgraphs put it, “…no shoddy FM allowed.”) In February 1975, the net began switching to FM modulation on that same frequency. Some time later, the PAARA Net moved to 147.450 MHz simplex. After the 145.23 machine was activated, the net moved there shortly later to increase the range. On October 1st, 2009, N6NFI permanently enable the PL tone.
 
