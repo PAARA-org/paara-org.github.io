@@ -3,7 +3,7 @@ layout: default
 ---
 
 ---
-<div text-align: center font-size: 12px>
+<div style="text-align: centerr; font-size: 12px">
   Weekly net every Monday 8:30PM on <b>N6NFI</b> 145.230 MHz (-) 100Hz
 </div>
 
