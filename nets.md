@@ -1,5 +1,13 @@
 # Monday Night Net
 
+Monday night nets take place at 8:30pm on the <b><a href="https://www.fars.k6ya.org/repeaters/n6nfi" target="_blank">N6NFI repeater</a></b> (145.230 MHz (-) 100Hz).
+
+There are two [Echolink](https://webapp.echolink.org//) nodes connected to **N6NFI**:
+1. `W6REK-R` (Henry's node)
+2. `KR6DD-R` (Andy's node)
+
+The repeater has a very long squelch tail (3 seconds), and EchoLink will not allow you to transmit until that's complete. This can make it challenging to check into the net, but net control is making efforts to pause for EchoLinkers to give them a chance of checking in.
+
 ## Net Control Schedule
 
 Week | Operator
