@@ -3,6 +3,9 @@ layout: default
 ---
 
 ---
+<div align="right">
+  Weekly net every Monday 8:30PM on <b>N6NFI</b> 145.230 MHz (-) 100Hz
+</div>
 
 {% include meeting-short.md %}
 
