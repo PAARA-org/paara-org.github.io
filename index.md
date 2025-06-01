@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div style="text-align: right; font-size: 12px">
-  Weekly net every Monday 8:30PM on <b><a href="https://www.fars.k6ya.org/repeaters/n6nfi" target="_blank">N6NFI</a></b> 145.230 MHz (-) 100Hz
+  Weekly net every Monday 8:30pm on <b><a href="https://www.fars.k6ya.org/repeaters/n6nfi" target="_blank">N6NFI</a></b> 145.230 MHz (-) 100Hz
 </div>
 ---
 
