@@ -26,7 +26,7 @@ We recommend you to check out our [monthly meeting archive](https://paara.org/me
 
 Besides the monthly meetings, we organize a big [field day](https://paara.org/fieldday.html) event every June, two PAARA in the Park events (check out the [May 2025](https://paara.org/events/20250503.html) one), and one other club event (check out the [August 2024](https://paara.org/events/20240824.html) one).
 
-## Recommended Youtube channels
+## Youtube channels
 
 We also recommend the following YouTube channels which have great content:
 * [K4OGO - Coastal Waves & Wires](https://www.youtube.com/@COASTALWAVESWIRES/videos)
