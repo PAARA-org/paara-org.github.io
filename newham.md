@@ -8,7 +8,7 @@ We're looking forward to seeing you at our next meeting or event!
 
 ## Free Membership
 
-As a new ham, you’re eligible for a one year free PAARA membership! Please talk to the club’s `Secretary` **Ric Hulett** [N6AJS](https://www.qrz.com/db/N6AJS) in person at our next monthly meeting, or by email at <secretary@paara.org>.
+As a new ham, you’re eligible for a one year free PAARA membership! Please talk to the club’s Secretary **Ric Hulett** [N6AJS](https://www.qrz.com/db/N6AJS) in person at our next monthly meeting, or by email at <secretary@paara.org>.
 
 ## Discord
 We invite all PAARA members and friends to join our [Discord server](https://discord.gg/E2s4rez64d) and discuss anything ham radio related, such as: homebrew, [POTA, SOTA](https://paara.org/ontheair.html), digital modes, or anything else that you might be interested in.
