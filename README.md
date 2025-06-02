@@ -12,11 +12,26 @@ This page acts mainly as a HowTo for other contributors. The old readme is now a
    * topic
    * presenter
    * details
+   * Zoom meeting details
    * example at <https://github.com/PAARA-org/paara-org.github.io/blob/master/meetings/2025/202506.md?plain=1>
 
 2. Upload an image (optional) and render it inline
 3. Modify `_includes/meeting-short.md` to include the same details (this will be rendered on the first page)
    * example at <https://github.com/PAARA-org/paara-org.github.io/blob/41e09eb62eccab82d7b528a0111cd3cf2c46dceb/_includes/meeting-short.md?plain=1>
+
+### How to add Zoom meeting details
+
+Add zoom meeting link and phone dial number to the `_includes/meeting-short.md` as in the example below::
+
+```markdown
+## Next club meeting
+* **Date**: `6 June 2025`
+* **Topic**: `The Legacy of Trans-Pacific Radio`
+* **Presenter**: `Richard Dillman (W6AWO)`
+* **Zoom Meeting**:
+   * <https://us02web.zoom.us/j/81572645379>
+   * <+16699006833,,81572645379#> US (San Jose)
+```
 
 ## What to do after a monthly meeting ends?
 
@@ -40,6 +55,9 @@ This will make the June meeting to be loaded when someone looks at the Monthly M
 * **Date**: `2 May 2025`
 * **Topic**: `The software defined radio, and why it belongs in your shack`
 * **Presenter**: `Carlos Felix, K9OL`
+* **Zoom Meeting**:
+   * <https://us02web.zoom.us/j/81572645379>
+   * <+16699006833,,81572645379#> US (San Jose)
 
 For more information, visit the [meetings page](/meetings.html).
 ```

@@ -19,7 +19,7 @@ The Palo Alto Amateur Radio Association meets on the 1st Friday of the month at 
 
 ![cubberley-600.jpg](/meetings/cubberley-600.jpg)
 
-After the meeting, many members gather for beer, pizza, and eyeball QSO at **Mountain Mike's Pizza**, located at **3918 Middlefield Rd**, in Palo Alto. It's literally next door to Cubberly.
+After the meeting, many members gather for beer, pizza, and eyeball QSO at **Mountain Mike's Pizza**, located at **3918 Middlefield Rd**, in Palo Alto. It's literally next door to Cubberly, in the Charleston Shopping Center.
 
 ## Board Meetings
 
