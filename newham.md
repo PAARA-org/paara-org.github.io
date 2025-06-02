@@ -4,12 +4,7 @@ layout: default
 
 # Welcome, New Hams
 
-Looking forward to seeing you at our next meeting or event!
-
-**Bob Ridenour** [KN6YGN](https://www.qrz.com/db/KN6YGN)
-
-`PAARA President`
-
+We're looking forward to seeing you at our next meeting or event!
 
 ## Free Membership
 
@@ -41,3 +36,4 @@ We also recommend the following YouTube channels which have great content:
 * [KD4BMG - HOA Ham](https://www.youtube.com/@HOAHamRadio/videos)
 * [W4EEY](https://www.youtube.com/@W4EEY/videos)
 * [AD6DM - TheSmokinApe Ham Radio](https://www.youtube.com/@TheSmokinApe/videos)
+
