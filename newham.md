@@ -20,8 +20,6 @@ The club publishes a [monthly newsletter](https://paara.org/newsletter.html) ful
 ## Meeting videos
 We recommend you to check out our [monthly meeting archive](https://paara.org/meetings.html#past-meetings), where you’ll find video recordings of the great speakers we had over the years. Alternatively, you can browse recordings on the [YouTube Channel](https://www.youtube.com/@paarapresentations-c3w) directly.
 
-<iframe style="max-width: 480px" width="100%" height="360" src="https://www.youtube.com/embed/videoseries?list=UUmIe9q2LiRcDk0swxNGfw6A" frameborder=0 allowfullscreen></iframe>
-
 ## Field Day
 
 Besides the monthly meetings, we organize a big [field day](https://paara.org/fieldday.html) event every June, two PAARA in the Park events (check out the [May 2025](https://paara.org/events/20250503.html) one), and one other club event (check out the [August 2024](https://paara.org/events/20240824.html) one).
