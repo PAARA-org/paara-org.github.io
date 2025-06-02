@@ -4,7 +4,7 @@
 * **Presenter**: `Richard Dillman (W6AWO)`
 * **Zoom Meeting**:
    * <https://us02web.zoom.us/j/81572645379>
-   * <+16699006833,,81572645379#> US (San Jose)
+   * +16699006833,,81572645379# US (San Jose)
 
 <details>
   <summary><b>Click to see the raffle prizes!</b></summary>
