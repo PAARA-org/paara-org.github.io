@@ -71,6 +71,7 @@ PAARAgraphs issues older than 6 months are added to the archive for all to read.
 | Editorial Board     | Bob Van Tuyl      | K6RWY | <rrvt@swde.com> |
 | Editorial Board     | Jim Thielemann    | K6SV  | <THIELEM@pacbell.net> |
 | Editorial Board     | Bob Ridenour      | KN6YGN| <kn6ygn@paara.org> |
+| Editorial Board     | Doug Teter        | KG6LWE| <kg6lwe@paara.org> |
 | Editor - Primary    | Bob Van Tuyl      | K6RWY | <rrvt@swde.com> |
 | Editor - Backup     | Jim Thielemann    | K6SV  | <THIELEM@pacbell.net> |
 | Advertising         | Walt Gyger        | W6WGY | <walt@tradewindsaviation.com> |
