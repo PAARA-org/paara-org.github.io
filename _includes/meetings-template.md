@@ -41,10 +41,10 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 ### 2025
 
 * [202507](/meetings/2025/202507.html)  **To be announced** : `July Monthly Meeting`
-* [202506](/meetings/2025/202506.html)  **Richard Dillman (W6AWO)** : `The Legacy of Trans-Pacific Radio`
-* [202505](/meetings/2025/202505.html)  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack`
-* [202504](/meetings/2025/202504.html)  **Mike McClary, N6MO** : `Stealth HF Antennas`
-* [202503](/meetings/2025/202503.html)  **Many, not just one** : `Home Brew Night`
+* [202506](/meetings/2025/202506.html)  **Richard Dillman (W6AWO)** : `The Legacy of Trans-Pacific Radio` (<mark>with video</mark>)
+* [202505](/meetings/2025/202505.html)  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack` (<mark>with video</mark>)
+* [202504](/meetings/2025/202504.html)  **Mike McClary, N6MO** : `Stealth HF Antennas` (<mark>with video</mark>)
+* [202503](/meetings/2025/202503.html)  **Many, not just one** : `Home Brew Night` (<mark>with video</mark>)
 * [202502](/meetings/2025/202502.html)  **Ben Eadie, VE6SFX** : `From Rookie to Innovator: Experimenting with (Slot) Antennas on a Budget` (<mark>with video</mark>)
 * [202501](/meetings/2025/202501.html)  **Connie Stillinger, W6EFI** : `Instant Tuning for a Manual Tuner` (<mark>with video</mark>)
 

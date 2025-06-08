@@ -91,3 +91,20 @@ The following steps must be followed:
 ```md
 * *PDF*: [[download](https://github.com/PAARA-org/paara.org-attachments/blob/main/events/2025/202501_Instant_Tuning_For_A_Manual_Tuner.pdf?raw=true)] [[Docs Viewer](https://docs.google.com/viewer?url=https://github.com/PAARA-org/paara.org-attachments/blob/main/events/2025/202501_Instant_Tuning_For_A_Manual_Tuner.pdf?raw=true)]
 ```
+
+## How to add the YouTube to a meeting
+
+1. Open the YouTube video in your browser
+2. Click the `Share` -> `Embed` and copy the **iframe** code:
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5QrTYcUS4hU?si=ImhnyzMrJMUEigxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+3. Add this code into the particular monthly meeting file, just above the `## Presentation materials` line
+
+4. Regenrate the past meetings index, which will add the video tag to this meeting as well:
+
+```bash
+./script/parse-past-meetings.sh > _includes/meetings-template.md
+```
