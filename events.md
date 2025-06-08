@@ -1,9 +1,11 @@
 # Events
 
-## Next event: Trip to USS Hornet - Sea, Air and Space Museum (To Be Confirmed)
+## Next event: Trip to USS Hornet - Sea, Air and Space Museum
 
-**When**: Saturday, August 16
-**Where**: USS Hornet - Sea, Air and Space Museum (Alameda, California)
+* **When**: Saturday, August 23rd 2025
+* **Where**: USS Hornet - Sea, Air and Space Museum (Alameda, California)
+
+More details to follow.
 
 ## Past events
 
