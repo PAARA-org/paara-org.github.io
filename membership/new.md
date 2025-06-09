@@ -14,7 +14,7 @@ Membership is available to all persons interested in Amateur radio. There is no 
 
 To become a PAARA member, please fill out the a Membership Form, which you can download from [here](/membership/Membership-Form-17a.pdf).
 
-You can then bring the Form to the next PAARA meeting and give it, along with your Dues payment to Membership Coordinator, Jim Thielemann, KI6KVW, or any other Officer of the Club. If you wish to mail it in, send this form with your check made out to `PAARA` to:
+You can then bring the Form to the next PAARA meeting and give it, along with your Dues payment to Membership Coordinator, Ric Hulett, N6AJS, or any other Officer of the Club. If you wish to mail it in, send this form with your check made out to `PAARA` to:
 
     PAARA Membership
     P.O. Box 911
