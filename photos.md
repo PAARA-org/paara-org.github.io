@@ -27,7 +27,7 @@ Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuL
 
 ## PAARA In The Park May 2025
 
-Check [here](https://drive.google.com/drive/folders/1ZF-T91YtrTV37B_fNQRced4kS8BL3bDY?usp=sharing) more photographs taken during [PAARA In The Park](/events/20250503.html)
+Check [here](https://drive.google.com/drive/folders/1ZF-T91YtrTV37B_fNQRced4kS8BL3bDY?usp=sharing) for more photographs taken during [PAARA In The Park](/events/20250503.html)
 
 ![image](/events/images/2025/20250503/IMG_9603.jpeg)
 
