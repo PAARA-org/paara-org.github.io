@@ -103,7 +103,7 @@ The following steps must be followed:
 
 3. Add this code into the particular monthly meeting file, just above the `## Presentation materials` line
 
-4. Regenrate the past meetings index, which will add the video tag to this meeting as well:
+4. Regenerate the past meetings index, which will add the video tag to this meeting as well:
 
 ```bash
 ./script/parse-past-meetings.sh > _includes/meetings-template.md
