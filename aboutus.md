@@ -4,7 +4,7 @@
 
 The Palo Alto Amateur Radio Association was first formed in 1937, and then incorporated as a California non-profit orginization in March of 1956, and for many years has had the club callsign W6OTX, formerly held by club member and Palo Alto resident (Ramona St.) Wilbur C. Lauridsen, who died while serving in the Navy during WWII.
 
-PAARA meets on the first Friday of every month (with an occasional exception for meeting room conflicts) at the **Cubberley Community Center**: `4000 Middflefield Road, Palo Alto, CA 94303` Telephone: `(650) 329-2418`.
+PAARA meets on the first Friday of every month (with an occasional exception for meeting room conflicts) at the **Cubberley Community Center**: `4000 Middlefield Road, Palo Alto, CA 94303` Telephone: `(650) 329-2418`.
 
 In addition to the monthly club meetings, PAARA runs a weekly Net and Swap session at 8:30 pm every Monday evening on the **N6NFI** repeater (145.230, – offset, 100Hz PL), participates in the ARRL’s annual Field Day exercise during the last full weekend each June (in Menlo Park’s Bayfront Park), as well as other occasional activities.
 
