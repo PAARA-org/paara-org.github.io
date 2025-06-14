@@ -1,6 +1,6 @@
 # Field Day Safety Guidelines
 
-NOTE: For a printable version of the Safety Guidelines, [open in Google Docs](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview){:target="_blank"}.
+[ For a printable version of the Safety Guidelines, [open in Google Docs](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview){:target="_blank"} ]
 
 PAARA's Field Day safety guidelines were written and updated for Field Day 2025 by [Rob Fenn KC6TYD](https://www.qrz.com/db/KC6TYD), the club's Field Day safety officer.
 
