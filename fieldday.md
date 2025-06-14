@@ -51,9 +51,7 @@ For questions about Field Day or to volunteer to help, you can contact Doug, KG6
 
 ## Safety Guidelines
 
-You can read the Field Day Safety Guidelines by [clicking here](/fieldday.html).
-
-For a printable version of the Safety Guidelines, please [click here](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview).
+You can read the Field Day Safety Guidelines by [clicking here](/fieldday/fieldday-safety-guidelines.html). For a printable version of the Safety Guidelines, [open in Google Docs](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview){:target="_blank"}.
 
 ## Past Field Days
 
