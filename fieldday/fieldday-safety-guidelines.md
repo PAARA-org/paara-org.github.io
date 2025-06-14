@@ -1,8 +1,6 @@
 # Field Day Safety Guidelines
 
-You can go back to the main Field Day page by [clicking here](/fieldday.html).
-
-For a printable version of the Safety Guidelines, please [click here](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview).
+NOTE: For a printable version of the Safety Guidelines, [open in Google Docs](https://docs.google.com/document/d/1J4zDdLOIcLpmyfRRWEDBjy1PZdddvFCUoqU4WL1VSAg/preview){:target="_blank"}.
 
 PAARA's Field Day safety guidelines were written and updated for Field Day 2025 by [Rob Fenn KC6TYD](https://www.qrz.com/db/KC6TYD), the club's Field Day safety officer.
 
@@ -105,3 +103,5 @@ The recommended number of volunteers to assemble/disassemble for the tower trail
 ## Hospitality Canopy
 
 A clear and flat area for the hospitality canopy is recommended. Any ruts or holes in the ground should be marked or filled with dirt. BBQs, hibachis, or any grill or stove are prohibited. Canopies and sunshades must be properly staked and secured. As stated earlier, electrical appliances will be used. Caution should be taken not to overload the circuit. A trash can should be made available for waste.
+
+You can return to the main Field Day page by [clicking here](/fieldday.html).
