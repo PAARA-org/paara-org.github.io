@@ -36,6 +36,12 @@ Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuL
 
 Click [here](https://drive.google.com/drive/folders/12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI?usp=drive_link){:target="_blank"} for more pictures.
 
+#### Antenna party #3 June 2025
+
+Click [here](https://drive.google.com/drive/folders/1d0kaDwHEMC0d55ncbOw3IjxD36TcRZH_?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2025-antenna-party-3.jpg)
+
 ### Installation
 We will be returning to our previous practice of beginning setup at the park on Thursday afternoon, with the erection of one of our AB-621 military mast systems with our big triband KT-34XA beam antenna on top.  Work will continue Friday morning with the erection of another AB621, with another beam, the 20 Meter monobander for Marty’s digital station, followed by the assembly and erection of the monster 4 element 40 Meter beam on the tower trailer.  An 80 Meter dipole will also be strung up for nighttime operations.   GOTA’s Buddihex antenna will likely go up Saturday morning.
 
