@@ -36,7 +36,7 @@ Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuL
 
 Click [here](https://drive.google.com/drive/folders/12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI?usp=drive_link){:target="_blank"} for more pictures.
 
-#### Antenna party #3 June 2025
+#### Antenna party #3
 
 Click [here](https://drive.google.com/drive/folders/1d0kaDwHEMC0d55ncbOw3IjxD36TcRZH_?usp=drive_link){:target="_blank"} for more pictures.
 
