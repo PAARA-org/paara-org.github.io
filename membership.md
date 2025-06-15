@@ -8,21 +8,21 @@ Today, the Palo Alto Amateur Radio Association consists of nearly 200 members, a
 
 ## Member list
 
-If you want to access the most up-to-date member list, please click [here](https://forms.gle/59r9LmEgWiwoJ7TBA). If you do not know the username and password, please get in touch with the `PAARA Secretary` at <secretary@paara.org>.
+If you want to access the most up-to-date member list, please click [here](https://forms.gle/59r9LmEgWiwoJ7TBA){:target="_blank"}. If you do not know the username and password, please get in touch with the `PAARA Secretary` at <secretary@paara.org>.
 
 
 ## Special Life Memberships
 
 | Name | Call Sign | Silent Key | Proclamation | Award year |
 |------|-----------|------------|--------------|------------|
-| Andrew Korsak | [KR6DD](https://www.qrz.com/db/KR6DD) | -- | [pdf](/membership/Andy_Korsak_proclamation.pdf) | 2024 |
-| Jim Rice | [K6AK](https://www.qrz.com/db/K6AK) | -- | [pdf](/membership/Jim_Rice_proclamation2.pdf) | 2022 |
-| Vic Black | [AB6SO](https://www.qrz.com/db/AB6SO) | -- | [pdf](/membership/Vic_Black_certificate.pdf) | 2021 |
-| Gerry Tucker | [N6NV](https://www.qrz.com/db/N6NV) | -- | [pdf](/membership/Gerry_proclamantion_3.pdf) | 2019 |
-| Steve Stuntz | [K6FS](https://www.qrz.com/db/K6FS) | SK | -- |2007 |
-| Joe Gomes | [KB6HDC](https://www.qrz.com/db/KB6HDC) | SK | -- | 2004-05 |
-| Leslie Vickery | [W6AKR](https://www.qrz.com/db/W6AKR) | SK | -- | -- |
-| Ron Panton | [W6VG](https://www.qrz.com/db/W6VG) | SK | -- | 2003-07 |
+| Andrew Korsak | [KR6DD](https://www.qrz.com/db/KR6DD){:target="_blank"} | -- | [pdf](/membership/Andy_Korsak_proclamation.pdf) | 2024 |
+| Jim Rice | [K6AK](https://www.qrz.com/db/K6AK){:target="_blank"} | -- | [pdf](/membership/Jim_Rice_proclamation2.pdf) | 2022 |
+| Vic Black | [AB6SO](https://www.qrz.com/db/AB6SO){:target="_blank"} | -- | [pdf](/membership/Vic_Black_certificate.pdf) | 2021 |
+| Gerry Tucker | [N6NV](https://www.qrz.com/db/N6NV){:target="_blank"} | -- | [pdf](/membership/Gerry_proclamantion_3.pdf) | 2019 |
+| Steve Stuntz | [K6FS](https://www.qrz.com/db/K6FS){:target="_blank"} | SK | -- |2007 |
+| Joe Gomes | [KB6HDC](https://www.qrz.com/db/KB6HDC){:target="_blank"} | SK | -- | 2004-05 |
+| Leslie Vickery | [W6AKR](https://www.qrz.com/db/W6AKR){:target="_blank"} | SK | -- | -- |
+| Ron Panton | [W6VG](https://www.qrz.com/db/W6VG){:target="_blank"} | SK | -- | 2003-07 |
 
 ## Membership And Badges
 

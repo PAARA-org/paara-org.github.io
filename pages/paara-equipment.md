@@ -60,7 +60,7 @@ Donated by AMD, we plan on modifying this trailer for transporting antenna masts
 
 ![image](/images/eu1000GeneratorButton3.jpeg)
 
-This Honda generator weighs just 29 pounds, runs for 3.8–8.3 hours on one tank of gas, produces 7.5–8.3 amps and makes only 59 dB at a distance of 7 meters. It has two 120 V AC outlets, a DC outlet for charging 12 V batteries (not gel-cells!), and can be daisy-chained to an identical generator to increase the amperage. (Currently gone missing.) [EU1000i web site](https://powerequipment.honda.com) [EU1000i PDF manual](https://cdn.powerequipment.honda.com/pe/pdf/manuals/00X31Z406010.pdf)
+This Honda generator weighs just 29 pounds, runs for 3.8–8.3 hours on one tank of gas, produces 7.5–8.3 amps and makes only 59 dB at a distance of 7 meters. It has two 120 V AC outlets, a DC outlet for charging 12 V batteries (not gel-cells!), and can be daisy-chained to an identical generator to increase the amperage. (Currently gone missing.) [EU1000i web site](https://powerequipment.honda.com){:target="_blank"} [EU1000i PDF manual](https://cdn.powerequipment.honda.com/pe/pdf/manuals/00X31Z406010.pdf){:target="_blank"}
 
 ### PE-95 10 kW WWII Trailer-Mounted Generator
 

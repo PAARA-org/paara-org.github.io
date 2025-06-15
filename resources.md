@@ -10,8 +10,8 @@
 
 ## Transmission modes
 
-* [AC6V's Amateur Radio and DX Reference Guide](http://www.ac6v.com/)
-* [Al Montoya's web page](http://www.qsl.net/wb6imx/index.htm) - Covers maritime, training, and other useful Amateur Radio resources
+* [AC6V's Amateur Radio and DX Reference Guide](http://www.ac6v.com/){:target="_blank"}
+* [Al Montoya's web page](http://www.qsl.net/wb6imx/index.htm){:target="_blank"} - Covers maritime, training, and other useful Amateur Radio resources
 
 ## Other Resources
 

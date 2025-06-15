@@ -7,34 +7,34 @@
 PAARA will again be holding its annual Field Day event at Bedwell Bayfront Park in Menlo Park on June 28 & 29 this year.
 
 ### Stations
-In an expansion from last year’s effort, we will be competing in Class 3A, with 3 primary HF stations, adding a dedicated digital mode station running FT4/8 on 20 Meters.  **Marty** [W6NEV](https://www.qrz.com/db/W6NEV) will captain this station.
+In an expansion from last year’s effort, we will be competing in Class 3A, with 3 primary HF stations, adding a dedicated digital mode station running FT4/8 on 20 Meters.  **Marty** [W6NEV](https://www.qrz.com/db/W6NEV){:target="_blank"} will captain this station.
 
-In addition, we will have 2 other HF stations, running amplifiers to increase transmit power following last  year’s rule change allowing up to 500 watts, captained by **Ric** [N6AJS](https://www.qrz.com/db/N6AJS) primarily our CW station and **Harry** [K4YR](https://www.qrz.com/db/K4YR), running mostly phone.
+In addition, we will have 2 other HF stations, running amplifiers to increase transmit power following last  year’s rule change allowing up to 500 watts, captained by **Ric** [N6AJS](https://www.qrz.com/db/N6AJS){:target="_blank"} primarily our CW station and **Harry** [K4YR](https://www.qrz.com/db/K4YR){:target="_blank"}, running mostly phone.
 
 We have always had a BIG signal from our excellent location, featuring sloping terrain angled down to the saltwater marsh at the edge of the bay giving us the “saltwater amp” effect, increasing our signals even more.
 
-Our intention is to keep these stations staffed and operating for the entire 24 hours of the event.  That means there will be ample opportunities to work the biggest operating event of the year, from excellent stations in an outstanding location.  Please sign up for some seat time.  Advance sign-ups can be made at [FieldDaySchedule](http://tinyurl.com/FieldDaySchedule).
+Our intention is to keep these stations staffed and operating for the entire 24 hours of the event.  That means there will be ample opportunities to work the biggest operating event of the year, from excellent stations in an outstanding location.  Please sign up for some seat time.  Advance sign-ups can be made at [FieldDaySchedule](http://tinyurl.com/FieldDaySchedule){:target="_blank"}.
 
 As always, we will have our excellent GOTA station to give interested visitors who have never been on HF the opportunity to operate under the guidance of one of our coaches.
 
-Returning to the mix this year will be UHF/VHF/satellite operations, captained by **Justin** [AI6YM](https://www.qrz.com/db/AI6YM), featuring his impressive home-brewed azimuth/elevation rotor system for the satellite antenna array he has designed and built.
+Returning to the mix this year will be UHF/VHF/satellite operations, captained by **Justin** [AI6YM](https://www.qrz.com/db/AI6YM){:target="_blank"}, featuring his impressive home-brewed azimuth/elevation rotor system for the satellite antenna array he has designed and built.
 
 ### Antenna Parties
-Advance preparation for Field Day will include several (likely 3) antenna work parties at [KG6LWE](https://www.qrz.com/db/KG6LWE)’s San Martin QTH, and Network Day to connect all the radios and logging computers on a couple of tables in Marty’s garage to work out any connection or communication issues before getting to the park.
+Advance preparation for Field Day will include several (likely 3) antenna work parties at [KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"}’s San Martin QTH, and Network Day to connect all the radios and logging computers on a couple of tables in Marty’s garage to work out any connection or communication issues before getting to the park.
 
-We have always enjoyed these “work parties” and have found them to be good team-building opportunities, as well as good practice in assembling the antennas and getting them up in the air.  If you’re interested in coming out for a couple of fun days in the sun with the team, please let **Doug** [KG6LWE](https://www.qrz.com/db/KG6LWE) know.  Planning for these is already under way.
+We have always enjoyed these “work parties” and have found them to be good team-building opportunities, as well as good practice in assembling the antennas and getting them up in the air.  If you’re interested in coming out for a couple of fun days in the sun with the team, please let **Doug** [KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"} know.  Planning for these is already under way.
 
 #### Antenna Party #1 
  
 ![image](/fieldday/images/2025-antenna-party-1.jpg)
 
-Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuLcKyn6) for more pictures.
+Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuLcKyn6){:target="_blank"} for more pictures.
 
 #### Antenna Party #2 
  
 ![image](/fieldday/images/2025-antenna-party-2.jpg)
 
-Click [here](https://drive.google.com/drive/folders/12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI?usp=drive_link) for more pictures.
+Click [here](https://drive.google.com/drive/folders/12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI?usp=drive_link){:target="_blank"} for more pictures.
 
 ### Installation
 We will be returning to our previous practice of beginning setup at the park on Thursday afternoon, with the erection of one of our AB-621 military mast systems with our big triband KT-34XA beam antenna on top.  Work will continue Friday morning with the erection of another AB621, with another beam, the 20 Meter monobander for Marty’s digital station, followed by the assembly and erection of the monster 4 element 40 Meter beam on the tower trailer.  An 80 Meter dipole will also be strung up for nighttime operations.   GOTA’s Buddihex antenna will likely go up Saturday morning.
@@ -44,10 +44,10 @@ We will again set up the food and socializing area at the usual spot at the fork
 With the step up to 3A, there will be even more to do at the park, so we’re looking for  volunteers to help with setup and teardown too.  Many hands make light work of all of this, so please bring yours out to the park to join the big team effort.
 
 ### You work, we feed
-As always, the `You work, we feed` rule will be observed, staring with burgers, hot off the grill at the San Martin work parties, with make-it-yourself sandwiches for lunch at the park on Friday and Saturday, and hot soup and hot dogs for dinner Saturday night.  Thanks to [Rob](https://www.qrz.com/db/KC6TYD)) for feeding us so well.
+As always, the `You work, we feed` rule will be observed, staring with burgers, hot off the grill at the San Martin work parties, with make-it-yourself sandwiches for lunch at the park on Friday and Saturday, and hot soup and hot dogs for dinner Saturday night.  Thanks to [Rob](https://www.qrz.com/db/KC6TYD){:target="_blank"}) for feeding us so well.
 
 ### Questions
-For questions about Field Day or to volunteer to help, you can contact Doug, KG6LWE PAARA’s Field Day Coordinator at his new PAARA e-mail address, <kg6lwe@paara.org> (Thanks [Sorin](https://www.qrz.com/db/KN6YUH)).
+For questions about Field Day or to volunteer to help, you can contact Doug, KG6LWE PAARA’s Field Day Coordinator at his new PAARA e-mail address, <kg6lwe@paara.org> (Thanks [Sorin](https://www.qrz.com/db/KN6YUH){:target="_blank"}).
 
 ## Safety Guidelines
 

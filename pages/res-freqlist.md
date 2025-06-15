@@ -2,7 +2,7 @@
 
 VHF/UHF frequencies used in the Bay Area.
 
-[A complete listing of the simplex frequencies for all bands](/pages/res-simplex.html) is also available, as is a [complete list of repeaters](https://www.narcconline.org/narcc/repeater_list_menu.cfm).
+[A complete listing of the simplex frequencies for all bands](/pages/res-simplex.html) is also available, as is a [complete list of repeaters](https://www.narcconline.org/narcc/repeater_list_menu.cfm){:target="_blank"}.
 
 ## Simplex Voice
 
@@ -23,7 +23,7 @@ The controlling authorities are ARRL (National) and NARCC (Northern California).
 
 ## Simplex Digital
 
-The controlling authorities are [ARRL](http://www.arrl.org/FandES/field/regulations/bandplan.html) for the national band plan, [NARCC](http://www.narcc.org/) (which allocates the ranges for digital modes in Northern California, in conjunction with NCPA), [NCPA](https://ncpa.n0ary.org/bandplan/digital_db.php) (the Northern California Packet Association, which assigns most discrete frequencies within the digital ranges), [PSNC](https://ncpa.n0ary.org/group/bbs/coordination.php) (Packet Sysops of Northern California, which coordinates BBS stations in Northern California), [DXPSN](https://ncpa.n0ary.org/group/dxpsn/index.php) (the DX Packet Spotting Network, which coordinates DX Spotting, a.k.a. DX Packet Cluster), and [WSWSS](https://www.facebook.com/groups/135167899830335/) (the Western States Weak Signal Society).
+The controlling authorities are [ARRL](http://www.arrl.org/FandES/field/regulations/bandplan.html){:target="_blank"} for the national band plan, [NARCC](http://www.narcc.org/){:target="_blank"} (which allocates the ranges for digital modes in Northern California, in conjunction with NCPA), [NCPA](https://ncpa.n0ary.org/bandplan/digital_db.php){:target="_blank"} (the Northern California Packet Association, which assigns most discrete frequencies within the digital ranges), [PSNC](https://ncpa.n0ary.org/group/bbs/coordination.php){:target="_blank"} (Packet Sysops of Northern California, which coordinates BBS stations in Northern California), [DXPSN](https://ncpa.n0ary.org/group/dxpsn/index.php){:target="_blank"} (the DX Packet Spotting Network, which coordinates DX Spotting, a.k.a. DX Packet Cluster), and [WSWSS](https://www.facebook.com/groups/135167899830335/){:target="_blank"} (the Western States Weak Signal Society).
 
 * [Northern California Packet Association](https://ncpa.n0ary.org)
     * The coordinating body for the digital frequencies in Norther California.
