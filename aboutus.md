@@ -17,8 +17,25 @@ In addition to the monthly club meetings, PAARA runs a weekly Net and Swap sessi
 
 ## Callsign History
 
-The club has had its current callsign, **W6ARA** since January 10, 2006. It was previously held by long-time PAARA member, Joel Zobel, who became a Silent Key in 1999.  Gerry, N6NV, applied for the callsign after consulting with the Zobel family, and W6ARA was finally assigned to PAARA on January 10, 2006.  The callsign was first used in the North American QSO Party four days later, on January 14, 2006 by Ron, W6AZ, who made 112 QSOs in the contest.  Since then it has been used in every Field Day event.
+The club has had the callsign, **W6ARA** since January 10, 2006. It
+was previously held by long-time PAARA member, Joel Zobel, who became
+a Silent Key in 1999.  Gerry, N6NV, applied for the callsign after
+consulting with the Zobel family, and W6ARA was finally assigned to
+PAARA on January 10, 2006.  The callsign was first used in the North
+American QSO Party four days later, on January 14, 2006 by Ron, W6AZ,
+who made 112 QSOs in the contest.  Since then it has been used in
+every Field Day event.
 
-The club has also had the callsign **W6OTX** since 1951, when the club originally requested it to honor Wilbur C. Lauridsen, who served as the club Trustee up until the start of WWⅡ, and who was lost in action early on in the Pacific. The first trustee was Lorraine Van Eaton, who became a Silent Key in 1978.
+The club also has the callsign **K6OTA**.  This is used for the Get
+**O**n **T**he **A**ir station for Field Day.
 
-The club’s previous call was **W6UAM**, which was allowed to expire before the club was able to reorganize.
+The club also has the callsign **W6OTX**, having had it since at least
+1988 (the date the FCC shows for the current grant) and likely back to
+1950, when the club originally requested it, to honor Wilbur
+C. Lauridsen, who served as the club Trustee up until the start of
+WWⅡ, and who was lost in action early on in the Pacific.  This call
+sign is currently used for the [PAARA
+repeaters](/pages/dmr-and-fm-repeaters.html).
+
+The club’s previous call was **W6UAM**, which was allowed to expire
+before the club was able to reorganize.

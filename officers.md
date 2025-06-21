@@ -94,6 +94,7 @@
 `Station Trustee - W6ARA`         | **Bob Ridenour**          | KN6YGN    | <kn6ygn@paara.org>
 `Station Trustee - W6OTX`         | **Christopher Hoover**    | AI6KG     | <ai6kg@arrl.net>
 `Station Trustee - K6YQT`         | **Doug Teter**            | KG6LWE    | <kg6lwe@paara.org>
+`Station Trustee - K6OTA`         | **Ron Chester**           | W6AZ      | <taxhelp.ron@gmail.com>
 `Technical Coordinator`           | **Christopher Hoover**    | AI6KG     | <ai6kg@arrl.net>
 `Webmaster`                       | **Shrikumar H.**          | KA6Q      | <shri.paara@enablery.org>
 
