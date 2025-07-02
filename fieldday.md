@@ -1,5 +1,12 @@
 # Field Day
 
+Field Day 2025 was a success, see you all next year!
+
+![image](/fieldday/images/2025-field-day.jpg)
+
+Click [here](https://drive.google.com/drive/folders/1GC_4KvBGCKAhKpVJ7mvMoml3ELhVEzV2?usp=drive_link){:target="_blank"} for more pictures.
+
+
 ## Bedwell Bayfront Park, Menlo Park 28, 29 June 2025
 
 ![Palo Alto Amateur Radio Association. Bedwell Bayfront Park, Menlo Park, CA. June 28-29, 2025. W6AEA-3A-SCV. Station A: CW 40 meters at night. 40-meter, 4 element monoband. Tower trailer at ~25 feet. Other Bands via Station B's triplexer. Station B: 6 element triband. SB621 tower at ~55 feet. Station C: FT-8, 5 element 20-meter monoband. SB621 tower at ~55 feet. GOTA (Get on the air): Buddy Hex antenna at ~28 feet. Satellite: 2 circularly polarized Yagi-Udas. One for 2m and one for 70cm both sitting on a homebrew az/el rotator. Come and join us! All club members and visitors are welcome to participoate. Sign up to operate at a station by clicking the Field Day Schedule link in the Field Day tab at paara.org. New hams are encouraged to participate at the GOTA station. A very low-stress mentorred station that gets you on the air.](/fieldday/images/Field-Day-Flyer-2025.jpg)

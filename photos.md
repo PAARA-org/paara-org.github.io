@@ -1,5 +1,10 @@
 # Photos
 
+## Field Day 2025
+
+Click [here](https://drive.google.com/drive/folders/1GC_4KvBGCKAhKpVJ7mvMoml3ELhVEzV2?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2025-field-day.jpg)
 
 ## Antenna party #3 June 2025
 
