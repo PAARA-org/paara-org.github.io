@@ -1,6 +1,6 @@
 # Field Day
 
-Field Day 2025 was a success, see you all next year!
+Field Day was a success; see you all next year!
 
 ![image](/fieldday/images/2025-field-day.jpg)
 
