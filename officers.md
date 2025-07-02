@@ -88,7 +88,7 @@
 `Membership`                      | **Ric Hulett**            | N6AJS     | <n6ajs@paara.org>
 `Property Manager`                | **Doug Teter**            | KG6LWE    | <kg6lwe@paara.org>
 `Public Affairs`                  | _OPEN_                    |           |
-`QSL Manager`                     | **Marty Wayne**           | W6NEV     | <w6nev@arrl.net>
+`QSL Manager`                     | **Ric Hulett**            | N6AJS     | <n6ajs@paara.org>
 `Raffle Coordinator`              | **Rob Fenn**              | KC6TYD    | <kc6tyd@paara.org>
 `Speaker Coordinator`             | **Rob Fenn**              | KC6TYD    | <kc6tyd@paara.org>
 `Station Trustee - W6ARA`         | **Bob Ridenour**          | KN6YGN    | <kn6ygn@paara.org>
