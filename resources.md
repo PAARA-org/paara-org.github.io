@@ -15,8 +15,8 @@
 
 ## Other Resources
 
+* [PAARA Logos repository](https://github.com/PAARA-org/logos)
 * [Glossary](/pages/res-glossary.html)
-* PAARA LOGO: Approximately One inch x One inch x 300 dpi in JPEG format.
 Suitable for QSL cards, Printed Material, etc. Download [Here](/images/logo-300dpi.jpg).
 * 3D printer file for NanoVNA case bottom piece: https://www.tinkercad.com/things/81HiSCQRKOK
 
