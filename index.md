@@ -6,10 +6,6 @@ layout: default
 
 ---
 
-Due to the 4th of July, the next meeting will be on the 11th of July 2025.
-
-![happy-4th-of-july](/meetings/2025/happy-4th-of-july-2025.jpg)
-
 ## Welcome
 
 Welcome to the Palo Alto Amateur Radio Association (PAARA), the friendliest club around.  Established in 1937, PAARA is a premier general interest club located in the San Francisco Bay Area.  Whether you are passionate about DX, contesting, EME, ARES, MARS, microwave, digital modes, or any other aspect of amateur radio, youll find like-minded members here.
