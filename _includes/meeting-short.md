@@ -16,11 +16,11 @@ For more information, visit the [meetings page](/meetings.html).
         <th>5th prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/2025/raffle/202508-1.jpg" alt="image"></td>
-        <td><img src="/meetings/2025/raffle/202508-2.jpg" alt="image"></td>
-        <td><img src="/meetings/2025/raffle/202508-3.jpg" alt="image"></td>
-        <td><img src="/meetings/2025/raffle/202508-4.jpg" alt="image"></td>
-        <td><img src="/meetings/2025/raffle/202508-5.jpg" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202508-1.png" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202508-2.png" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202508-3.png" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202508-4.png" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202508-5.png" alt="image"></td>
     </tr>
     <tr>
         <td>ZEEWII DSO3D122CH 120MHz Oscilloscope</td>
