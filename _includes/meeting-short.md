@@ -1,7 +1,7 @@
 ## Next club meeting
 * **Date**: `1 August 2025`
-* **Topic**: `August Monthly Meeting`
-* **Presenter**: `To be announced`
+* **Topic**: `Amateur Radio at Columbia University - History to Present Day`
+* **Presenter**: `Jacob Boxerman (KE2CZX)`
 
 For more information, visit the [meetings page](/meetings.html).
 
