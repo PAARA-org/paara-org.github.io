@@ -6,7 +6,7 @@
 For more information, visit the [meetings page](/meetings.html).
 
 <details>
-  <summary><b>Click to see the raffle prizes!</b></summary>
+  <summary><b>Click <img src="/images/raffle-ticket.png" alt="raffle-ticket" height=50px> see the raffle prizes!</b></summary>
   <table>
     <tr>
         <th>1st prize</th>
