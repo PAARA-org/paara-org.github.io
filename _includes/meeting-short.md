@@ -2,6 +2,9 @@
 * **Date**: `1 August 2025`
 * **Topic**: `Amateur Radio at Columbia University - History to Present Day`
 * **Presenter**: `Jacob Boxerman (KE2CZX)`
+**Zoom Meeting**:
+   * <https://us02web.zoom.us/j/82522782971>
+   * +16699006833,,82522782971# US (San Jose)
 
 For more information, visit the [meetings page](/meetings.html).
 
