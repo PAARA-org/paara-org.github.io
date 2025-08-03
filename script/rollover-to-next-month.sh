@@ -63,7 +63,17 @@ else
   fi
 fi
 
-echo "[ Step 4: Updating the $SHORT_INCLUDE file ]"
+echo "[ Step 4: Creating the new symlink ]"
+echo -n "  Running: 'ln -s $NEXT_MEETING_FILE $MEETINGS' ..."
+if ln -s $NEXT_MEETING_FILE $MEETINGS
+then
+	echo "DONE"
+else
+	echo "FAILED"
+	exit
+fi
+
+echo "[ Step 5: Updating the $SHORT_INCLUDE file ]"
 DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
 MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
 
@@ -83,7 +93,7 @@ else
 	exit
 fi
 
-echo "[ Step 5: Updating past meeting history ]"
+echo "[ Step 6: Updating past meeting history ]"
 echo -n "  Running $PARSE_PAST_MEETINGS ..."
 
 if $PARSE_PAST_MEETINGS > $TEMPLATE_INCLUDE

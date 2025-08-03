@@ -46,9 +46,11 @@ Run the `./script/rollover-to-next-month.sh` script from the top repository loca
   Running: 'rm meetings.md' ...DONE
 [ Step 3: Creating the new meeting file if necessary ]
   The file 'meetings/2025/202509.md' does not exist or is empty. Initializing from meetings/template.md ... DONE
-[ Step 4: Updating the _includes/meeting-short.md file ]
+[ Step 4: Creating the new symlink ]
+  Running: 'ln -s meetings/2025/202509.md meetings.md' ...DONE
+[ Step 5: Updating the _includes/meeting-short.md file ]
   Successfully updated _includes/meeting-short.md.
-[ Step 5: Updating past meeting history ]
+[ Step 6: Updating past meeting history ]
   Running ./script/parse-past-meetings.sh ...DONE
 ```
 
