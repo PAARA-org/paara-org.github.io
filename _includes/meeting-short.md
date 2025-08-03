@@ -4,4 +4,3 @@
 * **Presenter**: `TBA`
 
 For more information, visit the [meetings page](/meetings.html).
-
