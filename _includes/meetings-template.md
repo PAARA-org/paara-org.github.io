@@ -92,7 +92,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 * [202205](/meetings/2022/202205.html)  **George Zafiropoulos, KJ6VU** : `Think Like A Backpacker` (<mark>with video</mark>)
 * [202204](/meetings/2022/202204.html)  **Brian Basura, N6CVO** : `Pico-Ballooning and Ham Radio` (<mark>with video</mark>)
 * [202203](/meetings/2022/202203.html)  **Rob Orr, K9RST** : `Ham Radio: Serving Large public events` (<mark>with video</mark>)
-* [202202](/meetings/2022/202202.html)  **n/a** : `HF Propagation with a Twist` (<mark>with video</mark>)
+* [202202](/meetings/2022/202202.html)  **Mikko Sannala, AB6RF** : `HF Propagation with a Twist` (<mark>with video</mark>)
 * [202201](/meetings/2022/202201.html)  **Many, not just one** : `Home Brew Night` (<mark>with video</mark>)
 
 ### 2021
