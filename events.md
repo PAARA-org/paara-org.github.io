@@ -16,9 +16,8 @@ To pay for your General Admission go to the USS Hornet’s website and click on 
 
 ### Tours
 
-With a general admission, visitors can self-tour about 75% of the museum.  However, you have the option to purchase a 1 hour guided tour for $12.
+With a general admission, visitors can self-tour about 75% of the museum.  However, you have the option to purchase a 1 hour guided tour for $12. There are 4 tours:
 
-There are 4 tours:
 * Engineering Tour
 * Island Tour
 * Sailors Life Tour
