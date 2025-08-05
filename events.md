@@ -29,7 +29,7 @@ To add a tour to your cart, navigate back to the Ticket Information page and thi
 
 ### Radio Room
 
-USS Hornet Amateur Radio Club-NB6GC <https://www.nb6gc.org/> radio room tour will take place at 11:00 AM.  They normally have 4 radios up and running, however due to current renovations there is only one in operation at this time.  Anyone wanting to operate the radio will be placed on a list and will have 30 minutes of operating time.
+USS Hornet Amateur Radio Club-NB6GC <https://www.nb6gc.org/>{:target="_blank"} radio room tour will take place at 11:00 AM.  They normally have 4 radios up and running, however due to current renovations there is only one in operation at this time.  Anyone wanting to operate the radio will be placed on a list and will have 30 minutes of operating time.
 
 ### Will you join us?
 
