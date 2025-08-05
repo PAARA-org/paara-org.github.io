@@ -6,6 +6,8 @@
 * **Time**: 10AM
 * **Where**: USS Hornet - Sea, Air and Space Museum (Alameda, California)
 
+![USS_Hornet_Alameda_CA.jpg](/events/images/USS_Hornet_Alameda_CA.jpg)
+
 ### Getting tickets
 
 For this event you will pay online at <uss-hornet.org>, or when you arrive at the Hornet, however if you plan to add one, or more, of the 4 additional offered tours you may consider making the reservation online as there are only 10 spots available for each tour.  More on that later.
