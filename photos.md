@@ -1,5 +1,11 @@
 # Photos
 
+## USS Hornet August 2025
+
+Click [here](https://drive.google.com/drive/folders/1kbdJdBriD9NU6NDemypaSKbKBFIqGC5C?usp=sharing){:target="_blank"} for more pictures.
+
+![image](/events/images/2025/uss-hornet-radio-club.jpg)
+
 ## Field Day 2025
 
 Click [here](https://drive.google.com/drive/folders/1GC_4KvBGCKAhKpVJ7mvMoml3ELhVEzV2?usp=drive_link){:target="_blank"} for more pictures.
