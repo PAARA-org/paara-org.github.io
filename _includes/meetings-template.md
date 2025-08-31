@@ -40,9 +40,9 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2025
 
-* [202509](/meetings/2025/202509.html)  **To be announced** : `To be announced`
-* [202508](/meetings/2025/202508.html)  **Jacob Boxerman (KE2CZX)** : `Amateur Radio at Columbia University - History to Present Day`
-* [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered`
+* [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program`
+* [202508](/meetings/2025/202508.html)  **Jacob Boxerman (KE2CZX)** : `Amateur Radio at Columbia University - History to Present Day` (<mark>with video</mark>)
+* [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered` (<mark>with video</mark>)
 * [202506](/meetings/2025/202506.html)  **Richard Dillman (W6AWO)** : `The Legacy of Trans-Pacific Radio` (<mark>with video</mark>)
 * [202505](/meetings/2025/202505.html)  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack` (<mark>with video</mark>)
 * [202504](/meetings/2025/202504.html)  **Mike McClary, N6MO** : `Stealth HF Antennas` (<mark>with video</mark>)
