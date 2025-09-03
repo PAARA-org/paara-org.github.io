@@ -2,6 +2,9 @@
 * **Date**: `5 September 2025`
 * **Topic**: `Volunteer Monitor Program`
 * **Presenter**: `Riley Hollingsworth, K4ZDH`
+* **Zoom Meeting**:
+   * <https://us02web.zoom.us/j/83692257191>
+   * +16699006833,,83692257191# US (San Jose)
 
 For more information, visit the [meetings page](/meetings.html).
 
