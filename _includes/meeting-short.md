@@ -21,7 +21,7 @@ For more information, visit the [meetings page](/meetings.html).
     <tr>
         <td><img src="/meetings/2025/raffle/202510-1.jpg" alt="image"></td>
         <td><img src="/meetings/2025/raffle/202510-2.jpg" alt="image"></td>
-        <td><img src="/meetings/2025/raffle/202510-3.png" alt="image"></td>
+        <td><img src="/meetings/2025/raffle/202510-3.jpg" alt="image"></td>
         <td><img src="/meetings/2025/raffle/202510-4.jpg" alt="image"></td>
         <td><img src="/meetings/2025/raffle/202510-5.jpg" alt="image"></td>
     </tr>
