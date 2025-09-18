@@ -1,5 +1,12 @@
 # Photos
 
+
+## PAARA In The Park September 2025
+
+Click [here](https://drive.google.com/drive/folders/1SDa_vbEOPX8oIGkRVRJhPsx5xoj0jy-n?usp=sharing){:target="_blank"} for more photographs taken during the event.
+
+![image](/events/images/2025/20250913-PITA-soldering.jpg)
+
 ## USS Hornet August 2025
 
 Click [here](https://drive.google.com/drive/folders/1kbdJdBriD9NU6NDemypaSKbKBFIqGC5C?usp=sharing){:target="_blank"} for more pictures.
