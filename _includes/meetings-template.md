@@ -40,7 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2025
 
-* [202510](/meetings/2025/202510.html)  **To be announced** : `To be announced`
+* [202510](/meetings/2025/202510.html)  **Justin Giorgi, AI6YM** : `Building a Station for Satellite & EME Contacts`
 * [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program` (<mark>with video</mark>)
 * [202508](/meetings/2025/202508.html)  **Jacob Boxerman (KE2CZX)** : `Amateur Radio at Columbia University - History to Present Day` (<mark>with video</mark>)
 * [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered` (<mark>with video</mark>)
