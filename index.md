@@ -6,16 +6,13 @@ layout: default
 
 ---
 
-## PAARA In The Park
+## Pacificon 2025
 
-Please join us for a new [PAARA In The Park](/events/20250913.html) event, this time in [Rengstorff Park, Mountain View](https://maps.app.goo.gl/Wg5M4pEWNpvsFmik6){:target="_blank"} on **September 13, 2025**!
+<www.pacificon.org>{:target="_blank"} is taking place in San Ramon betwen **Friday, October 10** and **Sunday, October 12**.
 
-Loads of fun, people of all ages to socialize with, lots of hams there to answer questions, etc. Come sit and schmooze, or try getting on the air, bring your own radio, find the hidden transmitters, try morse code or send memes on SSTV.
+PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} Special Event Station for Pacificon.
 
-* Free lunch and drinks privided by the club!
-* Optionally, you can sign up for the soldering activity (details below, registration and payment mandatory).
-
-Visit the [event page](/events/20250913.html) for more details.
+If you would like to help with the setting up, being a station captain, or tearing down, please visit the [event page](/events/pacificon-2025.html) for more details.
 
 ---
 

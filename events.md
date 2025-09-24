@@ -1,1 +1,1 @@
-events/20250913.md
+events/pacificon-2025.md
