@@ -21,7 +21,7 @@ If you think you can help us, please fill in this [form](https://forms.gle/to4V6
 ## What is W1AW/6
 
 PAARA has for many years been responsible for setting up and managing the Special Event Station for Pacificon.
-For the last nine years, Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) has been the PAARA member managing this task.
+For the last six years, Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) has been the PAARA member managing this task.
 
 The Special Event Station (SES) is much like the PAARA setup for the ARRL Field Day:
 * We setup typically around five HF stations, each station being locked on one specific band.
