@@ -12,7 +12,7 @@ Friday | 12:00 - 23:59 | Station is operating - need Station Captains!
 Saturday | 00:00 - 23:59 | Station is operating - need Station Captains!
 Sunday | 00:00 - 11:59 | Station is operating - need Station Captains!
 
-If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}
+If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.
 
 ![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
 
@@ -52,6 +52,6 @@ Here's where we need your help (as PAARA members):
 2. Station Captain duty during the weekend. We need some there at all time during the 48 hour event. Volunteering for some of those over-night hours is VERY critical.
 3. And lastly, we need help tearing it all down and packing it away starting noon on Sunday.
 
-If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}
+If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.
 
 {% include events-footer.md %}
