@@ -54,4 +54,11 @@ Here's where we need your help (as PAARA members):
 
 If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.
 
+## Contact us
+
+If you want to get in touch with us, you can use one of the following methods:
+1. Email Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) (email address at QRZ)
+2. Contact us on Discord in the `#pacificon` channel.
+
 {% include events-footer.md %}
+
