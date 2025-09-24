@@ -14,6 +14,8 @@ PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.co
 
 If you would like to help with the setting up, being a station captain, or tearing down, please visit the [event page](/events/pacificon-2025.html) for more details.
 
+![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
+
 ---
 
 ## Welcome
