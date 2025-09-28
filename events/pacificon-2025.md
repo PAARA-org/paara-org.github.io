@@ -5,6 +5,8 @@
 
 PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} SES (Special Event Station) for Pacificon. If you would like to help with the setting up, being a station captain, or tearing down the SES, please continue reading this page.
 
+<mark>Scouts are welcome and have priority on 20m Saturday from morning till late afternoon!</mark>
+
 Day | Time | What
 -- | -- | --
 Thursday | Noon | Setting Up
@@ -60,7 +62,8 @@ If you think you can help us, please fill in this [form](https://forms.gle/to4V6
 
 If you want to get in touch with us, you can use one of the following methods:
 1. Email Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) (email address at QRZ)
-2. Contact us on Discord in the `#pacificon` channel.
+2. Email Christopher ([AI6KG](https://www.qrz.com/db/AI6KG){:target="_blank"}) (email address at QRZ)
+3. Contact us on Discord in the `#pacificon` channel.
 
 {% include events-footer.md %}
 
