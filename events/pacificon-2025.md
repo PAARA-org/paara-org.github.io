@@ -16,7 +16,7 @@ Sunday | 00:00 - 11:59 | Station is operating - need Station Captains!
 
 <BR>
 
-<mark>**If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.**</mark>
+<mark>If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.</mark>
 
 ![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
 
