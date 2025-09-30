@@ -5,7 +5,7 @@
 
 PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} SES (Special Event Station) for Pacificon. If you would like to help with the setting up, being a station captain, or tearing down the SES, please continue reading this page.
 
-<mark>Scouts are welcome and have priority on 20m Saturday from morning till late afternoon!</mark>
+**Scouts are welcome and have priority on 20m Saturday from morning till late afternoon!**
 
 Day | Time | What
 -- | -- | --
@@ -16,7 +16,7 @@ Sunday | 00:00 - 11:59 | Station is operating - need Station Captains!
 
 <BR>
 
-<H2>**If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.**</H2>
+<mark>**If you think you can help us, please fill in this [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"}.**</mark>
 
 ![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
 
