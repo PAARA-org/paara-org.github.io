@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-## Next club meeting
 {% include meeting-short.md %}
 {% include zoom-details.md %}
 
