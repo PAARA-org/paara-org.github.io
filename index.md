@@ -6,7 +6,7 @@ layout: default
 
 For more information, visit the [meetings page](/meetings.html).
 
-{% include raffle/202510.md %}
+{% include raffle.md %}
 
 ---
 
