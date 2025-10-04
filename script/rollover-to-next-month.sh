@@ -41,7 +41,7 @@ NEXT_MEETING_FILE=`printf "meetings/%d/%d%02d.md" "$YEAR" "$YEAR" "$MONTH"`
 NEXT_RAFFLE_FILE=`printf "_includes/raffle/%d%02d.md" "$YEAR" "$MONTH"`
 NEXT_RAFFLE_INCLUDE=`printf "raffle/%d%02d.md" "$YEAR" "$MONTH"`
 
-echo "[ Step 2: Deleting the current symlink ]"
+echo "[ Step 2: Deleting the current $MEETINGS symlink ]"
 echo -n "  Running: 'rm $MEETINGS' ..."
 if rm $MEETINGS
 then
@@ -50,6 +50,17 @@ else
 	echo "FAILED"
 	exit
 fi
+
+echo "[ Step 2: Deleting the current $RAFFLE_MAIN file ]"
+echo -n "  Running: 'rm $RAFFLE_MAIN' ..."
+if rm $RAFFLE_MAIN
+then
+        echo "DONE"
+else
+        echo "FAILED"
+        exit
+fi
+
 
 echo "[ Step 3: Creating the new meeting file if necessary ]"
 DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
@@ -86,15 +97,6 @@ then
 else
 	echo "FAILED"
 	exit
-fi
-
-echo -n "  Running: 'ln -s $NEXT_RAFFLE_FILE $RAFFLE_MAIN' ..."
-if ln -s $NEXT_RAFFLE_FILE $RAFFLE_MAIN
-then
-        echo "DONE"
-else
-        echo "FAILED"
-        exit
 fi
 
 echo "[ Step 5: Updating the $SHORT_INCLUDE file ]"
@@ -150,8 +152,19 @@ echo """
 """ > ${NEXT_RAFFLE_FILE}
 
 
+echo "[ Step 7: Create a copy of $NEXT_RAFFLE_FILE into $RAFFLE_MAIN ]"
+echo -n "  Running: 'cp $NEXT_RAFFLE_FILE $RAFFLE_MAIN' ..."
+if cp $NEXT_RAFFLE_FILE $RAFFLE_MAIN
+then
+        echo "DONE"
+else
+        echo "FAILED"
+        exit
+fi
 
-echo "[ Step 6: Updating past meeting history ]"
+
+
+echo "[ Step 8: Updating past meeting history ]"
 echo -n "  Running $PARSE_PAST_MEETINGS ..."
 
 if $PARSE_PAST_MEETINGS > $TEMPLATE_INCLUDE
