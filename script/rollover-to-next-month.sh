@@ -60,9 +60,9 @@ else
 	echo """# ${YEAR}${MONTH} Monthly Meeting
 
 * **Date**: \`$DAY $MONTH_YEAR\`
-* **Time**: `07:00 PM Pacific Time`
-* **Topic**: `To be announced`
-* **Presenter**: `To be announced`
+* **Time**: \`07:00 PM Pacific Time\`
+* **Topic**: \`To be announced\`
+* **Presenter**: \`To be announced\`
 {% include zoom-details.md %}
 
 ## Details
