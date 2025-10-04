@@ -118,7 +118,7 @@ DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-
 MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
 
 mkdir -p meetings/raffle/${YEAR}/
-for i in {1..5} ; do cp meetings/raffle/raffle_prize.png meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png ; done
+for i in {1..5} ; do cp meetings/raffle/raffle_prize.png meetings/raffle/${YEAR}/${YEAR}${MONTH}-${i}.png ; done
 
 echo """
 <details>
