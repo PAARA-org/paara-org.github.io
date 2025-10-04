@@ -65,10 +65,11 @@ fi
 echo "[ Step 3: Creating the new meeting file if necessary ]"
 DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
 MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
+MONTH_STRING=`cal $MONTH $YEAR | awk '{print $1}'`
 if [ -s "$NEXT_MEETING_FILE" ]; then
   echo "  The file '$NEXT_MEETING_FILE' exists and is not empty."
 else
-	echo """# ${YEAR}${MONTH} Monthly Meeting
+	echo """# ${MONTH_STRING} Monthly Meeting
 
 * **Date**: \`$DAY $MONTH_YEAR\`
 * **Time**: \`07:00 PM Pacific Time\`
