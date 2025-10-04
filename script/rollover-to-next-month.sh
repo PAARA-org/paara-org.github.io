@@ -51,7 +51,7 @@ else
 	exit
 fi
 
-echo "[ Step 2: Deleting the current $RAFFLE_MAIN file ]"
+echo "[ Step 2.1: Deleting the current $RAFFLE_MAIN file ]"
 echo -n "  Running: 'rm $RAFFLE_MAIN' ..."
 if rm $RAFFLE_MAIN
 then
@@ -116,7 +116,7 @@ else
 	exit
 fi
 
-echo "[Step 6: Create new raffle include file ]"
+echo "[ Step 6: Create new raffle include file ]"
 DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
 MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
 
