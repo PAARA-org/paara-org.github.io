@@ -10,6 +10,7 @@
 MEETINGS="meetings.md"
 TEMPLATE="meetings/template.md"
 SHORT_INCLUDE="_includes/meeting-short.md"
+RAFFLE_MAIN="_includes/rafle.md"
 TEMPLATE_INCLUDE="_includes/meetings-template.md"
 PARSE_PAST_MEETINGS="./script/parse-past-meetings.sh"
 
@@ -37,6 +38,8 @@ fi
 printf "Next meeting is year(%d) month(%02d).\n" "$YEAR" "$MONTH"
 
 NEXT_MEETING_FILE=`printf "meetings/%d/%d%02d.md" "$YEAR" "$YEAR" "$MONTH"`
+NEXT_RAFFLE_FILE=`printf "_includes/raffle/%d%02d.md" "$YEAR" "$MONTH"`
+NEXT_RAFFLE_INCLUDE=`printf "raffle/%d%02d.md" "$YEAR" "$MONTH"`
 
 echo "[ Step 2: Deleting the current symlink ]"
 echo -n "  Running: 'rm $MEETINGS' ..."
@@ -49,18 +52,30 @@ else
 fi
 
 echo "[ Step 3: Creating the new meeting file if necessary ]"
+DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
+MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
 if [ -s "$NEXT_MEETING_FILE" ]; then
   echo "  The file '$NEXT_MEETING_FILE' exists and is not empty."
 else
-  echo -n "  The file '$NEXT_MEETING_FILE' does not exist or is empty. "
-  echo -n "Initializing from $TEMPLATE ... "
-  if cp $TEMPLATE $NEXT_MEETING_FILE
-  then
-	  echo "DONE"
-  else
-	  echo "FAILED"
-	  exit
-  fi
+	echo """# ${YEAR}${MONTH} Monthly Meeting
+
+* **Date**: \`$DAY $MONTH_YEAR\`
+* **Time**: `07:00 PM Pacific Time`
+* **Topic**: `To be announced`
+* **Presenter**: `To be announced`
+{% include zoom-details.md %}
+
+## Details
+
+## Presentation materials
+
+## Raffle
+
+{% include ${NEXT_RAFFLE_INCLUDE} %}
+
+{% include meetings-template.md %}
+"""
+
 fi
 
 echo "[ Step 4: Creating the new symlink ]"
@@ -73,19 +88,21 @@ else
 	exit
 fi
 
+echo -n "  Running: 'ln -s $NEXT_RAFFLE_FILE $RAFFLE_MAIN' ..."
+if ln -s $NEXT_RAFFLE_FILE $RAFFLE_MAIN
+then
+        echo "DONE"
+else
+        echo "FAILED"
+        exit
+fi
+
 echo "[ Step 5: Updating the $SHORT_INCLUDE file ]"
-DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
-MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
 
 echo """## Next club meeting
 * **Date**: \`$DAY $MONTH_YEAR\`
 * **Topic**: \`TBA\`
 * **Presenter**: \`TBA\`
-* **Zoom Meeting**:
-   * <https://us02web.zoom.us/j/83692257191>
-   * +16699006833,,83692257191# US (San Jose)
-
-For more information, visit the [meetings page](/meetings.html).
 """ > $SHORT_INCLUDE
 
 if [[ $? -eq 0 ]];
@@ -95,6 +112,44 @@ else
 	echo "  Failed to update $SHORT_INCLUDE. Exiting!"
 	exit
 fi
+
+echo "[Step 6: Create new raffle include file ]"
+DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
+MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
+
+mkdir -p meetings/raffle/${YEAR}/
+for i in {1..5} ; do cp meetings/raffle/raffle_prize.png meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png ; done
+
+echo """
+<details>
+  <summary><b>Click the ticket to see the prizes! <img src=\"/images/raffle-ticket.png\" alt=\"raffle-ticket\" width=\"90\"></b></summary>
+  <table>
+    <tr>
+        <th>5th prize</th>
+        <th>4th prize</th>
+        <th>3rd prize</th>
+        <th>2nd prize</th>
+        <th>1st prize</th>
+    </tr>
+    <tr>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-4.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-3.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-2.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-1.png\" alt=\"image\"></td>
+    </tr>
+    <tr>
+        <td>5th Prize description</td>
+        <td>4th Prize description</td>
+        <td>3nd Prize description</td>
+        <td>2nd Prize description</td>
+        <td>1st Prize description</td>
+    </tr>
+  </table>
+</details>
+""" > ${NEXT_RAFFLE_FILE}
+
+
 
 echo "[ Step 6: Updating past meeting history ]"
 echo -n "  Running $PARSE_PAST_MEETINGS ..."
