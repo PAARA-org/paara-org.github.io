@@ -10,7 +10,7 @@
 MEETINGS="meetings.md"
 TEMPLATE="meetings/template.md"
 SHORT_INCLUDE="_includes/meeting-short.md"
-RAFFLE_MAIN="_includes/rafle.md"
+RAFFLE_MAIN="_includes/raffle.md"
 TEMPLATE_INCLUDE="_includes/meetings-template.md"
 PARSE_PAST_MEETINGS="./script/parse-past-meetings.sh"
 
