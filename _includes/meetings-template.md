@@ -37,10 +37,6 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ## Past Meetings
 
-
-### raffle
-
-
 ### 2025
 
 * [202511](/meetings/2025/202511.html)  **To be announced** : `To be announced`
