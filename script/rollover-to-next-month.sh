@@ -125,7 +125,7 @@ for i in {1..5} ; do cp meetings/raffle/raffle_prize.png meetings/raffle/${YEAR}
 
 echo """
 <details>
-  <summary><b>Click the ticket to see the raffle prizes! <img src=\"/images/raffle-ticket.png\" alt=\"raffle-ticket\" width=\"90\"></b></summary>
+  <summary><b>Click the ticket to see the Raffle prizes! <img src=\"/images/raffle-ticket.png\" alt=\"raffle-ticket\" width=\"90\"></b></summary>
   <table>
     <tr>
         <th>5th prize</th>
