@@ -26,9 +26,9 @@ PAARA has for many years been responsible for setting up and managing the Specia
 For the last six years, Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) has been the PAARA member managing this task.
 
 The Special Event Station (SES) is much like the PAARA setup for the ARRL Field Day:
-* We setup typically around five HF stations, each station being locked on one specific band.
-* Each station has an HF rig, logging computer, headsets, CW paddle etc. etc. and of course an antenna for that band.
-* For the 10m, 15m and 20m bands we use the PAARA tower trailer and the KT43A 4-element ri-band beam.
+* We setup typically around five HF stations, with each station being locked to one specific band.
+* Each station has an HF rig, logging computer, headsets, CW paddle, etc., and of course an antenna for that band.
+* For the 10m, 15m and 20m bands we use the PAARA tower trailer and the KT-34A 4-element tri-band beam.
 * For the lower bands we use various wire antennas.
 * Typically the CW/SSB stations also have a linear amplifier, that we usually run at around power level.
 
@@ -40,7 +40,7 @@ The ARRL Station Manager also takes care of all QSL cards and LOTW conformations
 
 ## Running the station
 
-During the weekend, from Friday noon to Sunday noon, the SES is open for Pacificon visitors to make HF contacts under our supervision, using the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} callsing.
+During the weekend, from Friday noon to Sunday noon, the SES is open for Pacificon visitors to make HF contacts under our supervision, using the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} callsign.
 
 A trusted PAARA member has to be present at the station at all time during the weekend to:
 * Act as the official control operator
@@ -62,9 +62,9 @@ If you think you can help us, please fill in this [form](https://forms.gle/to4V6
 ## Contact us
 
 If you want to get in touch with us, you can use one of the following methods:
-1. Email Mikko ([AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"}) (email address at QRZ)
-2. Email Christopher ([AI6KG](https://www.qrz.com/db/AI6KG){:target="_blank"}) (email address at QRZ)
-3. Contact us on Discord in the `#pacificon` channel.
+1. Email Mikko, [AB6RF](https://www.qrz.com/db/AB6RF){:target="_blank"} (email address at QRZ)
+2. Email Christopher, [AI6KG](https://www.qrz.com/db/AI6KG){:target="_blank"} (email address at QRZ)
+3. Contact us on [Discord](https://discord.gg/E2s4rez64d){:target="_blank"} in the `#pacificon` channel.
 
 {% include events-footer.md %}
 
