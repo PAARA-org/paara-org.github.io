@@ -14,7 +14,7 @@
 
 The Palo Alto Amateur Radio Association meets on the 1st Friday of the month at 7:00 pm (19:00 J) (except when the first Friday lands on a holiday and typically moved to the 2nd Friday of the month).
 
-* **Location**: Room H6, Cubberley Community Center 4000 Middflefield Road, Palo Alto, CA 94303
+* **Location**: Room H6, Cubberley Community Center 4000 Middlefield Road, Palo Alto, CA 94303
 * **Telephone**: (650) 329-2418
 
 ![cubberley-600.jpg](/meetings/cubberley-600.jpg)
@@ -37,10 +37,13 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ## Past Meetings
 
-
 ### 2025
 
-* [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered`
+* [202511](/meetings/2025/202511.html)  **To be announced** : `To be announced`
+* [202510](/meetings/2025/202510.html)  **Justin Giorgi, AI6YM** : `Building a Station for Satellite & EME Contacts` (<mark>with video</mark>)
+* [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program` (<mark>with video</mark>)
+* [202508](/meetings/2025/202508.html)  **Jacob Boxerman (KE2CZX)** : `Amateur Radio at Columbia University - History to Present Day` (<mark>with video</mark>)
+* [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered` (<mark>with video</mark>)
 * [202506](/meetings/2025/202506.html)  **Richard Dillman (W6AWO)** : `The Legacy of Trans-Pacific Radio` (<mark>with video</mark>)
 * [202505](/meetings/2025/202505.html)  **Carlos Felix, K9OL** : `The software defined radio and why it belongs in your shack` (<mark>with video</mark>)
 * [202504](/meetings/2025/202504.html)  **Mike McClary, N6MO** : `Stealth HF Antennas` (<mark>with video</mark>)
@@ -90,7 +93,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 * [202205](/meetings/2022/202205.html)  **George Zafiropoulos, KJ6VU** : `Think Like A Backpacker` (<mark>with video</mark>)
 * [202204](/meetings/2022/202204.html)  **Brian Basura, N6CVO** : `Pico-Ballooning and Ham Radio` (<mark>with video</mark>)
 * [202203](/meetings/2022/202203.html)  **Rob Orr, K9RST** : `Ham Radio: Serving Large public events` (<mark>with video</mark>)
-* [202202](/meetings/2022/202202.html)  **n/a** : `HF Propagation with a Twist` (<mark>with video</mark>)
+* [202202](/meetings/2022/202202.html)  **Mikko Sannala, AB6RF** : `HF Propagation with a Twist` (<mark>with video</mark>)
 * [202201](/meetings/2022/202201.html)  **Many, not just one** : `Home Brew Night` (<mark>with video</mark>)
 
 ### 2021

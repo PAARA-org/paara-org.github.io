@@ -33,44 +33,25 @@ Add zoom meeting link and phone dial number to the `_includes/meeting-short.md` 
    * <+16699006833,,81572645379#> US (San Jose)
 ```
 
-## What to do after a monthly meeting ends?
+## What to do after a monthly meeting ends? Rollover to a new month!
 
-Examples are for changes done after the May 2025 Monthly meeting
+Run the `./script/rollover-to-next-month.sh` script from the top repository location which will generate an output similar to this:
 
-1. Update the symlink for /meetings.md from `meetings/2025/202505.md` (May) to `meetings/2025/202506.md` (June)
-
-```bash
-rm -f meetings.md
-ln -s meetings/2025/202506.md meetings.md
 ```
-
-This will make the June meeting to be loaded when someone looks at the Monthly Meetings page.
-
-2. Update the short meeting description (`_includes/meeting-short.md`), which is included on the main page:
-
-* from
-
-```md
-## Next club meeting
-* **Date**: `2 May 2025`
-* **Topic**: `The software defined radio, and why it belongs in your shack`
-* **Presenter**: `Carlos Felix, K9OL`
-* **Zoom Meeting**:
-   * <https://us02web.zoom.us/j/81572645379>
-   * <+16699006833,,81572645379#> US (San Jose)
-
-For more information, visit the [meetings page](/meetings.html).
-```
-
-* to
-
-```md
-## Next club meeting
-* **Date**: `6 June 2025`
-* **Topic**: `TBA`
-* **Presenter**: `TBA`
-
-For more information, visit the [meetings page](/meetings.html).
+% ./script/rollover-to-next-month.sh
+[ Step 1: Detecting next monthly meeting filename ]
+  File meetings.md exists.
+  Current meeting is for year(2025) month(08). Next meeting is year(2025) month(09).
+[ Step 2: Deleting the current symlink ]
+  Running: 'rm meetings.md' ...DONE
+[ Step 3: Creating the new meeting file if necessary ]
+  The file 'meetings/2025/202509.md' does not exist or is empty. Initializing from meetings/template.md ... DONE
+[ Step 4: Creating the new symlink ]
+  Running: 'ln -s meetings/2025/202509.md meetings.md' ...DONE
+[ Step 5: Updating the _includes/meeting-short.md file ]
+  Successfully updated _includes/meeting-short.md.
+[ Step 6: Updating past meeting history ]
+  Running ./script/parse-past-meetings.sh ...DONE
 ```
 
 ## What to do when we know the topic and presenter?

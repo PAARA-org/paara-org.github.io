@@ -33,7 +33,7 @@ A few meetings throughout the year have pre-defined agenda items. These include:
 
 ## YouTube recordings
 
-Around 2021 (during the COVID pandemic), we started recording our monthly presentations, which you can find either under the individual meetings below, or in our [YouTube channel](https://youtube.com/@paarapresentations-c3w?si=0nIFJeYS5yRwfU9A){:target="_blank"}.
+Around 2021 (during the COVID pandemic), we started recording our monthly presentations, which you can find either under the individual meetings below, or in our [YouTube channel](https://youtube.com/@paarapresentations-c3w?si=0nIFJeYS5yRwfU9A){:target=\"_blank\"}.
 
 <iframe style=\"max-width: 480px\" width=\"100%\" height=\"360\" src=\"https://www.youtube.com/embed/videoseries?list=UUmIe9q2LiRcDk0swxNGfw6A\" frameborder="0" allowfullscreen></iframe>
 

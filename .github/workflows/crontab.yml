@@ -1,0 +1,50 @@
+name: Weekly Team Sync
+on:
+  schedule:
+    - cron: 07 00 1-7 * *
+
+jobs:
+  create_issue:
+    name: Rollover website after this month's club meeting
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create issue
+        run: |
+          if [ "$(date +%u)" = "1" ]; then
+            new_issue_url=$(gh issue create \
+              --title "$TITLE" \
+              --assignee "$ASSIGNEES" \
+              --label "$LABELS" \
+              --body "$BODY")
+            if [[ $PINNED == true ]]; then
+              gh issue pin "$new_issue_url"
+            fi
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TITLE: Rollover website after this month's club meeting
+          ASSIGNEES: kn6yuh
+          LABELS: monthly-rollover
+          BODY: |
+
+            Each of the main steps can be executed by a different person. For simplicity, I'm just creating a single bug.
+
+            ### Rollover website
+            This requires running the followins script from a *nix machine:
+              `./script/rollover-to-next-month.sh`
+
+            ### Add YouTube video to the last meeting
+            1. Upload recording to shared drive
+            2. Edit the video
+            3. Upload the video to the YT channel
+            4. Link the video in the meeting page (see past meetings as examples)
+            5. Run the script to regenerate the index (`./script/parse-past-meetings.sh > _includes/meetings-template.md`)
+
+            Resolve the issue when both the rollover is done, and the YT video is uploaded and linked.
+
+          PINNED: false
+          CLOSE_PREVIOUS: false
+
