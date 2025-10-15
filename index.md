@@ -9,18 +9,6 @@ For more information, visit the [meetings page](/meetings.html).
 
 ---
 
-## Pacificon 2025
-
-[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon betwen **Friday, October 10** and **Sunday, October 12**.
-
-PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} Special Event Station for Pacificon.
-
-If you would like to help with the setting up, being a station captain, or tearing down, please visit the [event page](/events/pacificon-2025.html) for more details.
-
-![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
-
----
-
 ## Welcome
 
 Welcome to the Palo Alto Amateur Radio Association (PAARA), the friendliest club around.  Established in 1937, PAARA is a premier general interest club located in the San Francisco Bay Area.  Whether you are passionate about DX, contesting, EME, ARES, MARS, microwave, digital modes, or any other aspect of amateur radio, youll find like-minded members here.
