@@ -8,7 +8,7 @@ PAARA organizes the following events every year:
 * Field Trip
 * Electronics Flea Market
 * Autumn PAARA In The Park
-* Pacificon
+* Pacificon Special Event Station
 
 Please check some of our past events below, or visit our [photos](/photos.html) page instead.
 
