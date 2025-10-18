@@ -8,6 +8,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  pull-requests: write
 
 concurrency:
   group: pages-preview-${{ github.event.pull_request.number }}
@@ -52,3 +53,12 @@ jobs:
 
       - name: Publish preview link
         run: echo "Preview URL: ${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Comment preview link
+        if: steps.deployment.outputs.page_url != ''
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            🚀 Preview deployed to: ${{ steps.deployment.outputs.page_url }}
