@@ -11,12 +11,12 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2025/202511-5-1.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-5-2.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-4.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-3.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-2.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-1.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-5-1.jpg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-5-2.jpg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-4.jpg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-3.jpg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-2.jpg" alt="image"></td>
+        <td><img src="/meetings/raffle/2025/202511-1.jpg" alt="image"></td>
     </tr>
     <tr>
         <td>5th Prize (Option 1): APP power meter</td>
