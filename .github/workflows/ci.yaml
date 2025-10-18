@@ -1,3 +1,5 @@
+name: CI
+
 on:
   push:
   pull_request:
@@ -16,3 +18,9 @@ jobs:
         run: script/bootstrap
       - name: test
         run: script/cibuild
+      - name: Upload site artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
