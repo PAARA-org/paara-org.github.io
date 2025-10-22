@@ -7,7 +7,6 @@
 <h3>Member Details</h3>
 <label for="event_name">Full Name: </label><br>
 <input type="text" id="full_name" name="full_name"><br><br>
-
 <label for="attendee_name">Callsign:</label><br>
 <input type="text" id="call_sign" name="call_sign"><br><br>
 
@@ -23,7 +22,7 @@
       var callSign = document.getElementById('call_sign').value;
 
       // You can validate the fields here first
-      if (eventName === '' || attendeeName === '') {
+      if (fullName === '' || callSign === '') {
         alert('Please fill out all fields before paying.');
         return false; // Prevents the PayPal window from opening
       }
