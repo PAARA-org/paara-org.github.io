@@ -5,10 +5,10 @@
 # Pay membership dues via Paypal
 
 <h3>Member Details</h3>
-<label for="event_name">Full Name: </label><br>
-<input type="text" id="full_name" name="full_name"><br><br>
-<label for="attendee_name">Callsign:</label><br>
-<input type="text" id="call_sign" name="call_sign"><br><br>
+<label for="event_name"><b>Full Name:</b></label>
+<input type="text" id="full_name" name="full_name"><br>
+<label for="attendee_name"><b>Callsign:</b></label>
+<input type="text" id="call_sign" name="call_sign"><br>
 
 <div id="paypal-button-container"></div>
 
