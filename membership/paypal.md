@@ -1,5 +1,5 @@
 <script
-  src="https://www.paypal.com/sdk/js?client-id=BAApzfMz4eu7PvkRHlc2cYaZFUEw2bzgXKAnhftc43l5Y2D5Cb_PiJNDFhyBo7DeetNcRkws79Es0NqDx4&components=hosted-buttons&enable-funding=venmo&currency=USD">
+  src="https://www.paypal.com/sdk/js?client-id=BAApzfMz4eu7PvkRHlc2cYaZFUEw2bzgXKAnhftc43l5Y2D5Cb_PiJNDFhyBo7DeetNcRkws79Es0NqDx4&enable-funding=venmo&currency=USD">
 </script>
 
 # Pay membership dues via Paypal
@@ -13,15 +13,12 @@
 
 <div id="paypal-button-container"></div>
 
-
 <script>
   paypal.Buttons({
 
     // This function is called when the button is clicked
     createOrder: function(data, actions) {
 
-      // --- THIS IS THE IMPORTANT PART ---
-      // Get the values from your custom fields
       var fullName = document.getElementById('full_name').value;
       var callSign = document.getElementById('call_sign').value;
 
