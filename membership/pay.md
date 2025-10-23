@@ -2,7 +2,7 @@
 
 # Membership dues
 
-If you're looking to pay for your membership dues (either new member, or renewal), then you're in the right place!  The dues are **`$25`** for an individual membership, and **`$8`** for a family member.
+If you're looking to pay for your membership dues (either new member, or renewal), then you're in the right place!  The dues are **`$25`** for an individual membership, and **`$6`** for a family member.
 
 Please choose one of the methods below that works best for you!
 
