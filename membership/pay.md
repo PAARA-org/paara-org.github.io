@@ -29,11 +29,12 @@ Zelle is a digital payment service that allows users to send and receive money d
   cartPaypal.Cart({ id: "pp-view-cart" })
 </script>  
 
-
 <paypal-add-to-cart-button data-id="JWDYVV8LAQR4E"></paypal-add-to-cart-button>
 <script>
   cartPaypal.AddToCart({ id: "JWDYVV8LAQR4E" })
 </script>
+
+**NOTE:** Once you've added your name and call sign to the order details, please scroll up and click on the cart to finalize the payment.
 
 ## Dues Payment using Physical Form
 
