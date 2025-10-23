@@ -8,19 +8,17 @@ Choose the methods that works best for you, keeping in mind that Paypal is the o
 
 The dues are $25 for an individual membership, and $8 for a family member.
 
-**Important**: For every payment type, please make sure to specify the follwing in the description field:
+
+## Zelle
+
+You can pay us by Zelle by sending money to **`payments@paara.org`**.
+
+**Important**: Please make sure to specify the follwing in the description field:
 1. **Full Name**
 2. **Call Sign** (or `None`)
 3. **Individual member call sign** (for family membership)
 
-## Zelle
-
-You can pay us by Zelle by sending money to `payments@paara.org`. Zelle transfers are instant, and they do not charge any fees to the club.
-
-### What is Zelle?
-
-```
-Zelle is a digital payment service that allows users to send and receive money directly between U.S. bank accounts, often within minutes. It's integrated into the mobile apps of over 2,200 banks and credit unions, making it accessible through your existing financial institution. To use it, you can send money to someone using just their email address or U.S. mobile number.```
+Zelle transfers are instant, and they do not charge any fees to the club.
 
 ## Paypal
 
@@ -28,6 +26,12 @@ Zelle is a digital payment service that allows users to send and receive money d
 <script>
   cartPaypal.Cart({ id: "pp-view-cart" })
 </script>  
+
+
+**Important**: Please make sure to specify the follwing in the description field:
+1. **Full Name**
+2. **Call Sign** (or `None`)
+3. **Individual member call sign** (for family membership)
 
 <paypal-add-to-cart-button data-id="JWDYVV8LAQR4E"></paypal-add-to-cart-button>
 <script>
@@ -43,6 +47,11 @@ You can pay your dues with check or cash at the next PAARA meeting to the Member
     PAARA Membership
     P.O. Box 911
     Menlo Park, CA 94026
+
+**Important**: Please make sure to specify the follwing in the description field:
+1. **Full Name**
+2. **Call Sign** (or `None`)
+3. **Individual member call sign** (for family membership)
 
 ## Badges
 
