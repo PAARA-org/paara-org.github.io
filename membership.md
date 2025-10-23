@@ -40,7 +40,7 @@ Membership is available to all persons interested in Amateur radio. There is no 
 
 There are two steps required to join PAARA:
 1. Fill in the online [membership application form](https://docs.google.com/forms/d/e/1FAIpQLScLMP-zbG2bEo7vGKKo813y-EPqIPW9LjH38Cyfx6iRtQtUhg/viewform?usp=sharing&ouid=110605337745431033132){:target="_blank"}
-2. [Pay the membership dues](/membership/pay.html) (waived for new hams - read [here](/newham.html){:target="_blank"}
+2. [Pay the membership dues](/membership/pay.html) (waived for new hams - read [here](/newham.html){:target="_blank"})
 
 ## How do I renew my membership?
 
