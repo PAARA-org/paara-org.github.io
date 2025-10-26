@@ -50,11 +50,3 @@ There are two steps required to join PAARA:
 
 If you need to update your personal information, please fill the [membership application form](https://docs.google.com/forms/d/e/1FAIpQLScLMP-zbG2bEo7vGKKo813y-EPqIPW9LjH38Cyfx6iRtQtUhg/viewform?usp=sharing&ouid=110605337745431033132){:target="_blank"} one more time and leave a comment just before clicking submit..
 
-## How can I order a badge?
-
-![membership/nametag-100.jpg](/membership/nametag-100.jpg)
-
-Members interested in obtaining a club badge with their First Name, Callsign, City, and PAARA logo on it can purchase one for $30.00. You can order one at any PAARA meeting or use the form below. Your badge will be ordered and mailed to you. The price includes shipping.
-
-[![membership/btn_cart_LG.gif](/membership/btn_cart_LG.gif)](https://www.paypal.com/ncp/payment/KENQB7NGNEXZ6)
-
