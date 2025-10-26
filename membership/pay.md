@@ -1,4 +1,4 @@
-<script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="S8WSXPY6KJGZS"></script>
+<script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="S8WSXPY6KJGZS" data-proofer-ignore></script>
 
 # Membership dues
 
