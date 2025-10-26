@@ -50,3 +50,8 @@ There are two steps required to join PAARA:
 
 If you need to update your personal information, please fill the [membership application form](https://docs.google.com/forms/d/e/1FAIpQLScLMP-zbG2bEo7vGKKo813y-EPqIPW9LjH38Cyfx6iRtQtUhg/viewform?usp=sharing&ouid=110605337745431033132){:target="_blank"} one more time and leave a comment just before clicking submit..
 
+## How can I order a badge?
+
+![membership/nametag-100.jpg](/membership/nametag-100.jpg)
+
+Please visit the dedicated page [here](/badges.html).
