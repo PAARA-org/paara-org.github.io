@@ -50,12 +50,9 @@ You can pay your dues with check or cash at the next PAARA meeting to the Member
 2. **Call Sign** (or `None`)
 3. **Individual member call sign** (for family membership)
 
-## Badges
+**Now click the Shopping card button above or below to finalize your purchase!**
 
-![membership/nametag-100.jpg](/membership/nametag-100.jpg)
-
-Members interested in obtaining a club badge with their First Name, Callsign, City, and PAARA logo on it can purchase one for $30.00. You can order one at any PAARA meeting or use the form below. Your badge will be ordered and mailed to you. The price includes shipping.
-
-
-[![membership/btn_cart_LG.gif](/membership/btn_cart_LG.gif)](https://www.paypal.com/ncp/payment/KENQB7NGNEXZ6)
-
+<paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+<script>
+  cartPaypal.Cart({ id: "pp-view-cart" })
+</script>

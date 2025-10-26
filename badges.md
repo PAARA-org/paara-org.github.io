@@ -16,7 +16,7 @@ Members interested in obtaining a club badge with their First Name, Callsign, Ci
   cartPaypal.AddToCart({ id: "XQNXEMN4YXSB6" })
 </script>
 
-Now click the Shopping card button above or below to finalize your purchase!
+**Now click the Shopping card button above or below to finalize your purchase!**
 
 <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
 <script>
