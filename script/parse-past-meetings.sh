@@ -44,9 +44,9 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 CURRENT_DATE="$(date +'%Y%m')"
 
 # List all meeting years
-find meetings/ -type d | sort -nr | grep -E "[0-9]$" | while read meet_year; do
+find meetings/ -type d | sort -nr | egrep -E "[0-9]$" | while read meet_year; do
   year=$(echo $meet_year | cut -d "/" -f2)
-  if [[ "$year" == "raffle" ]]; then
+  if ! date -d "$year" +'%Y' &>/dev/null; then
     continue
   fi
 
