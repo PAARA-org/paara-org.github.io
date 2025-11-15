@@ -46,7 +46,7 @@ CURRENT_DATE="$(date +'%Y%m')"
 # List all meeting years
 find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year; do
   year=$(echo $meet_year | cut -d "/" -f2)
-  if ! date -d "$year" +'%Y' &>/dev/null; then
+  if ! [[ $year =~ ^20[0-9]{2}$ ]]; then
     continue
   fi
 
