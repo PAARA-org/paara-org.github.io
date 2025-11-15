@@ -1,7 +1,6 @@
 
 <details>
-  <summary><b>Click the ticket to see the raffle prizes! <img src="/images/raffle-ticket.png" alt="raffle-ticket" width="90"></b></summary>
-  <H2>Welcome to the <b>December Dream to Reality</b> Raffle!</H2>
+  <summary><b><mark>Click the ticket to see the December Dream to Reality Raffle prizes!</mark><img src="/images/raffle-ticket.png" alt="raffle-ticket" width="90"></b></summary>
   <table>
     <tr>
         <th>5th prize option 1</th>
