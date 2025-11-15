@@ -1,7 +1,7 @@
 
 <details>
   <summary><b>Click the ticket to see the raffle prizes! <img src="/images/raffle-ticket.png" alt="raffle-ticket" width="90"></b></summary>
-  Welcome to the <b>December Dream to Reality</b> Raffle!
+  <H2>Welcome to the <b>December Dream to Reality</b> Raffle!</H2>
   <table>
     <tr>
         <th>5th prize option 1</th>
@@ -20,8 +20,8 @@
         <td><img src="/meetings/raffle/2025/202512-1.jpg" alt="image"></td>
     </tr>
     <tr>
-        <td>PAARA 2025 Field Day T-shirt (option 1)</td>
-        <td>WUBEN G5 Rechargeable EDC Flashlight (option 2)</td>
+        <td>PAARA 2025 Field Day T-shirt</td>
+        <td>WUBEN G5 Rechargeable EDC Flashlight</td>
         <td>Wagner Spraytech 0503059 FURNO 300 Heat Gun</td>
         <td>Wera Kraftform Kompakt screwdriver set</td>
         <td>Retevis RA89 Ham Radio</td>
