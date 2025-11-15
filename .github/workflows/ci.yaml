@@ -17,11 +17,6 @@ jobs:
         run: |
           chmod +x script/parse-past-meetings.sh
           script/parse-past-meetings.sh > /tmp/meetings-output.md
-          # Verify output is not empty
-          if [ ! -s /tmp/meetings-output.md ]; then
-            echo "Error: parse-past-meetings.sh produced empty output"
-            exit 1
-          fi
           # Verify output contains expected content
           if ! grep -q "## Past Meetings" /tmp/meetings-output.md; then
             echo "Error: Output missing expected '## Past Meetings' header"
