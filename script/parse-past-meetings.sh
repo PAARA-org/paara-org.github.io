@@ -44,7 +44,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 CURRENT_DATE="$(date +'%Y%m')"
 
 # List all meeting years
-find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year; do
+find meetings/ -type d | sort -nr | grep -E "[0-9]$" | while read meet_year; do
   year=$(echo $meet_year | cut -d "/" -f2)
   if ! [[ $year =~ ^20[0-9]{2}$ ]]; then
     continue
@@ -52,7 +52,7 @@ find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year; do
 
   echo "### $year"
   echo ""
-  find $meet_year -type f | egrep ".md$" | sort -nr | while read meet_month; do
+  find $meet_year -type f | grep -E ".md$" | sort -nr | while read meet_month; do
     if [ "$(basename $meet_month .md)" -le "$CURRENT_DATE" ]; then
       meet_month_html=$(echo $meet_month | sed 's/\.md/.html/')
       month=$(echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1)
