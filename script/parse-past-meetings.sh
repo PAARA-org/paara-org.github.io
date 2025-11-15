@@ -41,23 +41,31 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 """
 
+CURRENT_DATE="$(date +'%Y%m')"
+
 # List all meeting years
-find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year ; do
-	year=`echo $meet_year | cut -d "/" -f2`
-	echo "### $year"
-	echo ""
-	find $meet_year -type f | egrep ".md$" | sort -nr | while read meet_month ; do
-		meet_month_html=`echo $meet_month | sed 's/\.md/.html/'`
-		month=`echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1`
-		presenter=`grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/\`/**/g'`
-		topic=`grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-`
-		has_youtube=`grep "www.youtube.com" $meet_month`
-		echo -n "* [$month](/$meet_month_html) "
-		if [[ -n "$has_youtube" ]]; then
-			echo "$presenter :$topic (<mark>with video</mark>)"
-		else
-			echo "$presenter :$topic"
-		fi
-	done
-	echo ""
+find meetings/ -type d | sort -nr | grep -E "[0-9]$" | while read meet_year; do
+  year=$(echo $meet_year | cut -d "/" -f2)
+  if [[ "$year" == "raffle" ]]; then
+    continue
+  fi
+
+  echo "### $year"
+  echo ""
+  find $meet_year -type f | grep -E ".md$" | sort -nr | while read meet_month; do
+    if [ "$(basename $meet_month .md)" -le "$CURRENT_DATE" ]; then
+      meet_month_html=$(echo $meet_month | sed 's/\.md/.html/')
+      month=$(echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1)
+      presenter=$(grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/`/**/g')
+      topic=$(grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-)
+      has_youtube=$(grep "www.youtube.com" $meet_month)
+      echo -n "* [$month](/$meet_month_html) "
+      if [[ -n "$has_youtube" ]]; then
+        echo "$presenter :$topic (<mark>with video</mark>)"
+      else
+        echo "$presenter :$topic"
+      fi
+    fi
+  done
+  echo ""
 done
