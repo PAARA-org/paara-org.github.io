@@ -38,12 +38,8 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 ## Past Meetings
 
 
-### raffle
-
-
 ### 2025
 
-* [202512](/meetings/2025/202512.html)  **To be announced** : `To be announced`
 * [202511](/meetings/2025/202511.html)  **Micah Martin, KN6VUT** : `Building TARA’s Voice in Tehachapi` (<mark>with video</mark>)
 * [202510](/meetings/2025/202510.html)  [**Justin Giorgi, AI6YM**](https://ai6ym.radio) : `Building a Station for Satellite & EME Contacts` (<mark>with video</mark>)
 * [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program` (<mark>with video</mark>)
