@@ -5,9 +5,29 @@ on:
   pull_request:
     types: [opened, synchronize]
 jobs:
+  test-parse-script:
+    name: Test parse-past-meetings.sh
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test parse-past-meetings.sh
+        run: |
+          chmod +x script/parse-past-meetings.sh
+          script/parse-past-meetings.sh > /tmp/meetings-output.md
+          # Verify output contains expected content
+          if ! grep -q "## Past Meetings" /tmp/meetings-output.md; then
+            echo "Error: Output missing expected '## Past Meetings' header"
+            exit 1
+          fi
+          echo "✓ parse-past-meetings.sh executed successfully on ${{ matrix.os }}"
+
   build:
     runs-on: ubuntu-latest
     name: script/cibuild
+    needs: test-parse-script
     steps:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
