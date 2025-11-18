@@ -19,11 +19,6 @@ Zelle transfers are instant, and they do not charge any fees to the club.
 
 ## Paypal
 
-<paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
-<script>
-  cartPaypal.Cart({ id: "pp-view-cart" })
-</script>  
-
 
 **Important**: Please make sure to specify the follwing in the description field:
 1. **Full Name**
@@ -35,7 +30,12 @@ Zelle transfers are instant, and they do not charge any fees to the club.
   cartPaypal.AddToCart({ id: "JWDYVV8LAQR4E" })
 </script>
 
-**NOTE:** Once you've added your name and call sign to the order details, please scroll up and click on the cart to finalize the payment.
+**NOTE:** Once you've added your name and call sign to the order details, please click on the cart below to finalize the payment.
+
+<paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+<script>
+  cartPaypal.Cart({ id: "pp-view-cart" })
+</script>  
 
 ## Dues Payment using Physical Form
 
@@ -50,9 +50,3 @@ You can pay your dues with check or cash at the next PAARA meeting to the Member
 2. **Call Sign** (or `None`)
 3. **Individual member call sign** (for family membership)
 
-**Now click the Shopping card button above or below to finalize your purchase!**
-
-<paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
-<script>
-  cartPaypal.Cart({ id: "pp-view-cart" })
-</script>
