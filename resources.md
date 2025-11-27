@@ -1,8 +1,10 @@
 # Resources
 
+---
 **Table of Contents**
 * Table of Contents
 {:toc}
+---
 
 ## Local resources
 

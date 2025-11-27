@@ -1,8 +1,10 @@
 # POTA / SOTA
 
+---
 **Table of Contents**
 * Table of Contents
 {:toc}
+---
 
 [POTA](http://pota.app){:target="_blank"} (Parks on the Air) and [SOTA](https://www.sota.org.uk/){:target="_blank"} (Summits on the Air) are just two programs encouraging portable operations in either US National/State Parks/Historic trails, or on Summits.
 

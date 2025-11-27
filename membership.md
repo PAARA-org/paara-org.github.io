@@ -1,8 +1,10 @@
 # Membership Information and Badges
 
+---
 **Table of Contents**
 * Table of Contents
 {:toc}
+---
 
 ## Membership History
 

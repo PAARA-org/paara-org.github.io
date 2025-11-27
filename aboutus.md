@@ -1,8 +1,10 @@
 # About us
 
+---
 **Table of Contents**
 * Table of Contents
 {:toc}
+---
 
 [Club Meeting Information & Location](/meetings.md)
 
