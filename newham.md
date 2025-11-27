@@ -6,6 +6,10 @@ layout: default
 
 We're looking forward to seeing you at our next meeting or event!
 
+**Table of Contents**
+* Table of Contents
+{:toc}
+
 ## Free Membership
 
 As a new ham, you’re eligible for a one year free PAARA membership! Please talk to the club’s Secretary **Ric Hulett** [N6AJS](https://www.qrz.com/db/N6AJS){:target="_blank"} in person at our next monthly meeting, or by email at <secretary@paara.org>.

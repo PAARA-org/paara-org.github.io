@@ -1,5 +1,9 @@
 # Membership Information and Badges
 
+**Table of Contents**
+* Table of Contents
+{:toc}
+
 ## Membership History
 
 PAARA membership has fluctuated over the years, but might be larger now than it ever has been. According to the January 1, 1973 membership roster for the Palo Alto Amateur Radio Association (W6OTX) and Menlo Park Civil Defense Radio Club (K6YQT), which integrated themselves many years ago, the club had 70 members, including some who are still (or again) members: Dean Babcock, W6OEB; Andy Korsak, VE3FZK/W6; and John A. Cameron III (no callsign).
