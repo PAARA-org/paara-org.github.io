@@ -1,5 +1,6 @@
 # Photos
 
+* Table of Contents
 {:toc}
 
 ## Pacificon 2025
