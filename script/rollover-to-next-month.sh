@@ -85,6 +85,12 @@ else
 
 {% include ${NEXT_RAFFLE_INCLUDE} %}
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 {% include meetings-template.md %}
 """ > $NEXT_MEETING_FILE
 
