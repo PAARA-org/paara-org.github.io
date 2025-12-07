@@ -37,10 +37,6 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ## Past Meetings
 
-
-### 2026
-
-
 ### 2025
 
 * [202512](/meetings/2025/202512.html)  **Eric Swartz, WA6HHQ** : `Hear about the latest happenings at Elecraft`
