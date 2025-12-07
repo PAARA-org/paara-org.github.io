@@ -31,6 +31,7 @@ echo -n "  Current meeting is for year($YEAR) month($MONTH). "
 if [ $MONTH -eq "12" ]; then
 	YEAR=$((10#$YEAR+1))
 	MONTH=01
+	mkdir meetings/$YEAR/
 else
 	MONTH=$((10#$MONTH+1))
 fi
