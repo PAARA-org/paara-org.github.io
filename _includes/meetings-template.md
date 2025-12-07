@@ -39,7 +39,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2025
 
-* [202512](/meetings/2025/202512.html)  **Eric Swartz, WA6HHQ** : `Hear about the latest happenings at Elecraft`
+* [202512](/meetings/2025/202512.html)  **Eric Swartz, WA6HHQ** : `Hear about the latest happenings at Elecraft` (<mark>with video</mark>)
 * [202511](/meetings/2025/202511.html)  **Micah Martin, KN6VUT** : `Building TARA’s Voice in Tehachapi` (<mark>with video</mark>)
 * [202510](/meetings/2025/202510.html)  [**Justin Giorgi, AI6YM**](https://ai6ym.radio) : `Building a Station for Satellite & EME Contacts` (<mark>with video</mark>)
 * [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program` (<mark>with video</mark>)
