@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/202601-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/202601-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/202601-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/202601-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/202601-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202601-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202601-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202601-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202601-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202601-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <td>5th Prize description</td>
-        <td>4th Prize description</td>
-        <td>3rd Prize description</td>
-        <td>2nd Prize description</td>
-        <td>1st Prize description</td>
+        <td>Carhartt 18 Pocket Utility Roll</td>
+        <td>MAXPEDITION Beefy Pocket Organizer</td>
+        <td>Powerex MH-C9000 WizardOne Charger</td>
+        <td>Z8M2 Industries Dual Band Antenna</td>
+        <td>Retevis RA89 Dual Band Handheld Radio</td>
     </tr>
   </table>
 </details>
