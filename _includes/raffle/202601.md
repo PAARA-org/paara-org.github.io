@@ -20,7 +20,7 @@
         <td>Carhartt 18 Pocket Utility Roll</td>
         <td>MAXPEDITION Beefy Pocket Organizer</td>
         <td>Powerex MH-C9000 WizardOne Charger</td>
-        <td>Z8M2 Industries Dual Band Antenna</td>
+        <td>ZBM2 Industries Dual Band Antenna</td>
         <td>Retevis RA89 Dual Band Handheld Radio</td>
     </tr>
   </table>
