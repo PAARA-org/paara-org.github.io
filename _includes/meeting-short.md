@@ -1,5 +1,5 @@
 ## Next club meeting
 * **Date**: `9 January 2026`
-* **Topic**: `TBA`
-* **Presenter**: `TBA`
+* **Topic**: `A 30-Year Late QSO`
+* **Presenter**: `Chris Maughan, G7LQX`
 
