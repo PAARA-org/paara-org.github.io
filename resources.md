@@ -46,5 +46,6 @@ Located near Alum Rock Park, San Jose
 ### 33cm (902 MHz) FM
 
 * **927.225 MHz -25 MHz PL 100 Hz**
-* AllstarLink Node 45121
+* AllstarLink Node [65314](https://stats.allstarlink.org/nodeinfo.cgi?node=65314)
+* Echolink Node [W6OTX-R (462971)](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=462971&type=search)
 
