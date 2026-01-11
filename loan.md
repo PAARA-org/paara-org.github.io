@@ -1,5 +1,11 @@
 # Radio Loan Program
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 Do you have a new or recent license upgrade?  Are you interested in DX, SSB, international contesting? Are you concerned about the “thousand-dollar upgrade”?
 
 If so, PAARA has a program designed specifically for you!  PAARA, ‘the friendliest club around’ wants to encourage newer hams to get on the HF bands, and explore the many aspects of amateur radio. To that end, we have established an HF rig `loaner program`.

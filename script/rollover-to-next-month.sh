@@ -31,6 +31,7 @@ echo -n "  Current meeting is for year($YEAR) month($MONTH). "
 if [ $MONTH -eq "12" ]; then
 	YEAR=$((10#$YEAR+1))
 	MONTH=01
+	mkdir meetings/$YEAR/
 else
 	MONTH=$((10#$MONTH+1))
 fi
@@ -65,7 +66,7 @@ fi
 echo "[ Step 3: Creating the new meeting file if necessary ]"
 DAY=`cal $MONTH $YEAR | awk '/Fr/{getline;if(NF==1){getline;}printf("%d\n",$(NF-1));}'`
 MONTH_YEAR=`cal $MONTH $YEAR | head -1 | egrep -o "[a-zA-Z]+\s[0-9]+"`
-MONTH_STRING=`cal $MONTH $YEAR | awk '{print $1}'`
+MONTH_STRING=`cal $MONTH $YEAR | head -1 | awk '{print $1}'`
 if [ -s "$NEXT_MEETING_FILE" ]; then
   echo "  The file '$NEXT_MEETING_FILE' exists and is not empty."
 else
@@ -84,6 +85,12 @@ else
 ## Raffle
 
 {% include ${NEXT_RAFFLE_INCLUDE} %}
+
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
 
 {% include meetings-template.md %}
 """ > $NEXT_MEETING_FILE

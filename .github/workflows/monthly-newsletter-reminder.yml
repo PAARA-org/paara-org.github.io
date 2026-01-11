@@ -1,0 +1,33 @@
+name: Monthly Newsletter Reminder
+on:
+  schedule:
+    # Run at 00:07 UTC on the 1st of every month
+    - cron: 07 00 1 * *
+
+jobs:
+  create_issue:
+    name: Create PAARAgraphs newsletter reminder issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create issue
+        run: |
+          NEWSLETTER_MONTH=$(date -d "6 months ago" +"%B %Y")
+          gh issue create \
+            --title "Post $NEWSLETTER_MONTH PAARAgraphs newsletter" \
+            --label "$LABELS" \
+            --body "$(echo "$BODY" | sed "s/{month}/$NEWSLETTER_MONTH/g")"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          LABELS: monthly-rollover
+          BODY: |
+
+            @kn6yuh please comment with {month}'s PDF Google Drive link.
+
+            The instructions on how to do it are at https://github.com/PAARA-org/paara-org.github.io/blob/master/README.md#how-to-add-a-new-newsletter-paaragraphs-issue-via-script
+
+            #156 as an example of how it's been done in the past.
+
+            @PAARA-org/webmasters : would any of you want to work on this? Thanks!

@@ -1,5 +1,11 @@
 # Photos
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 ## Pacificon 2025
 
 Click [here](https://drive.google.com/drive/folders/1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P?usp=drive_link){:target="_blank"} for more photographs taken during the event.

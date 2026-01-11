@@ -19,7 +19,7 @@ The Palo Alto Amateur Radio Association meets on the 1st Friday of the month at 
 
 ![cubberley-600.jpg](/meetings/cubberley-600.jpg)
 
-After the meeting, many members gather for beer, pizza, and eyeball QSO at **Mountain Mike's Pizza**, located at **3918 Middlefield Rd**, in Palo Alto. It's literally next door to Cubberly, in the Charleston Shopping Center.
+After the meeting, many members gather for beer, pizza, and eyeball QSO at **Round Table Pizza**, located at [702 Colorado Ave in Palo Alto](https://maps.app.goo.gl/Dw8ffGAppmK5vQUk8). If there's not enough parking in front, go past Round Table and past the **7-Eleven** and turn right (twice) into the [larger parking lot behind](https://maps.app.goo.gl/JmPanVagaNTpvs1P7), which is shared with **Safeway**.
 
 ## Board Meetings
 
@@ -37,10 +37,16 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ## Past Meetings
 
+
+### 2026
+
+* [202601](/meetings/2026/202601.html)  **Chris Maughan, G7LQX** : `A 30-Year Late QSO`
+
 ### 2025
 
-* [202511](/meetings/2025/202511.html)  **To be announced** : `To be announced`
-* [202510](/meetings/2025/202510.html)  **Justin Giorgi, AI6YM** : `Building a Station for Satellite & EME Contacts` (<mark>with video</mark>)
+* [202512](/meetings/2025/202512.html)  **Eric Swartz, WA6HHQ** : `Hear about the latest happenings at Elecraft` (<mark>with video</mark>)
+* [202511](/meetings/2025/202511.html)  **Micah Martin, KN6VUT** : `Building TARA’s Voice in Tehachapi` (<mark>with video</mark>)
+* [202510](/meetings/2025/202510.html)  [**Justin Giorgi, AI6YM**](https://ai6ym.radio) : `Building a Station for Satellite & EME Contacts` (<mark>with video</mark>)
 * [202509](/meetings/2025/202509.html)  **Riley Hollingsworth, K4ZDH** : `Volunteer Monitor Program` (<mark>with video</mark>)
 * [202508](/meetings/2025/202508.html)  **Jacob Boxerman (KE2CZX)** : `Amateur Radio at Columbia University - History to Present Day` (<mark>with video</mark>)
 * [202507](/meetings/2025/202507.html)  **Ben Glick, KN6UBF** : `ToADS HF: A Layer Cake of Protocols That Nobody Ordered` (<mark>with video</mark>)

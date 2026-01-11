@@ -1,5 +1,11 @@
 # About us
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 [Club Meeting Information & Location](/meetings.md)
 
 The Palo Alto Amateur Radio Association was first formed in 1937, and then incorporated as a California non-profit orginization in March of 1956, and for many years has had the club callsign W6OTX, formerly held by club member and Palo Alto resident (Ramona St.) Wilbur C. Lauridsen, who died while serving in the Navy during WWII.

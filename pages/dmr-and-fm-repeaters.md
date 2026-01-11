@@ -24,14 +24,14 @@ Located near Alum Rock Park, San Jose
 ### 33cm (902 MHz) FM  
 
 * **927.225 MHz -25 MHz PL 107.2 Hz**
-* AllstarLink Node 65314
-* Echolink Node W6OTX-R
+* AllstarLink Node [65314](https://stats.allstarlink.org/nodeinfo.cgi?node=65314)
+* Echolink Node [W6OTX-R (462971)](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=462971&type=search)
 
 ## Notes about using Dynamic Talkgroups on W6OTX
 
-* Please use Dynamic TGs only on TS1.
-* Dynamic TGs are automatically disconnected after 15min of no uplink activity.
-* BrandMeister USA doesn’t anymore support use of Reflectors, but feel free to use Dynamic TG’s on the TS 1. All you need to do is key-up on the BrandMeister TG you want to connect to, and it gets connected to the repeater until the time-out.
+* Please use dynamic talkgroups only on TS1.
+* Just key-up on the BrandMeister talkgroup on TS1 that you want to connect to, and it wll get connected to the repeater.
+* Dynamic talkgroups are automatically disconnected after 15 minutes of no uplink activity.
 
 Few useful links for much more information about DMR, BrandMeister and other active DMR repeater groups around our area:
 
