@@ -25,9 +25,9 @@ Zelle transfers are instant, and they do not charge any fees to the club.
 2. **Call Sign** (or `None`)
 3. **Individual member call sign** (for family membership)
 
-<paypal-add-to-cart-button data-id="JWDYVV8LAQR4E"></paypal-add-to-cart-button>
+<paypal-add-to-cart-button data-id="J32CYFN3AAFDL"></paypal-add-to-cart-button>
 <script>
-  cartPaypal.AddToCart({ id: "JWDYVV8LAQR4E" })
+  cartPaypal.AddToCart({ id: "J32CYFN3AAFDL" })
 </script>
 
 **NOTE:** Once you've added your name and call sign to the order details, please click on the cart below to finalize the payment.
