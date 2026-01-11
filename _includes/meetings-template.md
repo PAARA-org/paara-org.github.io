@@ -37,6 +37,11 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ## Past Meetings
 
+
+### 2026
+
+* [202601](/meetings/2026/202601.html)  **Chris Maughan, G7LQX** : `A 30-Year Late QSO`
+
 ### 2025
 
 * [202512](/meetings/2025/202512.html)  **Eric Swartz, WA6HHQ** : `Hear about the latest happenings at Elecraft` (<mark>with video</mark>)
