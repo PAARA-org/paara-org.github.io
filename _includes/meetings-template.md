@@ -40,7 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
-* [202601](/meetings/2026/202601.html)  **Chris Maughan, G7LQX** : `A 30-Year Late QSO`
+* [202601](/meetings/2026/202601.html)  **Chris Maughan, G7LQX** : `A 30-Year Late QSO` (<mark>with video</mark>)
 
 ### 2025
 
