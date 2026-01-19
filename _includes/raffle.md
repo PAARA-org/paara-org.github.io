@@ -1,6 +1,6 @@
 
 <details>
-  <summary><b>Click the ticket to see the raffle prizes! <img src="/images/raffle-ticket.png" alt="raffle-ticket" width="90"></b></summary>
+  <summary><b>Click the ticket to see the raffle prizes! <img src="/images/raffle-ticket.jpeg" alt="raffle-ticket" width="90"></b></summary>
   <table>
     <tr>
         <th>5th prize</th>
@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/20262-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20262-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20262-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20262-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20262-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20262-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <td>5th Prize description</td>
-        <td>4th Prize description</td>
-        <td>3rd Prize description</td>
-        <td>2nd Prize description</td>
-        <td>1st Prize description</td>
+        <td>Chicago Electric 5-watt solar panel</td>
+        <td>DTAPE laser distance meter</td>
+        <td>POTA 15.5” x 31” desk mat</td>
+        <td>Vortex Optics Triumph HD 10x24 Binoculars</td>
+        <td>Bioenno 12v, 12 Ah LiFePo4 battery</td>
     </tr>
   </table>
 </details>
