@@ -10,11 +10,11 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/20262-5.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-4.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-3.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-2.jpeg" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20262-1.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202602-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202602-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202602-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202602-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202602-1.jpeg" alt="image"></td>
     </tr>
     <tr>
         <td>Chicago Electric 5-watt solar panel</td>
