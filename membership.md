@@ -38,8 +38,7 @@ Membership is available to all persons interested in Amateur radio. There is no 
 **`Primary` member dues are $25.00 per year which provides full membership privileges, including**:
 
 * **Membership Roster**: A current membership roster, containing the names of all members, and the phone numbers and E-mail addresses of those that provide the information.
-* **PAARA Newsletter**: Full members get one copy of PAARAgraphs, the club newsletter, mailed to their households each month if they opt for paper delivery.
-* 
+* **PAARA Newsletter**: Full members get immediate online access to the most current copy of PAARAgraphs, the club newsletter.   They also receive a paper copy mailed to their households each month if they opt for paper delivery.
 * **Voting At Annual Elections**
 
 **`Family`** member dues are just $6.00 per year. (One Primary member of the family pays the full dues of $25.00, enabling the rest of the family to join as Family members).
