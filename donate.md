@@ -1,8 +1,8 @@
 # Donate To PAARA
 
-Your generous donation will help PAARA offset expenses for Field Day, Field Trips, the Annual Electronics Flea Market, the Holiday Dream To Reality Raffle, and other activities.
+Your generous donation will help PAARA offset expenses for Field Day, Days in the Park, Field Trips, the Annual Electronics Flea Market, the Holiday Dream To Reality Raffle, and other activities.
 
-Please use the form below. You will be able to donate via a credit card or directly from your PayPal account.
+Please use the form below. You will be able to donate via a credit card or directly from your PayPal account.   We also welcome equipment donations.   Please contact the club president for more information.
 
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -31,10 +31,4 @@ Please use the form below. You will be able to donate via a credit card or direc
 
 **NOTE**: PAARA is a `501(c)(7)` non-profit corporation. Although donations are not tax deductible, your callsign and name will be listed in the Donor section below.
 
-## Current Donors
 
-* _
-
-## Donated Equipment Received
-
-* _
