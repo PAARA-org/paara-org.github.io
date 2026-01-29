@@ -114,3 +114,4 @@ The following steps must be followed:
 5. Make your updates in your fork
 6. Preview your rendered updates on **https://youraccountname.github.io**
 7. Open a pull request.    When it is merged, the updates will be pushed to production
+8. Finally, either delete the fork or sync it.   If you sync, choose "discard changes"
