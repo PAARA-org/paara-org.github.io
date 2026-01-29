@@ -82,21 +82,23 @@ The PAARA Net has taken many forms over the years. For many years, the club held
 
 ## Youth Net
 
-For all hams who are 18 and younger.  If you have a son or daughter who is a ham, please let them know about this net. If they are not a ham, encourage them to listen to the net and get their ticket. Hams over the age of 18 can participate in the later portion of the net and can answer questions to help mentor the young hams. There is something for everyone! Please join us!
-When: Every Tuesday evening at 7:00 PM Pacific time
-Repeater: N6NFI Repeater, 145.230 MHz, Minus offset, PL 100 Hz.
-Echolink node(s): W6REK-R (828105) or KR6DD-R (271122).
+For all hams who are 18 and younger.  Hams over the age of 18 can participate in the later portion of the net and can answer questions to help mentor the young hams. There is something for everyone! Please join us!
+
+* When: Every Tuesday evening at 7:00 PM Pacific time
+* Repeater: N6NFI Repeater, 145.230 MHz, Minus offset, PL 100 Hz.
+* Echolink node(s): W6REK-R (828105) or KR6DD-R (271122).
 
 ## 9 AM Talk Net
 
 Informal net, no set topic.   All hams welcome.  Say hello to your friends!   
-When: Weekdays at 9:00am Pacific Time (except holidays)
-Frequency: 145.230 MHz, Minus Offset, PL 100Hz.
+
+* When: Weekdays at 9:00am Pacific Time (except holidays)
+* Frequency: 145.230 MHz, Minus Offset, PL 100Hz.
 
 ## San Mateo Radio Club Thursday Ham Chat
 
 Informal chat about ham topics with other hams.  Sponsored by SMRC.
 
-When: Thursdays at 7:00 PM Pacific time
-Repeater: N6ZX  Output: 145.370 MHz, Minus offset of 600 KHz, CTCSS (PL): 107.2 Hz
+* When: Thursdays at 7:00 PM Pacific time
+* Repeater: N6ZX  Output: 145.370 MHz, Minus offset of 600 KHz, CTCSS (PL): 107.2 Hz
 
