@@ -12,6 +12,8 @@ The **PAARA Discord** server (read [PAARAgraphs](/newsletter.html) to find the i
 
 If you'd like to know more, or you'd like to join one of us for an activation in a nearby park, please get in touch with us on Discord on `#pota` or `#sota`, or reach out to Connie (**W6EFI**), Elliot (**AK6EU**), Justin (**AI6YM**), or Sorin (**KN6YUH**).
 
+We are very fortunate to have not one but **two** National Historic Trails running right through Palo Alto.  That means public spaces next to El Camino as well as many city parks are good locations for POTA activations.   (US-4571 and US-9757, see below for details.)   The POTA map site does not show full trail locations but they are located on the National Park Service's maps.   See below for links.
+
 ## Parks on the Air (POTA)
 
 **Website**: [pota.app](http://pota.app)
