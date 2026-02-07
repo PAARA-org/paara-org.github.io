@@ -40,7 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
-* [202602](/meetings/2026/202602.html)  : `The Stanford AREDN Project: From Concept to Completion`
+* [202602](/meetings/2026/202602.html)  **Rachel Kinoshita (KK6DAC)** and **Mason Matich (KC3WNY)** : `The Stanford AREDN Project: From Concept to Completion`
 * [202601](/meetings/2026/202601.html)  **Chris Maughan, G7LQX** : `A 30-Year Late QSO` (<mark>with video</mark>)
 
 ### 2025
