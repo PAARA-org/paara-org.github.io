@@ -29,6 +29,6 @@ Please use the form below. You will be able to donate via a credit card or direc
  </form>
 <br />
 
-**NOTE**: PAARA is a `501(c)(7)` non-profit corporation. Although donations are not tax deductible, your callsign and name will be listed in the Donor section below.
+**NOTE**: PAARA is a `501(c)(7)` non-profit corporation. 
 
 
