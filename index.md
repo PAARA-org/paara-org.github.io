@@ -3,7 +3,11 @@ layout: default
 ---
 {% include meeting-short.md %}{% include zoom-details.md %}
 
+![homebrewlogo](/meetings/2026/homebrew.jpg)
+
 For more information, visit the [meetings page](/meetings.html).
+
+---
 
 {% include raffle.md %}
 
