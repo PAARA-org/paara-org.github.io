@@ -5,9 +5,9 @@ layout: default
 
 ![homebrewlogo](/meetings/2026/homebrew.jpg)
 
-For more information, visit the [meetings page](/meetings.html).
+In an effort to streamline the sign ups, please complete the [signup form](https://forms.gle/oyaL7xuQq1yKaKnP7){:target="_blank"} and then submit it.
 
----
+For more information, visit the [meetings page](/meetings.html).
 
 {% include raffle.md %}
 
