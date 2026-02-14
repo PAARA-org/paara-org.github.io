@@ -12,6 +12,8 @@ The **PAARA Discord** server (read [PAARAgraphs](/newsletter.html) to find the i
 
 If you'd like to know more, or you'd like to join one of us for an activation in a nearby park, please get in touch with us on Discord on `#pota` or `#sota`, or reach out to Connie (**W6EFI**), Elliot (**AK6EU**), Justin (**AI6YM**), or Sorin (**KN6YUH**).
 
+We are very fortunate to have not one but **two** National Historic Trails running right through Palo Alto.  That means public spaces next to El Camino as well as many city parks are good locations for POTA activations.   (US-4571 and US-9757, see below for details.)   The POTA map site does not show full trail locations but they are located on the National Park Service's maps.   See below for links.
+
 ## Parks on the Air (POTA)
 
 **Website**: [pota.app](http://pota.app)
@@ -22,9 +24,7 @@ You need to make 10 contacts for a successful activation, and the activator is t
 
 ### Nearby Parks
 
-![pota-bay-area-map](/images/pota-bay-area-map.jpeg)
-
-A few nearby parks:
+A few nearby parks popular with club members for POTA:
 
 | **ID** | **Park Name** | **Comments** |
 | ------ | ------------- | ------------ |
@@ -44,6 +44,12 @@ There are two historic trails crossing the Bay Area. You can activate from any p
 
 **NOTE**: If you activate from a location where these two historic trails overlap, you'll be able to score a "2-fer"! In Parks on the Air (POTA), a "2-fer" refers to an activator operating from a location that is within the boundary of two POTA parks. This means you're essentially activating both parks simultaneously during one QSO (radio contact). 
 
+### local POTA map from the official site 
+
+![pota-bay-area-map](/images/pota-bay-area-map.jpeg)
+
+
+
 ## Summits on the Air (SOTA)
 
 Summits on the Air (SOTA) is a similar ham radio activity focused on operating from mountain or hill summits. Operators, called "activators," hike to designated summits carrying lightweight radio gear and attempt to make contacts with other hams, known as "chasers," who try to reach them from anywhere. Each summit has an assigned point value based on its elevation, and both activators and chasers earn points toward awards. SOTA emphasizes portable, battery-powered operation and often requires making at least four unique contacts from within 25 meters of the summit, blending amateur radio with hiking and outdoor adventure.
@@ -54,9 +60,6 @@ A full list of all qualifying summits worldwide can be found on the SOTA website
 
 There are 538 qualifying summits in the [Northern Coastal Ranges](https://www.sotadata.org.uk/en/region/W6/NC){:target="_blank"} and 74 qualifying summits in the [Coastal Ranges](https://www.sotadata.org.uk/en/region/W6/CC)
 
-A few of the taller mountains nearby that would work pretty well for UHF/VHF contacts given the proximity to the highly populated Bay Area.
-
-![sota-goat-screemshot](/images/sota-goat-screenshot.jpeg)
 
 A few of the higher peaks and somewhat accessible in the Bay Area below:
 
@@ -65,6 +68,10 @@ A few of the higher peaks and somewhat accessible in the Bay Area below:
 | [W6/NC-049](https://www.sotadata.org.uk/en/summit/W6/NC-049){:target="_blank"} | **Black Mountain** | 1204m, 2 points |
 | [W6/CC-045](https://www.sotadata.org.uk/en/summit/W6/CC-045){:target="_blank"} | **Mount Diablo**  | 1173m, 2 points |
 | [W6/CC-052](https://www.sotadata.org.uk/en/summit/W6/CC-052){:target="_blank"} | **Mount Umunhum**  | 1063m, 2 points |
+
+A few of the taller mountains nearby that would work pretty well for UHF/VHF contacts given the proximity to the highly populated Bay Area.
+
+![sota-goat-screemshot](/images/sota-goat-screenshot.jpeg)
 
 
 ## Useful Apps

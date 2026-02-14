@@ -8,9 +8,9 @@
 
 ## Membership History
 
-PAARA membership has fluctuated over the years, but might be larger now than it ever has been. According to the January 1, 1973 membership roster for the Palo Alto Amateur Radio Association (W6OTX) and Menlo Park Civil Defense Radio Club (K6YQT), which integrated themselves many years ago, the club had 70 members, including some who are still (or again) members: Dean Babcock, W6OEB; Andy Korsak, VE3FZK/W6; and John A. Cameron III (no callsign).
+PAARA membership has fluctuated over the years, but might be larger now than it ever has been. According to the January 1, 1973 membership roster for the Palo Alto Amateur Radio Association (W6OTX) and Menlo Park Civil Defense Radio Club (K6YQT) (which eventually merged), the club had 70 members, including some who are still members today.
 
-Today, the Palo Alto Amateur Radio Association consists of nearly 200 members, and is one of the oldest amateur radio clubs in California.
+Today, the Palo Alto Amateur Radio Association consists of over 200 members, and is one of the oldest amateur radio clubs in California.
 
 ## Member list
 
@@ -21,6 +21,7 @@ If you want to access the most up-to-date member list, please click [here](https
 
 | Name | Call Sign | Silent Key | Proclamation | Award year |
 |------|-----------|------------|--------------|------------|
+| Doug Teter | [KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"} | -- | [pdf](/membership/Doug_Teter_proclamation.pdf) | 2026 |
 | Andrew Korsak | [KR6DD](https://www.qrz.com/db/KR6DD){:target="_blank"} | -- | [pdf](/membership/Andy_Korsak_proclamation.pdf) | 2024 |
 | Jim Rice | [K6AK](https://www.qrz.com/db/K6AK){:target="_blank"} | -- | [pdf](/membership/Jim_Rice_proclamation2.pdf) | 2022 |
 | Vic Black | [AB6SO](https://www.qrz.com/db/AB6SO){:target="_blank"} | SK | [pdf](/membership/Vic_Black_certificate.pdf)  | 2021 |
@@ -36,8 +37,8 @@ Membership is available to all persons interested in Amateur radio. There is no 
 
 **`Primary` member dues are $25.00 per year which provides full membership privileges, including**:
 
-* **Membership Roster**: A printed membership roster, containing the names of all members, and the phone numbers and E-mail addresses of those that provide the information.
-* **PAARA Newsletter**: Full members get one copy of PAARAgraphs, the club newsletter, mailed to them each month. (Family memberships do not receive additional newsletters.)
+* **Membership Roster**: A current membership roster, containing the names of all members, and the phone numbers and E-mail addresses of those that provide the information.
+* **PAARA Newsletter**: Full members get immediate online access to the most current copy of PAARAgraphs, the club newsletter.   They also receive a paper copy mailed to their households each month if they opt for paper delivery.
 * **Voting At Annual Elections**
 
 **`Family`** member dues are just $6.00 per year. (One Primary member of the family pays the full dues of $25.00, enabling the rest of the family to join as Family members).

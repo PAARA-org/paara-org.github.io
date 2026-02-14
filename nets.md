@@ -1,10 +1,13 @@
-# Monday Night Net
+
 
 ---
 **Table of Contents**
 * Table of Contents
 {:toc}
 ---
+
+
+# Monday Night PAARA Club Net
 
 Monday night nets take place at 8:30pm on the <b><a href="https://www.fars.k6ya.org/repeaters/n6nfi" target="_blank">N6NFI repeater</a></b> (145.230 MHz (-) 100Hz).
 
@@ -74,4 +77,28 @@ Are there any late check-ins? [`pause`]
 ## PAARA Net History
 
 The PAARA Net has taken many forms over the years. For many years, the club held VHF simplex nets. During the 1970s it begain at 8:15pm on 145.224 MHz—with AM modulation! (As a 1974 PAARAgraphs put it, “…no shoddy FM allowed.”) In February 1975, the net began switching to FM modulation on that same frequency. Some time later, the PAARA Net moved to 147.450 MHz simplex. After the 145.23 machine was activated, the net moved there shortly later to increase the range. On October 1st, 2009, N6NFI permanently enable the PL tone.
+
+# Other local nets of interest
+
+## Youth Net
+
+For all hams who are 18 and younger.  Hams over the age of 18 can participate in the later portion of the net and can answer questions to help mentor the young hams. There is something for everyone! Please join us!
+
+* When: Every Tuesday evening at 7:00 PM Pacific time
+* Repeater: N6NFI Repeater, 145.230 MHz, Minus offset, PL 100 Hz.
+* Echolink node(s): W6REK-R (828105) or KR6DD-R (271122).
+
+## 9 AM Talk Net
+
+Informal net, no set topic.   All hams welcome.  Say hello to your friends!   
+
+* When: Weekdays at 9:00am Pacific Time (except holidays)
+* Frequency: 145.230 MHz, Minus Offset, PL 100Hz.
+
+## San Mateo Radio Club Thursday Ham Chat
+
+Informal chat about ham topics with other hams.  Sponsored by SMRC.
+
+* When: Thursdays at 7:00 PM Pacific time
+* Repeater: N6ZX  Output: 145.370 MHz, Minus offset of 600 KHz, CTCSS (PL): 107.2 Hz
 
