@@ -21,7 +21,7 @@ The Palo Alto Amateur Radio Association meets on the 1st Friday of the month at 
 
 ![cubberley-600.jpg](/meetings/cubberley-600.jpg)
 
-After the meeting, many members gather for beer, pizza, and eyeball QSO at **Mountain Mike's Pizza**, located at **3918 Middlefield Rd**, in Palo Alto. It's literally next door to Cubberly, in the Charleston Shopping Center.
+After the meeting, many members gather for beer, pizza, and eyeball QSO at **Round Table Pizza**, located at [702 Colorado Ave in Palo Alto](https://maps.app.goo.gl/Dw8ffGAppmK5vQUk8). If there's not enough parking in front, go past Round Table and past the **7-Eleven** and turn right (twice) into the [larger parking lot behind](https://maps.app.goo.gl/JmPanVagaNTpvs1P7), which is shared with **Safeway**.
 
 ## Board Meetings
 
@@ -41,23 +41,31 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 """
 
+CURRENT_DATE="$(date +'%Y%m')"
+
 # List all meeting years
-find meetings/ -type d | sort -nr | egrep "[0-9]$" | while read meet_year ; do
-	year=`echo $meet_year | cut -d "/" -f2`
-	echo "### $year"
-	echo ""
-	find $meet_year -type f | egrep ".md$" | sort -nr | while read meet_month ; do
-		meet_month_html=`echo $meet_month | sed 's/\.md/.html/'`
-		month=`echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1`
-		presenter=`grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/\`/**/g'`
-		topic=`grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-`
-		has_youtube=`grep "www.youtube.com" $meet_month`
-		echo -n "* [$month](/$meet_month_html) "
-		if [[ -n "$has_youtube" ]]; then
-			echo "$presenter :$topic (<mark>with video</mark>)"
-		else
-			echo "$presenter :$topic"
-		fi
-	done
-	echo ""
+find meetings/ -type d | sort -nr | grep -E "[0-9]$" | while read meet_year; do
+  year=$(echo $meet_year | cut -d "/" -f2)
+  if ! [[ $year =~ ^20[0-9]{2}$ ]]; then
+    continue
+  fi
+
+  echo "### $year"
+  echo ""
+  find $meet_year -type f | grep -E ".md$" | sort -nr | while read meet_month; do
+    if [ "$(basename $meet_month .md)" -le "$CURRENT_DATE" ]; then
+      meet_month_html=$(echo $meet_month | sed 's/\.md/.html/')
+      month=$(echo $meet_month | cut -d "/" -f 3 | cut -d "." -f 1)
+      presenter=$(grep "\*\*Presenter\*\*:" $meet_month | cut -d ":" -f 2- | sed 's/`/**/g')
+      topic=$(grep "\*\*Topic\*\*:" $meet_month | cut -d ":" -f 2-)
+      has_youtube=$(grep "www.youtube.com" $meet_month)
+      echo -n "* [$month](/$meet_month_html) "
+      if [[ -n "$has_youtube" ]]; then
+        echo "$presenter :$topic (<mark>with video</mark>)"
+      else
+        echo "$presenter :$topic"
+      fi
+    fi
+  done
+  echo ""
 done

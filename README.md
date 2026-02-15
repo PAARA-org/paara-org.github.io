@@ -89,3 +89,29 @@ The following steps must be followed:
 ```bash
 ./script/parse-past-meetings.sh > _includes/meetings-template.md
 ```
+
+## How to add a new newsletter (PAARAgraphs issue) via script
+
+1. Ensure you have a Github fine-grained access token
+  a. Login to Github
+  b. Navigate to **Developer settings** (bottom of left sidebar)
+  c. Click **Personal access tokens** -> **Fine-grained tokens**
+  d. Click **Generate new token**
+  e. Give it a name and your desired expiration. You shouldn't need to change anything else
+  f. Click **Generate token**
+  g. **Copy the token** - you won't be able to see it again
+2. Ensure you've uploaded the PAARAgraphs issue to the [PAARAgraphs repo](https://github.com/PAARA-org/PAARAgraphs/)
+3. Fork this repository if you haven't already, and create a new branch for the addition (`git checkout -b <branch>`)
+4. Run `GITHUB_TOKEN=<token_from_step_1> ./script/generate-newsletter.py > newsletter.md`
+5. Push the repo up and create a pull request (`git push -u origin <branch>`, click the link in the output to create a pull request)
+
+## Page updates and other site changes
+
+1. Make sure your github account is part of the PAARA organization on github
+2. Fork the paara-org.github.io  repo into your github
+3. **rename** your fork of the repo to **youraccountname.github.io**  (must be your login name; necessary for correct rendering)
+4. Enable "github pages" in your forked repo settings if not already enabled
+5. Make your updates in your fork
+6. Preview your rendered updates on **https://youraccountname.github.io**
+7. Open a pull request.    When it is merged, the updates will be pushed to production
+8. Finally, either delete the fork or sync it.   If you sync, choose "discard changes"
