@@ -76,7 +76,7 @@ Are there any late check-ins? [`pause`]
 
 ## PAARA Net History
 
-The PAARA Net has taken many forms over the years. For many years, the club held VHF simplex nets. During the 1970s it begain at 8:15pm on 145.224 MHz—with AM modulation! (As a 1974 PAARAgraphs put it, “…no shoddy FM allowed.”) In February 1975, the net began switching to FM modulation on that same frequency. Some time later, the PAARA Net moved to 147.450 MHz simplex. After the 145.23 machine was activated, the net moved there shortly later to increase the range. On October 1st, 2009, N6NFI permanently enable the PL tone.
+The PAARA Net has taken many forms over the years. For many years, the club held VHF simplex nets. During the 1970s it began at 8:15pm on 145.224 MHz—with AM modulation! (As a 1974 PAARAgraphs put it, “…no shoddy FM allowed.”) In February 1975, the net began switching to FM modulation on that same frequency. Some time later, the PAARA Net moved to 147.450 MHz simplex. After the 145.23 machine was activated, the net moved there shortly later to increase the range. On October 1st, 2009, N6NFI permanently enable the PL tone.
 
 ## The "Net After the Net"
 
