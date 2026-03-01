@@ -2,7 +2,6 @@
 
 Our sponsors play a vital role in our community by helping cover part of the costs of printing and shipping our newsletter. We encourage you to support these businesses as a thank you for their partnership.
 
-**Company Name** (sorted alphabetically) | **URL**
 --------|--------
 **AI6YM Radio** | <https://ai6ym.radio/>{:target="_blank"}
 **Anchor Electronics** | <https://anchor-electronics.com/>{:target="_blank"}
