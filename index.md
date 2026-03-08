@@ -4,11 +4,15 @@ layout: default
 
 {% include meeting-short.md %}{% include zoom-details.md %}
 
+For more information, visit the [meetings page](/meetings.html).
+
+{% include raffle.md %}
+
+---
+
 ![Flyer](/events/images/20260418-PAARA-in-the-park.jpg)
 
 For more information, visit the [Events](/events.html) page.
-
-{% include raffle.md %}
 
 ---
 
