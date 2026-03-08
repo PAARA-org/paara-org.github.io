@@ -2,8 +2,6 @@
 layout: default
 ---
 
-![homebrewlogo](/meetings/2026/homebrew.jpg)
-
 {% include meeting-short.md %}{% include zoom-details.md %}
 
 ![Flyer](/events/images/20260418-PAARA-in-the-park.jpg)
