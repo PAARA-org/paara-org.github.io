@@ -6,8 +6,6 @@ Club members are encouraged to help file Issues for the problems encountered on 
 
 This page acts mainly as a HowTo for other contributors. The old readme is now at [ARCHITECT.md](ARCHITECT.md).
 
---> See [page updates section at end](#page-updates) for the basics of how to add or update pages.
-
 ## How to add a new meeting?
 
 1. Modify the meeting skeleton to add: 
@@ -107,13 +105,3 @@ The following steps must be followed:
 4. Run `GITHUB_TOKEN=<token_from_step_1> ./script/generate-newsletter.py > newsletter.md`
 5. Push the repo up and create a pull request (`git push -u origin <branch>`, click the link in the output to create a pull request)
 
-## [Page updates and other site changes](#page-updates)
-
-1. Make sure your github account is part of the PAARA organization on github
-2. Fork the paara-org.github.io  repo into your github
-3. **rename** your fork of the repo to **youraccountname.github.io**  (must be your login name; necessary for correct rendering)
-4. Enable "github pages" in your forked repo settings if not already enabled
-5. Make your updates in your fork
-6. Preview your rendered updates on **https://youraccountname.github.io**
-7. Open a pull request.    When it is merged, the updates will be pushed to production
-8. Finally, either delete the fork or sync it.   If you sync, choose "discard changes"
