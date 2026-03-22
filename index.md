@@ -16,16 +16,7 @@ For more information, visit the [Events](/events.html) page.
 
 ---
 
-🪂 🪂
-
-**Parachute Mobile** is getting ready to start their next season.  Our first mission will be a commemorative one; **Mission 50**! 
-Contact skydivers who are under canopy overhead!  Consider assisting on the ground crew.   Watch for details at [parachutemobile.org](http://parachutemobile.org)
-
-  🪂
-      🪂 🪂
-  🪂
-
-🪂
+{% include parachute-mobile.md %}
 
 ---
 
