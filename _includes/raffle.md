@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/20264-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20264-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20264-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20264-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20264-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20264-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20264-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20264-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20264-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20264-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <td>5th Prize description</td>
-        <td>4th Prize description</td>
-        <td>3rd Prize description</td>
-        <td>2nd Prize description</td>
-        <td>1st Prize description</td>
+        <td>20oz Stainless Steel Insulated Tumbler with Lid & Straw, Best Gifts for Ham Radio Operators</td>
+        <td>Apple Airmax clone headphones. Supports AAC/SBC. Noise cancellation. Bluetooth technology.</td>
+        <td>PINECIL – Smart Mini Portable Soldering Iron</td>
+        <td>Powerwerx 150 Piece Assorted 15/30/45A Anderson Powerpole connectors</td>
+        <td>Anker Prime Charging Station, 200W 6-Port GaN Desktop Charger</td>
     </tr>
   </table>
 </details>
