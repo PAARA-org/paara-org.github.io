@@ -111,6 +111,7 @@ echo "[ Step 5: Updating the $SHORT_INCLUDE file ]"
 
 echo """## Next club meeting
 * **Date**: \`$DAY $MONTH_YEAR\`
+* **Time**: \`07:00 PM Pacific Time\`
 * **Topic**: \`TBA\`
 * **Presenter**: \`TBA\`
 """ > $SHORT_INCLUDE
