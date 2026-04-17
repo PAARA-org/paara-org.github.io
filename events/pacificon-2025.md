@@ -3,6 +3,14 @@
 
 [Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon betwen **Friday, October 10** and **Sunday, October 12**. Please check their website for more information about the venue, hotels, and the talk schedule.
 
+## Pictures
+
+Click [here](https://drive.google.com/drive/folders/1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P?usp=drive_link){:target="_blank"} for more photographs taken during the event.
+
+![image](/events/images/2025/pacificon.jpeg)
+
+## What is PAARA doing at Pacificon?
+
 PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} SES (Special Event Station) for Pacificon. If you would like to help with the setting up, being a station captain, or tearing down the SES, please continue reading this page.
 
 **Scouts are welcome and have priority on 20m Saturday from morning till late afternoon!**

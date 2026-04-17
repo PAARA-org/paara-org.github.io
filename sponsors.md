@@ -1,43 +1,27 @@
 # Sponsors
 
-<table width="620" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td>&nbsp;</td>
-    <td><img src="/images/sponsors/PowerFlareCard-300.jpg" width="300" height="171" alt="sponsor page" /></td>
-    <td>&nbsp;</td>
-    <td><img src="/images/sponsors/W6AZ-300.jpg" width="300" height="171" alt="sponsor page" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><img src="/images/sponsors/rescuetape-300.jpg" width="300" height="170" border="0" alt="sponsor page" /></td>
-    <td>&nbsp;</td>
-    <td><img src="/images/sponsors/HRO-300.jpg" width="300" height="96" alt="sponsor page" /></td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><div align="center"></div></td>
-    <td valign="top">&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+Our sponsors play a vital role in our community by helping cover part of the costs of printing and shipping our newsletter. We encourage you to support these businesses as a thank you for their partnership.
+
+--------|--------
+**AI6YM Radio** | <https://ai6ym.radio/>{:target="_blank"}
+**Anchor Electronics** | <https://anchor-electronics.com/>{:target="_blank"}
+**Ham Radio Outlet** | <https://www.hamradio.com/>{:target="_blank"}
+**Powerflare** | <http://www.powerflare.com/>{:target="_blank"}
+**Rescue Tape** | <https://www.rescuetape.com/>{:target="_blank"}
+
+## PAARAgraphs Ad Rates
+
+[PAARAgraphs](/newsletter.html) accepts paid advertisements from non-members.
+
+1. Short personal ads remain free for members in good standing.
+2. Not-for-profit ads by association members for ham-related items and wants.
+   * No cost for business card–size ads.
+   * Additional space at $2.50 per business card size per issue.
+3. For Profit organizations and/or individuals:
+   * $5 for business card size
+   * $14 for quarter page
+   * $25 for half page
+   * $50 for full page or back cover per issue
+
+**All ad rates listed are per issue.**
+

@@ -7,31 +7,13 @@ Please contact ai6kg@arrl.net for any questions.
 
 ## PAARA W6OTX Repeaters
 
-Located near Alum Rock Park, San Jose
-
-### VHF DMR
-
-* **144.9625 MHz +2.5 MHz CC3**  
-* `Slot 1`: Dynamic
-* `Slot 2`: NorCal BM (31068)
-
-### UHF DMR
-
-* **444.475 MHz +5 MHz CC1**
-* `Slot 1`: Dynamic
-* `Slot 2`: NorCal BM (31068)
-
-### 33cm (902 MHz) FM  
-
-* **927.225 MHz -25 MHz PL 107.2 Hz**
-* AllstarLink Node 65314
-* Echolink Node W6OTX-R
+{% include w6otx-repeaters.md %}
 
 ## Notes about using Dynamic Talkgroups on W6OTX
 
-* Please use Dynamic TGs only on TS1.
-* Dynamic TGs are automatically disconnected after 15min of no uplink activity.
-* BrandMeister USA doesn’t anymore support use of Reflectors, but feel free to use Dynamic TG’s on the TS 1. All you need to do is key-up on the BrandMeister TG you want to connect to, and it gets connected to the repeater until the time-out.
+* Please use dynamic talkgroups only on TS1.
+* Just key-up on the BrandMeister talkgroup on TS1 that you want to connect to, and it wll get connected to the repeater.
+* Dynamic talkgroups are automatically disconnected after 15 minutes of no uplink activity.
 
 Few useful links for much more information about DMR, BrandMeister and other active DMR repeater groups around our area:
 

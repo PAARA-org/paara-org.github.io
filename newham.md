@@ -4,6 +4,12 @@ layout: default
 
 # Welcome, New Hams
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 We're looking forward to seeing you at our next meeting or event!
 
 ## Free Membership

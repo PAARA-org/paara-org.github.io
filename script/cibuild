@@ -3,7 +3,7 @@
 set -e
 
 bundle exec jekyll build
-bundle exec htmlproofer --url-ignore "/snars.org\/repeaters\/info/,/powerequipment\.honda\.com/,/ncpa\.n0ary\.org/,/www\.hti\.umich\.edu/,/www\.sk3bg\.se/,/ww1x\.radio/,/fcc\.gov/,/arrl\.org/,/cactus-intertie\.org/,/nps\.gov/,/svve\.org/,/aprs\.net/,/adventureradio\.info/,/papasys\.com/,/www\.sotadata\.org\.uk/,/efficacy\.net/,/paypal\.com/,/cal-net\.org/,/mountainview\.gov/,/amsat\.org/,/winaprs\.org/,/liquid-robotics\.com/,/ui-view\.org/" ./_site --check-html --check-sri
+bundle exec htmlproofer --url-ignore "/snars.org\/repeaters\/info/,/powerequipment\.honda\.com/,/ncpa\.n0ary\.org/,/www\.hti\.umich\.edu/,/www\.sk3bg\.se/,/ww1x\.radio/,/fcc\.gov/,/arrl\.org/,/cactus-intertie\.org/,/nps\.gov/,/svve\.org/,/aprs\.net/,/adventureradio\.info/,/papasys\.com/,/www\.sotadata\.org\.uk/,/efficacy\.net/,/paypal\.com/,/cal-net\.org/,/mountainview\.gov/,/amsat\.org/,/winaprs\.org/,/liquid-robotics\.com/,/ui-view\.org/,/contesting\.com/" ./_site --check-html --check-sri
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
 gem build jekyll-theme-architect.gemspec

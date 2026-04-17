@@ -1,10 +1,16 @@
 # Membership Information and Badges
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 ## Membership History
 
-PAARA membership has fluctuated over the years, but might be larger now than it ever has been. According to the January 1, 1973 membership roster for the Palo Alto Amateur Radio Association (W6OTX) and Menlo Park Civil Defense Radio Club (K6YQT), which integrated themselves many years ago, the club had 70 members, including some who are still (or again) members: Dean Babcock, W6OEB; Andy Korsak, VE3FZK/W6; and John A. Cameron III (no callsign).
+PAARA membership has fluctuated over the years, but might be larger now than it ever has been. According to the January 1, 1973 membership roster for the Palo Alto Amateur Radio Association (W6OTX) and Menlo Park Civil Defense Radio Club (K6YQT) (which eventually merged), the club had 70 members, including some who are still members today.
 
-Today, the Palo Alto Amateur Radio Association consists of nearly 200 members, and is one of the oldest amateur radio clubs in California.
+Today, the Palo Alto Amateur Radio Association consists of over 200 members, and is one of the oldest amateur radio clubs in California.
 
 ## Member list
 
@@ -15,6 +21,7 @@ If you want to access the most up-to-date member list, please click [here](https
 
 | Name | Call Sign | Silent Key | Proclamation | Award year |
 |------|-----------|------------|--------------|------------|
+| Doug Teter | [KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"} | -- | [pdf](/membership/Doug_Teter_proclamation.pdf) | 2026 |
 | Andrew Korsak | [KR6DD](https://www.qrz.com/db/KR6DD){:target="_blank"} | -- | [pdf](/membership/Andy_Korsak_proclamation.pdf) | 2024 |
 | Jim Rice | [K6AK](https://www.qrz.com/db/K6AK){:target="_blank"} | -- | [pdf](/membership/Jim_Rice_proclamation2.pdf) | 2022 |
 | Vic Black | [AB6SO](https://www.qrz.com/db/AB6SO){:target="_blank"} | SK | [pdf](/membership/Vic_Black_certificate.pdf)  | 2021 |
@@ -24,42 +31,34 @@ If you want to access the most up-to-date member list, please click [here](https
 | Leslie Vickery | [W6AKR](https://www.qrz.com/db/W6AKR){:target="_blank"} | SK | -- | -- |
 | Ron Panton | [W6VG](https://www.qrz.com/db/W6VG){:target="_blank"} | SK | -- | 2003-07 |
 
-## Membership And Badges
+## Becoming a member
 
-Membership is available to all persons licensed or not who are interested in Amateur radio. There is no screening process or sponsorship required to become a member.
+Membership is available to all persons interested in Amateur radio. There is no screening process or sponsorship required to become a member. We encourage prospective members to sign up for membership at our meetings.
 
-**For Membership and Badges, please choose the appropriate link below.**
+**`Primary` member dues are $25.00 per year which provides full membership privileges, including**:
 
-<table align="center" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse" width="640">
-	<tbody>
-		<tr>
-			<td bgcolor="#CCFFCC" height="30">
-			<div align="center"><span style="color:red;font-weight:bold;">New Members</span></div>
-			</td>
-			<td bgcolor="#CCFFCC">
-			<div align="center"><span style="color:blue;font-weight:bold;">Existing Members</span></div>
-			</td>
-			<td bgcolor="#CCFFCC">
-			<div align="center"><span style="font-weight:bold;">International Members</span></div>
-			</td>
-		</tr>
-		<tr>
-			<td bgcolor="#FFFF99" valign="top" width="33%">
-			<div align="center"><span>To become a PAARA member,</span><br />
-			<a href="/membership/new.html"><img border="0" height="50" src="/images/clickhere-70.png" vspace="5" width="50" alt="button" /></a><br />
-			<span class="tahoma-14">for a Membership Application and Badges</span></div>
-			</td>
-			<td bgcolor="#FFFF99" valign="top" width="33%">
-			<div align="center"><span>To renew your Membership and Badges</span><br />
-			<a href="/membership/current.html"><img border="0" height="50" src="/images/clickhere-70.png" vspace="5" width="50" alt="button" /></a><br />
-			<span class="tahoma-14">Renewal can be done via<br />
-			Credit Card, PayPal, or by mail.</span></div>
-			</td>
-			<td bgcolor="#FFFF99" valign="middle" width="33%">
-			<div align="center"><span>For information about becoming a PAARA member please contact Membership Secretary, </span><br />
-			<span class="color:blue">Ric Hulett (N6AJS) at:<br />
-			<a href="mailto:n6ajs@paara.org">n6ajs@paara.org</a></span></div>
-			</td>
-		</tr>
-	</tbody>
-</table>
+* **Membership Roster**: A current membership roster, containing the names of all members, and the phone numbers and E-mail addresses of those that provide the information.
+* **PAARA Newsletter**: Full members get immediate online access to the most current copy of PAARAgraphs, the club newsletter.   They also receive a paper copy mailed to their households each month if they opt for paper delivery.
+* **Voting At Annual Elections**
+
+**`Family`** member dues are just $6.00 per year. (One Primary member of the family pays the full dues of $25.00, enabling the rest of the family to join as Family members).
+
+## How do I join?
+
+There are two steps required to join PAARA:
+1. Fill in the online [membership application form](https://docs.google.com/forms/d/e/1FAIpQLScLMP-zbG2bEo7vGKKo813y-EPqIPW9LjH38Cyfx6iRtQtUhg/viewform?usp=sharing&ouid=110605337745431033132){:target="_blank"}
+2. [Pay the membership dues](/membership/pay.html) (waived for new hams - read [here](/newham.html){:target="_blank"})
+
+## How do I renew my membership?
+
+1. [Pay the membership dues](/membership/pay.html)
+
+## How do I update my personal information?
+
+If you need to update your personal information, please fill the [membership application form](https://docs.google.com/forms/d/e/1FAIpQLScLMP-zbG2bEo7vGKKo813y-EPqIPW9LjH38Cyfx6iRtQtUhg/viewform?usp=sharing&ouid=110605337745431033132){:target="_blank"} one more time and leave a comment just before clicking submit..
+
+## How can I order a badge?
+
+![membership/nametag-100.jpg](/membership/nametag-100.jpg)
+
+Please visit the dedicated page [here](/badges.html).

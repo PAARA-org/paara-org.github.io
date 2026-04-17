@@ -10,11 +10,11 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2025/202511-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2025/202511-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20265-5.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20265-4.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20265-3.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20265-2.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/20265-1.png" alt="image"></td>
     </tr>
     <tr>
         <td>5th Prize description</td>

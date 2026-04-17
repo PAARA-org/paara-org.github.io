@@ -1,3 +1,3 @@
 * **Zoom Meeting**:
-   * <https://us02web.zoom.us/j/83692257191>
-   * +16699006833,,83692257191# US (San Jose)
+   * <https://us02web.zoom.us/j/82143445051>
+   * +16699006833,,82143445051# US (San Jose)

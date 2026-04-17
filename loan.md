@@ -1,5 +1,11 @@
 # Radio Loan Program
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 Do you have a new or recent license upgrade?  Are you interested in DX, SSB, international contesting? Are you concerned about the “thousand-dollar upgrade”?
 
 If so, PAARA has a program designed specifically for you!  PAARA, ‘the friendliest club around’ wants to encourage newer hams to get on the HF bands, and explore the many aspects of amateur radio. To that end, we have established an HF rig `loaner program`.
@@ -10,7 +16,7 @@ The launch of this program was originally announced in the [May 2023 PAARAgraphs
 
 There are two club owned radios in the program at the moment.
 
-### Yaesu FT-920
+### Yaesu FT-920 (1/28/2026 out on loan)
 
 ![ft920](/images/ft920.jpg)
 

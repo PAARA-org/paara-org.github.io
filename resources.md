@@ -1,5 +1,11 @@
 # Resources
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 ## Local resources
 
 * [PAARA resources](/pages/res-paara.html)
@@ -23,22 +29,4 @@ Suitable for QSL cards, Printed Material, etc. Download [Here](/images/logo-300d
 ## PAARA Repeaters
 For more info visit [DMR and FM Repeaters](/pages/dmr-and-fm-repeaters.html)
 
-Located near Alum Rock Park, San Jose
-
-### VHF DMR
-
-* **144.9625 MHz +2.5 MHz CC3**
-* `Slot 1`: Dynamic
-* `Slot 2`: NorCal BM (31068)
-
-### UHF DMR
-
-* **444.475 MHz +5 MHz CC1**
-* `Slot 1`: Dynamic
-* `Slot 2`: NorCal BM (31068)
-
-### 33cm (902 MHz) FM
-
-* **927.225 MHz -25 MHz PL 100 Hz**
-* AllstarLink Node 45121
-
+{% include w6otx-repeaters.md %}
