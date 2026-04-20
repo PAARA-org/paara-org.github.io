@@ -7,7 +7,7 @@
 * [UI-View](http://www.ui-view.org/)
     * Easiest-to-use APRS software, but no zoomable maps without purchase of Precision Mapping.
     * APRS for Microsoft MapPoint. Great maps, but very limited features. $104 with MapPoint, $30 without.
-* [AGWTracker](http://www.elcom.gr/sv2agw/tracker.htm)
+* [AGWTracker](https://www.sv2agw.com/ham)
     * Newest Windows APRS software. Great GeoTIFF map support, several cool features. $50 to register.
 
 ## APRS Map Servers
