@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## PAARA In The Park April 2026
+
+Click [here](https://drive.google.com/drive/folders/1bq0-yMjyYLnO6Np19YOa-sttGJMlITE0?usp=drive_link){:target="_blank"} for more photographs taken during the event.
+
+![image](/events/images/2026/20260418-PITA-group-photo.jpg)
+
 ## Pacificon 2025
 
 Click [here](https://drive.google.com/drive/folders/1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P?usp=drive_link){:target="_blank"} for more photographs taken during the event.

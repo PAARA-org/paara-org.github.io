@@ -10,12 +10,6 @@ For more information, visit the [meetings page](/meetings.html).
 
 ---
 
-![Flyer](/events/images/20260418-PAARA-in-the-park.jpg)
-
-For more information, visit the [Events](/events.html) page.
-
----
-
 {% include parachute-mobile.md %}
 
 ---

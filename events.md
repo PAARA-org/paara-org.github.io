@@ -1,1 +1,1 @@
-events/20260418.md
+events/no-upcoming-events.md

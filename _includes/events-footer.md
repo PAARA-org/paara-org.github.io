@@ -1,5 +1,6 @@
 ## Past events
 
+* [2026/04/18 : PAARA In The Park](/events/20260418.html)
 * [2025/10/10 - 2025/10/12 : Pacificon](/events/pacificon-2025.html)
 * [2025/09/13 : PAARA In The Park](/events/20250913.html)
 * [2025/09/23 : USS Hornet](/events/20250823.html)
