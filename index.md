@@ -10,7 +10,12 @@ For more information, visit the [meetings page](/meetings.html).
 
 ---
 
-{% include parachute-mobile.md %}
+**Field Day** is June 27 and 28. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
+
+PAARA has a 2026 edition Feid Day T-shirt available for purchase. Check out the example below. To ensure that you receive your T-shirt in time for Field Day, you must [place your order](https://forms.gle/XeVHqMCGqZKbVAgm9){:target="_blank"} by May 15.
+
+![field-day-2026-tshirt.jpg](/fieldday/field-day-2026-tshirt.jpg)
+
 
 ---
 
