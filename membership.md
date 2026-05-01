@@ -23,6 +23,7 @@ If you want to access the most up-to-date member list, please click [here](https
 |------|-----------|------------|--------------|------------|
 | Doug Teter | [KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"} | -- | [pdf](/membership/Doug_Teter_proclamation.pdf) | 2026 |
 | Andrew Korsak | [KR6DD](https://www.qrz.com/db/KR6DD){:target="_blank"} | -- | [pdf](/membership/Andy_Korsak_proclamation.pdf) | 2024 |
+| Ron Chester | [W6AZ](https://www.qrz.com/db/W6AZ){:target="_blank"} | -- | [pdf](/membership/Ron_Chester_proclamation.pdf) | 2023 |
 | Jim Rice | [K6AK](https://www.qrz.com/db/K6AK){:target="_blank"} | -- | [pdf](/membership/Jim_Rice_proclamation2.pdf) | 2022 |
 | Vic Black | [AB6SO](https://www.qrz.com/db/AB6SO){:target="_blank"} | SK | [pdf](/membership/Vic_Black_certificate.pdf)  | 2021 |
 | Gerry Tucker | [N6NV](https://www.qrz.com/db/N6NV){:target="_blank"} | -- | [pdf](/membership/Gerry_proclamantion_3.pdf) | 2019 |
