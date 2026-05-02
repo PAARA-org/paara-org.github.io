@@ -1,1 +1,1 @@
-meetings/2026/202605.md
+meetings/2026/202606.md

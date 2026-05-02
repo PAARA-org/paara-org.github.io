@@ -40,6 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
+* [202605](/meetings/2026/202605.html)  **David KD0BTO** : `Pushing FT8 Decoding Further` (<mark>with video</mark>)
 * [202604](/meetings/2026/202604.html)  **Tim Hale, K5OHY** : `Understanding the End-Fed Half-Wave: Design, Configuration, and Performance` (<mark>with video</mark>)
 * [202603](/meetings/2026/202603.html)  **Many, not just one** : `Homebrew Night` (<mark>with video</mark>)
 * [202602](/meetings/2026/202602.html)  **Rachel Kinoshita (KK6DAC)** and **Mason Matich (KC3WNY)** : `The Stanford AREDN Project: From Concept to Completion` (<mark>with video</mark>)
