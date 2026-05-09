@@ -1,5 +1,11 @@
 # DMR and FM Repeaters
 
+---
+**Table of Contents**
+* Table of Contents
+{:toc}
+---
+
 PAARA operates a 2m DMR repeater, a 70cm DMR repeater, and a 33cm FM repeater.
 
 The repeaters are located adjacent to Alum Rock Park at about 750 feet ASL. 
