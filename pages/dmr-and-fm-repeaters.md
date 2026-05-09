@@ -16,11 +16,10 @@ Please contact [AI6KG](mailto:ai6kg@arrl.net) for any questions.
 
 # FM 33cm (902 MHz)
 
-The FM repeater is on [AllstarLink](https://allstarlink.org/) and [Echolink](https://www.echolink.org/).
+**FM 927.075 MHz -25 MHz PL 107.2 Hz**
 
-Connect via:
+The FM repeater is also on [AllstarLink](https://allstarlink.org/) and [Echolink](https://www.echolink.org/):
 
-* FM **927.075 MHz -25 MHz PL 107.2 Hz**
 * [AllstarLink Node 65314](https://stats.allstarlink.org/nodeinfo.cgi?node=65314)
 * [Echolink Node W6OTX-R (462971)](https://www.repeaterbook.com/repeaters/echolink/node_status.php?node=462971&type=search)
 
@@ -66,33 +65,39 @@ disconnect the last node connected.
 
 # DMR
 
-The [W6OTX ID
-(3224295)](https://database.radioid.net/database/view?id=3224295) is
-the [PAARA TG
-(3224295)](https://brandmeister.network/?page=lh&lang=EN&DestinationID=3224295).
-
-_We encourage PAARA members to include the W6OTX TG in their codeplugs._
+## BrandMeister
 
 The DMR repeaters are connected to the [BrandMeister network](https://brandmeister.network/).
 
-You can connect to the PAARA W6OTX talkgroup on your hotspot or on any
-repeater (that allows dynamic TGs) that talks to BrandMeister.  
+## PAARA Talkgroup
+
+We use the [W6OTX DMR ID
+(3224295)](https://database.radioid.net/database/view?id=3224295) as
+the [PAARA talkgroup (TG) ID 
+(3224295)](https://brandmeister.network/?page=lh&lang=EN&DestinationID=3224295).
+
+This is the talkgroup to use to talk to PAARA members!
+
+_We encourage PAARA members to include the W6OTX TG (3224295) in their
+codeplugs._
 
 You can also listen in on the PAARA talkgroup on
 [Hoseline](https://hose.brandmeister.network/?subscribe=3224295)
 (click Player in the top right for the audio to start).
 
+You can connect to the PAARA W6OTX talkgroup on your hotspot or on any
+repeater (that allows dynamic TGs) that talks to BrandMeister.  
 
-## [VHF DMR (DMR ID 310714)](https://brandmeister.network/?page=device&id=310714)
+## W6OTX VHF DMR [(310714)](https://brandmeister.network/?page=device&id=310714)
 
-**144.9625 MHz +2.5 MHz CC3**
+**DMR 144.9625 MHz +2.5 MHz CC3**
 * Slot 1: Dynamic
 * Slot 2: NorCal BM (31068)
 
 
-## [UHF DMR (DMR ID 310715)](https://brandmeister.network/?page=device&id=310715)
+## W6OTX UHF DMR [(310715)](https://brandmeister.network/?page=device&id=310715)
 
-**444.475 MHz +5 MHz CC1**
+**DMR 444.475 MHz +5 MHz CC1**
 * Slot 1: Dynamic
 * Slot 2: NorCal BM (31068)
 
@@ -106,7 +111,7 @@ More info to come.
 
 * Please use dynamic talkgroups only on TS1.
 * Just key-up on the BrandMeister talkgroup on TS1 that you want to
-  connect to, and it will get connected automatically.
+  connect to and it will get connected automatically.
 * Dynamic talkgroups are disconnected after 15 minutes of no uplink
   activity.
 
@@ -119,11 +124,13 @@ More info to come.
 
 # N6NFI/R
 
+**FM 145.230 MHz (-600 Hz), PL 100 Hz**
+
 [N6NFI/R](https://www.fars.k6ya.org/repeaters/n6nfi) is a local 2m FM
 repeater with superb coverage of the Bay Area.
 
-145.230 MHz (-600 Hz), PL 100 Hz
+N6NFI/R isn't a PAARA repeater, but is important to the club, as it is
+used for our club nets. It is also one of the most active machines in
+the area.  
 
-N6NFI/R isn't a PAARA repeater but is important to the club, as it is
-used for the club nets and is one of the most active machines in the
-area.  We recommend all club members to program it into their radios.
+_We recommend all club members to program N6NFI/R into their radios._
