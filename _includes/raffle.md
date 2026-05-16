@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/20266-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20266-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20266-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20266-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20266-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202606-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202606-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202606-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202606-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202606-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <td>5th Prize description</td>
-        <td>4th Prize description</td>
-        <td>3rd Prize description</td>
-        <td>2nd Prize description</td>
-        <td>1st Prize description</td>
+        <th>Soundcore Select 4 Go Bluetooth Speaker</th>
+        <th>Digital Wall Clock, 16&quot; Display</th>
+        <th>Klein Tools Heavy-Duty Wire Stripper</th>
+        <th>Nitecore NB10000 Gen 2 Power Bank</th>
+        <th>Bioenno Power 12v, 12Ah LiFePO4 Battery</th>
     </tr>
   </table>
 </details>
