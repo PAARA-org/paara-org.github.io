@@ -17,11 +17,11 @@
         <td><img src="/meetings/raffle/2026/202606-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <th>Soundcore Select 4 Go Bluetooth Speaker</th>
-        <th>Digital Wall Clock, 16&quot; Display</th>
-        <th>Klein Tools Heavy-Duty Wire Stripper</th>
-        <th>Nitecore NB10000 Gen 2 Power Bank</th>
-        <th>Bioenno Power 12v, 12Ah LiFePO4 Battery</th>
+        <td>Soundcore Select 4 Go Bluetooth Speaker</td>
+        <td>Digital Wall Clock, 16&quot; Display</td>
+        <td>Klein Tools Heavy-Duty Wire Stripper</td>
+        <td>Nitecore NB10000 Gen 2 Power Bank</td>
+        <td>Bioenno Power 12v, 12Ah LiFePO4 Battery</td>
     </tr>
   </table>
 </details>
