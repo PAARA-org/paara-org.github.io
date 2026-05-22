@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## Antenna Party #1 May 2026
+
+Click [here](https://drive.google.com/drive/folders/1zOX7CrEHZfCd9sFirHwLuGcfTFNlJBtd){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2026-antenna-party-1.jpg)
+
 ## PAARA In The Park April 2026
 
 Click [here](https://drive.google.com/drive/folders/1bq0-yMjyYLnO6Np19YOa-sttGJMlITE0?usp=drive_link){:target="_blank"} for more photographs taken during the event.
