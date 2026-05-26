@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## Antenna Party #2 May 2026
+
+Click [here](https://drive.google.com/drive/folders/1GmVfPO3n6nkftSHZ-x_XN6su5G_e0KU2){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2026-antenna-party-2.jpg)
+
 ## Antenna Party #1 May 2026
 
 Click [here](https://drive.google.com/drive/folders/1zOX7CrEHZfCd9sFirHwLuGcfTFNlJBtd){:target="_blank"} for more pictures.
