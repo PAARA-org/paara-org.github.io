@@ -2,7 +2,7 @@
 layout: default
 ---
 
-> ## **The July meeting has been moved to June 5 due to the July 4th holiday.**
+> ## **The July meeting has been moved to July 10th due to the July 4th holiday.**
 
 {% include meeting-short.md %}{% include zoom-details.md %}
 
