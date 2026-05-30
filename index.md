@@ -2,6 +2,8 @@
 layout: default
 ---
 
+> ## 📢 **The July meeting has been moved to July 10 due to the July 4th holiday.**
+
 {% include meeting-short.md %}{% include zoom-details.md %}
 
 For more information, visit the [meetings page](/meetings.html).
@@ -12,9 +14,7 @@ For more information, visit the [meetings page](/meetings.html).
 
 **Field Day** is June 27 and 28. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
 
-PAARA has a 2026 edition Field Day T-shirt available for purchase. Check out the example below. To ensure that you receive your T-shirt in time for Field Day, you must [place your order](https://forms.gle/XeVHqMCGqZKbVAgm9){:target="_blank"} by May 15.
-
-![field-day-2026-tshirt.jpg](/fieldday/field-day-2026-tshirt.jpg)
+Field Day T-shirts are expected to be completed in time to be passed out at the July 5th meeting. If you cannot make it to the meeting they will be available for pick up at the Field Day site, Bedwell Bayfront Park, during Field Day weekend. You can also pick up your T-shirt in Redwood City. Email Rob, at [kc6tyd@paara.org](mailto:kc6tyd@paara.org), to coordinate a date and time.
 
 
 ---
