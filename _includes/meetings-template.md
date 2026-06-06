@@ -40,6 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
+* [202606](/meetings/2026/202606.html)  **Rachel Lee** : `The California Historical Radio Society: Preserving the Foundations of Modern Communication`
 * [202605](/meetings/2026/202605.html)  **David KD0BTO** : `Pushing FT8 Decoding Further` (<mark>with video</mark>)
 * [202604](/meetings/2026/202604.html)  **Tim Hale, K5OHY** : `Understanding the End-Fed Half-Wave: Design, Configuration, and Performance` (<mark>with video</mark>)
 * [202603](/meetings/2026/202603.html)  **Many, not just one** : `Homebrew Night` (<mark>with video</mark>)
