@@ -5,6 +5,11 @@
 * Table of Contents
 {:toc}
 ---
+## Antenna Party #4 June 2026
+
+Click [here](https://drive.google.com/drive/folders/1saOwZFb-a9gaGV9-0JZ0rSa79a01to8m?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2026-antenna-party-4.jpg)
 
 ## Antenna Party #3 May 2026
 
