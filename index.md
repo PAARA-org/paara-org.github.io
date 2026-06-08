@@ -8,7 +8,11 @@ layout: default
 
 For more information, visit the [meetings page](/meetings.html).
 
-> ## **Field Day** is June 27 and 28. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
+---
+
+**Field Day** is June 27 and 28. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
+
+---
 
 {% include raffle.md %}
 
