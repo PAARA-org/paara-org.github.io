@@ -5,6 +5,12 @@
 * Table of Contents
 {:toc}
 ---
+## Electronics Flea Market June 2026
+
+Click [here](https://drive.google.com/drive/folders/1ePiQI0nH6rk7ouAIYY9ZzaY6bRSNLWc9?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/events/images/Electronics_Flea_Market_06_13_2026.jpg)
+
 ## Antenna Party #4 June 2026
 
 Click [here](https://drive.google.com/drive/folders/1saOwZFb-a9gaGV9-0JZ0rSa79a01to8m?usp=drive_link){:target="_blank"} for more pictures.
