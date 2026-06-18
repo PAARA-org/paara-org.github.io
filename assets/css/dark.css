@@ -1,0 +1,153 @@
+/* Dark mode overrides. Light is the default; these rules apply only when
+   data-theme="dark" is set on <html> (see theme-toggle.js). */
+
+/* TOGGLE BUTTON */
+
+.theme-toggle {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+  background: rgba(13, 27, 42, 0.35);
+  border: solid 1px rgba(255, 255, 255, 0.55);
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.theme-toggle:hover {
+  background: rgba(13, 27, 42, 0.6);
+  transform: scale(1.06);
+}
+.theme-toggle:focus-visible {
+  outline: solid 2px #9ddcff;
+  outline-offset: 2px;
+}
+.theme-toggle svg {
+  display: block;
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+/* Moon shows in light mode; sun shows in dark mode. */
+.theme-toggle .icon-sun {
+  display: none;
+}
+.theme-toggle .icon-moon {
+  display: block;
+}
+html[data-theme="dark"] .theme-toggle .icon-sun {
+  display: block;
+}
+html[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
+}
+html[data-theme="dark"] .theme-toggle {
+  color: #ffd45e;
+  background: rgba(230, 233, 238, 0.12);
+  border-color: rgba(230, 233, 238, 0.5);
+}
+html[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(230, 233, 238, 0.22);
+}
+
+/* LAYOUT STYLES */
+
+html[data-theme="dark"] body {
+  color: #c7cbd1;
+  background: #14171c;
+  background-image: none;
+}
+
+html[data-theme="dark"] a {
+  color: #6cb0f0;
+}
+html[data-theme="dark"] a:hover {
+  color: #8cc4f7;
+}
+
+html[data-theme="dark"] header {
+  background: #0d1b2a;
+  background-image: none;
+  border-bottom-color: #1d2b3a;
+}
+
+html[data-theme="dark"] #content-wrapper {
+  border-top-color: #2d333b;
+}
+
+html[data-theme="dark"] aside#sidebar {
+  background-image: none;
+}
+
+/* The base theme forces the current nav item to black; restore it for dark. */
+html[data-theme="dark"] .sidebar.current {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+html[data-theme="dark"] code,
+html[data-theme="dark"] pre {
+  color: #c7cbd1;
+}
+html[data-theme="dark"] code {
+  background-color: #1c2128;
+  border-color: #2d333b;
+}
+html[data-theme="dark"] pre {
+  background: #1c2128;
+  border-color: #2d333b;
+}
+html[data-theme="dark"] pre code {
+  color: #c7cbd1;
+  background-color: transparent;
+}
+
+/* COMMON STYLES */
+
+html[data-theme="dark"] hr {
+  border-top-color: #2d333b;
+}
+
+html[data-theme="dark"] table,
+html[data-theme="dark"] td {
+  border-color: #2d333b;
+}
+
+html[data-theme="dark"] form {
+  background: #1c2128;
+}
+
+/* GENERAL ELEMENT TYPE STYLES */
+
+html[data-theme="dark"] #main-content h1,
+html[data-theme="dark"] #main-content h2,
+html[data-theme="dark"] #main-content h3,
+html[data-theme="dark"] #main-content h4,
+html[data-theme="dark"] #main-content h5,
+html[data-theme="dark"] #main-content h6 {
+  color: #e6e9ee;
+}
+
+html[data-theme="dark"] blockquote {
+  border-left-color: #3a4250;
+}
+
+html[data-theme="dark"] footer {
+  color: #8b919a;
+}
+html[data-theme="dark"] footer a {
+  color: #aab1bb;
+}
+html[data-theme="dark"] footer a:hover {
+  color: #cfd4db;
+}
