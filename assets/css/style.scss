@@ -9,3 +9,31 @@
   text-decoration-color: black;
   color: black;
 }
+
+/* 1. Explicitly define Light Mode colors first */
+.custom-notice {
+  background-color: #f4f7f6 !important; /* Forces light gray background */
+  border-left: 5px solid #1e6bb8 !important; /* Architect Blue */
+  color: #2f3e46 !important; /* Dark text for readability */
+  padding: 12px 18px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+
+  strong {
+    color: #1e6bb8 !important;
+  }
+}
+
+/* 2. Switch to Dark Mode only if the system explicitly requests it */
+@media (prefers-color-scheme: dark) {
+  .custom-notice {
+    background-color: #1f292e !important; /* Dark background */
+    border-left-color: #3a86d4 !important; /* Brighter blue for contrast */
+    color: #e2e8f0 !important; /* Light text */
+
+    strong {
+      color: #3a86d4 !important;
+    }
+  }
+}
+
