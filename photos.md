@@ -5,6 +5,13 @@
 * Table of Contents
 {:toc}
 ---
+
+## Network Day 2026
+
+Click [here](https://drive.google.com/drive/folders/1IzZ67XYVJckpK2CaF_tNbaPrIZJivihV?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2026-network-day.jpg)
+
 ## Electronics Flea Market June 2026
 
 Click [here](https://drive.google.com/drive/folders/1ePiQI0nH6rk7ouAIYY9ZzaY6bRSNLWc9?usp=drive_link){:target="_blank"} for more pictures.
