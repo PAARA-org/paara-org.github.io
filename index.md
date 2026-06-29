@@ -3,21 +3,12 @@ layout: default
 ---
 
 <div class="custom-notice">
-<strong>💡 Notice:</strong> Field Day has moved to Doug KG6LWE's Radio Ranch, 11479 Carls Court, San Martin (<a href="https://www.google.com/maps/search/?api=1&query=11479+Carls+Court%2C+San+Martin%2C+CA" target="_blank" rel="noopener">Google Maps</a>).
+<strong>💡 Notice: The July meeting has been moved to July 10th due to the July 4th holiday!</strong> 
 </div>
-
-## **The July meeting has been moved to July 10th due to the July 4th holiday.**
 
 {% include meeting-short.md %}{% include zoom-details.md %}
 
 For more information, visit the [meetings page](/meetings.html).
-
-
----
-
-**Field Day** is June 27 and 28. Check the [field day page](/fieldday.html) to find out more information about how you can get involved.
-
----
 
 {% include raffle.md %}
 
