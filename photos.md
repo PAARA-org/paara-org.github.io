@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## Field Day 2026
+
+Click [here](https://drive.google.com/drive/folders/1A6YrwOTqALL5K2kHTnw0Dr5bHQLFRx8h?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/fieldday/images/2026-field-day.jpg)
+
 ## Network Day 2026
 
 Click [here](https://drive.google.com/drive/folders/1IzZ67XYVJckpK2CaF_tNbaPrIZJivihV?usp=drive_link){:target="_blank"} for more pictures.
