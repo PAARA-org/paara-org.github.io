@@ -8,6 +8,8 @@
   link: /calendar.html
 - name: Events
   link: /events.html
+- name: Setup Guides
+  link: /events/setup-guides/index.html
 - name: Field Day
   link: /fieldday.html
 - name: Meetings
