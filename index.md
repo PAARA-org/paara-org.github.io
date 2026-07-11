@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<div class="custom-notice">
-<strong>💡 Notice: The July meeting has been moved to July 10th due to the July 4th holiday!</strong> 
-</div>
-
 {% include meeting-short.md %}{% include zoom-details.md %}
 
 For more information, visit the [meetings page](/meetings.html).
