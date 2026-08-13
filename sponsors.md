@@ -6,7 +6,7 @@ Our sponsors play a vital role in our community by helping cover part of the cos
 **AI6YM Radio** | <https://ai6ym.radio/>{:target="_blank"}
 **Anchor Electronics** | <https://anchor-electronics.com/>{:target="_blank"}
 **Ham Radio Outlet** | <https://www.hamradio.com/>{:target="_blank"}
-**Powerflare** | <http://www.powerflare.com/>{:target="_blank"}
+**Powerflare** | <https://www.pfdci.com/>{:target="_blank"}
 **Rescue Tape** | <https://www.rescuetape.com/>{:target="_blank"}
 
 ## PAARAgraphs Ad Rates
