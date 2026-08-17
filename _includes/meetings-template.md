@@ -40,7 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
-* [202608](/meetings/2026/202608.html)  **Greg Mihran, KJ6ER** : `Antenna design, efficiency, and portability`
+* [202608](/meetings/2026/202608.html)  **Greg Mihran, KJ6ER** : `Antenna design, efficiency, and portability` (<mark>with video</mark>)
 * [202607](/meetings/2026/202607.html)  **Justin, AI6YM; Ben, KN6UBF; Connie, W6EFI** : `Multiple Topics` (<mark>with video</mark>)
 * [202606](/meetings/2026/202606.html)  **Rachel Lee** : `The California Historical Radio Society: Preserving the Foundations of Modern Communication` (<mark>with video</mark>)
 * [202605](/meetings/2026/202605.html)  **David KD0BTO** : `Pushing FT8 Decoding Further` (<mark>with video</mark>)
@@ -281,4 +281,3 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 * [201010](/meetings/2010/201010.html)  **__?__** : `VP8THU DXpedition to the South Sandwich Islands of Southern Thule, in the Antarctic`
 * [201009](/meetings/2010/201009.html)  **__PRESENTER__** : `__TITLE__`
 * [201008](/meetings/2010/201008.html)  **Mark Laubach, K6FJC; Deputy Chief Radio Officer; SCCOES** : `Santa Clara Mutual Aid Communicator (MAC) Program`
-
