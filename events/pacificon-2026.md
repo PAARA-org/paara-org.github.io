@@ -1,7 +1,7 @@
 # Pacificon 2026
 
 
-[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon betwen **Friday, October 16** and **Sunday, October 18**. Please check their website for more information about the venue, hotels, and the talk schedule.
+[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon between **Friday, October 16** and **Sunday, October 18**. Please check their website for more information about the venue, hotels, and the talk schedule.
 
 ## What is PAARA doing at Pacificon?
 

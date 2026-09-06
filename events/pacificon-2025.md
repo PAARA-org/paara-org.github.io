@@ -1,7 +1,7 @@
 # Pacificon 2025
 
 
-[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon betwen **Friday, October 10** and **Sunday, October 12**. Please check their website for more information about the venue, hotels, and the talk schedule.
+[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon between **Friday, October 10** and **Sunday, October 12**. Please check their website for more information about the venue, hotels, and the talk schedule.
 
 ## Pictures
 

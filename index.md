@@ -11,7 +11,7 @@ For more information, visit the [meetings page](/meetings.html).
 ---
 ## Pacificon 2026
 
-[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon betwen **Friday, October 16** and **Sunday, October 18**.
+[Pacificon](https://www.pacificon.org){:target="_blank"} is taking place in San Ramon between **Friday, October 16** and **Sunday, October 18**.
 
 PAARA is responsible for setting up and managing the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} Special Event Station for Pacificon.
 
