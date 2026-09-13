@@ -37,8 +37,19 @@
             {% if page.url == item.link or page.url == item_link_with_baseurl %}
               {% assign is_current = true %}
             {% endif %}
+            {% if page.url == '/' and item.link == '/index.html' %}
+              {% assign is_current = true %}
+            {% endif %}
             {% if item.active_path %}
               {% if page.url contains item.active_path %}
+                {% assign is_current = true %}
+              {% endif %}
+            {% endif %}
+            {% assign prefix_slash = item.link | remove: '.html' | append: '/' | replace: '//', '/' %}
+            {% if prefix_slash != '/' and prefix_slash != '/index/' %}
+              {% assign prefix_len = prefix_slash.size %}
+              {% assign url_start = page.url | slice: 0, prefix_len %}
+              {% if url_start == prefix_slash %}
                 {% assign is_current = true %}
               {% endif %}
             {% endif %}
@@ -47,7 +58,19 @@
           <hr>
           {% for item in site.data.bottomsection %}
             {% assign item_link_with_baseurl = item.link | relative_url %}
-            <a class="sidebar{% if page.url == item.link or page.url == item_link_with_baseurl %} current{% endif %}" href="{{ item_link_with_baseurl }}">{{ item.name }}</a><br>
+            {% assign is_current = false %}
+            {% if page.url == item.link or page.url == item_link_with_baseurl %}
+              {% assign is_current = true %}
+            {% endif %}
+            {% assign prefix_slash = item.link | remove: '.html' | append: '/' | replace: '//', '/' %}
+            {% if prefix_slash != '/' and prefix_slash != '/index/' %}
+              {% assign prefix_len = prefix_slash.size %}
+              {% assign url_start = page.url | slice: 0, prefix_len %}
+              {% if url_start == prefix_slash %}
+                {% assign is_current = true %}
+              {% endif %}
+            {% endif %}
+            <a class="sidebar{% if is_current %} current{% endif %}" href="{{ item_link_with_baseurl }}">{{ item.name }}</a><br>
           {% endfor %}
         </aside>
 

@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/20269-5.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20269-4.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20269-3.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20269-2.png" alt="image"></td>
-        <td><img src="/meetings/raffle/2026/20269-1.png" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202609-5.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202609-4.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202609-3.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202609-2.jpeg" alt="image"></td>
+        <td><img src="/meetings/raffle/2026/202609-1.jpeg" alt="image"></td>
     </tr>
     <tr>
-        <td>5th Prize description</td>
-        <td>4th Prize description</td>
-        <td>3rd Prize description</td>
-        <td>2nd Prize description</td>
-        <td>1st Prize description</td>
+        <td>HOTO Pocket-Size Laser Measuring Tool. Keychain-ready, 98Ft Laser Tape Measure ±2mm accuracy, USB-C rechargeable, OLED display, Ft/M/in unit conversion</td>
+        <td>Koss SB40 computer headset with microphone. Works great with ham radio gear.</td>
+        <td>Rite in the Rain notepad kit.</td>
+        <td>Nooelec RTL-SDR v5 Bundle - NESDR Smart HF/VHF/UHF (100kHz-1.75GHz) Software Defined Radio.</td>
+        <td>The Radioddity GS-5B is an 8 watt dual-band analog handheld ham radio.</td>
     </tr>
   </table>
 </details>
