@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## Electronics Flea Market September 2026
+
+Click [here](https://drive.google.com/drive/folders/1ePiQI0nH6rk7ouAIYY9ZzaY6bRSNLWc9?usp=drive_link){:target="_blank"} for more pictures.
+
+![image](/events/images/Electronics_Flea_Market_09_12_2026.jpg)
+
 ## Field Day 2026
 
 Click [here](https://drive.google.com/drive/folders/1A6YrwOTqALL5K2kHTnw0Dr5bHQLFRx8h?usp=drive_link){:target="_blank"} for more pictures.

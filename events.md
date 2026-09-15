@@ -2,7 +2,6 @@
 
 ## Upcoming events
 
-* 2026/09/12 - Electronics Flea Market
 * [2026/10/03 - PAARA In The Park](/events/20261003.html)
 * [2026/10/16 - Pacificon](/events/pacificon-2026.html)
 
