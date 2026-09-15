@@ -12,7 +12,7 @@ For more information, visit the [meetings page](/meetings.html).
 
 ## PAARA In The Park 10/03/2026
 
-[![PAARA In The Park 2026](/events/images/PITP_banner_2026.jpg)](/events/20261003.md)
+[![PAARA In The Park 2026](/events/images/20261003-PAARA-in-the-park.jpg)](/events/20261003.md)
 
 ---
 ## Pacificon 2026
