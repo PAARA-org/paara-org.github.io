@@ -51,3 +51,5 @@ More details on the manufacture's website: <https://www.icomamerica.com/lineup/p
 
 Interested **club members** should email us at <radioloan@paara.org>, and either **Doug** ([KG6LWE](https://www.qrz.com/db/KG6LWE){:target="_blank"}) or **Ric** ([N6AJS](https://www.qrz.com/db/N6AJS){:target="_blank"}) will get in touch with you as soon as possible.
 
+NOTE: A written agreement and a $150 deposit are required.
+
