@@ -9,14 +9,6 @@ For more information, visit the [meetings page](/meetings.html).
 {% include raffle.md %}
 
 ---
-
-## PAARA In The Park 10/03/2026
-
-[![PAARA In The Park 2026](/events/images/20261003-PAARA-in-the-park.jpg)](/events/20261003.html)
-
-Visit the [event](/events/20261003.html) page for more information.
-
----
 ## Pacificon 2026
 
 [Pacificon](https://www.pacificon.org){:target="_blank"} runs in San Ramon from **Friday, October 16** through **Sunday, October 18**.
