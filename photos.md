@@ -6,6 +6,12 @@
 {:toc}
 ---
 
+## PAARA In The Park October 2026
+
+Click [here](https://drive.google.com/drive/folders/1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82?usp=drive_link){:target="_blank"} for more photographs taken during the event.
+
+![image](/events/images/2026/20261003-PITA.jpg)
+
 ## Electronics Flea Market September 2026
 
 Click [here](https://drive.google.com/drive/folders/1cRbEuwo7-tZYFPgPamXnm-8kGspkL6Z1?usp=drive_link){:target="_blank"} for more pictures.
