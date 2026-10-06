@@ -1,0 +1,410 @@
+/* assets/css/gallery.css
+   Modern, responsive gallery grid and thumbnail styling for PAARA website.
+   Ensures uniform thumbnail ratios (4:3) with object-fit: cover across all screen sizes.
+   Works seamlessly with light mode and dark mode (html[data-theme="dark"]). */
+
+.gallery-container {
+  margin: 1.25rem 0 2.25rem 0;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+    gap: 8px;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.gallery-item:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-color: #adb5bd;
+}
+
+.gallery-item:focus-visible {
+  outline: 2px solid #206095;
+  outline-offset: 2px;
+}
+
+/* CRITICAL: Absolute positioning guarantees edge-to-edge coverage inside aspect-ratio container */
+.gallery-item .gallery-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: transform 0.25s ease;
+}
+
+.gallery-item:hover .gallery-thumb {
+  transform: scale(1.05);
+}
+
+/* Video badge overlay */
+.gallery-item.is-video .video-play-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(13, 27, 42, 0.75);
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  transition: background 0.2s ease, transform 0.2s ease;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.gallery-item.is-video .video-play-badge svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  margin-left: 2px;
+}
+
+.gallery-item.is-video:hover .video-play-badge {
+  background: rgba(32, 96, 149, 0.9);
+  transform: translate(-50%, -50%) scale(1.12);
+}
+
+/* Action row below gallery (Count & Drive link & View all button) */
+.gallery-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.88rem;
+  margin-top: 0.5rem;
+}
+
+.gallery-counts {
+  color: #6c757d;
+}
+
+.gallery-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.gallery-start-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background-color: #206095;
+  border: 1px solid #206095;
+  color: #ffffff;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+}
+
+.gallery-start-btn:hover {
+  background-color: #174b75;
+  border-color: #174b75;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.gallery-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background-color: #f1f3f5;
+  border: 1px solid #ced4da;
+  color: #206095;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.gallery-toggle-btn:hover {
+  background-color: #206095;
+  border-color: #206095;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.gallery-drive-link {
+  color: #6c757d;
+  font-size: 0.82rem;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.gallery-drive-link:hover {
+  color: #206095;
+  text-decoration-style: solid;
+}
+
+/* Helper hint for embedded galleries */
+.gallery-hint {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 0.45rem;
+  font-size: 0.82rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+
+.gallery-hint-icon {
+  font-size: 0.95rem;
+  line-height: 1.2;
+  color: #206095;
+  flex-shrink: 0;
+}
+
+.gallery-container.is-expanded .gallery-hint {
+  display: none;
+}
+
+/* Hidden items before expansion */
+.gallery-item.gallery-item-extra {
+  transition: opacity 0.3s ease;
+}
+
+/* Fix GLightbox styling in dark mode */
+.goverlay {
+  background: rgba(0, 0, 0, 0.92) !important;
+}
+
+.gslide-media.gslide-image img {
+  max-height: 82vh !important;
+  max-width: 90vw !important;
+  object-fit: contain !important;
+}
+
+.glightbox-container .ginner-container.desc-bottom {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: auto !important;
+  max-height: 96vh !important;
+  margin: auto !important;
+}
+
+/* Remove Architect theme '//// ' prefix from lightbox title */
+.glightbox-container .gslide-title::before,
+.glightbox-container h4.gslide-title::before,
+.glightbox-clean .gslide-title::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* Elegant floating dark caption pill for lightbox slides */
+.glightbox-clean .gslide-description {
+  background: rgba(15, 23, 42, 0.88) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  border-radius: 20px !important;
+  padding: 8px 22px !important;
+  margin: 10px auto 0 auto !important;
+  max-width: min(85vw, 680px) !important;
+  width: auto !important;
+  text-align: center !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6) !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.glightbox-clean .gdesc-inner {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 3px !important;
+}
+
+.glightbox-clean .gslide-title {
+  color: #ffffff !important;
+  font-size: 0.96rem !important;
+  font-weight: 600 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  margin: 0 !important;
+  line-height: 1.35 !important;
+}
+
+.glightbox-clean .gslide-desc {
+  color: #cbd5e1 !important;
+  font-size: 0.82rem !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  margin: 0 !important;
+  line-height: 1.35 !important;
+}
+
+.gallery-slide-time {
+  color: #38bdf8 !important;
+  font-weight: 500 !important;
+}
+
+/* Video / External slide modal styling */
+.gslide-media.gslide-external {
+  background: #000000 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: min(960px, 92vw) !important;
+  max-width: 92vw !important;
+  aspect-ratio: 16 / 9 !important;
+  max-height: 75vh !important;
+  height: auto !important;
+  border-radius: 8px 8px 0 0 !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.75) !important;
+}
+
+.gslide-media.gslide-external iframe {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 240px !important;
+  border: none !important;
+  background: #000000 !important;
+  display: block !important;
+}
+
+.ginner-container:has(.gslide-external),
+.ginner-container.has-external-video {
+  height: auto !important;
+  max-height: 92vh !important;
+  width: min(960px, 92vw) !important;
+  max-width: 92vw !important;
+  margin: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.8) !important;
+}
+
+.ginner-container:has(.gslide-external) .gslide-description,
+.ginner-container.has-external-video .gslide-description {
+  width: 100% !important;
+  max-width: 100% !important;
+  background: #161b22 !important;
+  color: #f0f6fc !important;
+  border-radius: 0 0 8px 8px !important;
+  padding: 14px 20px !important;
+  box-sizing: border-box !important;
+  border-top: 1px solid #30363d !important;
+}
+
+.ginner-container:has(.gslide-external) .gslide-title,
+.ginner-container.has-external-video .gslide-title {
+  color: #ffffff !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 4px !important;
+}
+
+.ginner-container:has(.gslide-external) .gslide-desc,
+.ginner-container.has-external-video .gslide-desc {
+  color: #8b949e !important;
+  font-size: 0.88rem !important;
+}
+
+/* DARK MODE OVERRIDES */
+html[data-theme="dark"] .gallery-item {
+  background-color: #1c2128;
+  border-color: #2d333b;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .gallery-item:hover {
+  border-color: #444c56;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="dark"] .gallery-item:focus-visible {
+  outline-color: #6cb0f0;
+}
+
+html[data-theme="dark"] .gallery-item.is-video .video-play-badge {
+  background: rgba(13, 27, 42, 0.85);
+  border-color: #ffd45e;
+  color: #ffd45e;
+}
+
+html[data-theme="dark"] .gallery-item.is-video:hover .video-play-badge {
+  background: rgba(108, 176, 240, 0.9);
+  color: #0d1b2a;
+}
+
+html[data-theme="dark"] .gallery-counts {
+  color: #8b919a;
+}
+
+html[data-theme="dark"] .gallery-toggle-btn {
+  background-color: #1c2128;
+  border-color: #2d333b;
+  color: #6cb0f0;
+}
+
+html[data-theme="dark"] .gallery-toggle-btn:hover {
+  background-color: #6cb0f0;
+  border-color: #6cb0f0;
+  color: #14171c;
+}
+
+html[data-theme="dark"] .gallery-drive-link {
+  color: #8b919a;
+}
+
+html[data-theme="dark"] .gallery-drive-link:hover {
+  color: #6cb0f0;
+}
+
+html[data-theme="dark"] .gallery-hint {
+  color: #8b919a;
+}
+
+html[data-theme="dark"] .gallery-hint-icon {
+  color: #6cb0f0;
+}

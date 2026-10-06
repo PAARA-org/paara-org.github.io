@@ -1,5 +1,7 @@
 # Photos
 
+*Tip: On each visit, photo albums highlight a fresh, continuous slice of photos from the event. Click any thumbnail to browse from that moment, use **▶ Start from oldest** to follow the event chronologically from start to finish, or click **View all** to see the complete gallery.*
+
 ---
 **Table of Contents**
 * Table of Contents
@@ -8,123 +10,83 @@
 
 ## PAARA In The Park October 2026
 
-Click [here](https://drive.google.com/drive/folders/1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82?usp=drive_link){:target="_blank"} for more photographs taken during the event.
-
-![image](/events/images/2026/20261003-PITA.jpg)
+{% include gallery.html folder_id="1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82" limit=8 %}
 
 ## Electronics Flea Market September 2026
 
-Click [here](https://drive.google.com/drive/folders/1cRbEuwo7-tZYFPgPamXnm-8kGspkL6Z1?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/events/images/Electronics_Flea_Market_09_12_2026.jpg)
+{% include gallery.html folder_id="1cRbEuwo7-tZYFPgPamXnm-8kGspkL6Z1" limit=8 %}
 
 ## Field Day 2026
 
-Click [here](https://drive.google.com/drive/folders/1A6YrwOTqALL5K2kHTnw0Dr5bHQLFRx8h?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-field-day.jpg)
+{% include gallery.html folder_id="1A6YrwOTqALL5K2kHTnw0Dr5bHQLFRx8h" limit=8 %}
 
 ## Network Day 2026
 
-Click [here](https://drive.google.com/drive/folders/1IzZ67XYVJckpK2CaF_tNbaPrIZJivihV?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-network-day.jpg)
+{% include gallery.html folder_id="1IzZ67XYVJckpK2CaF_tNbaPrIZJivihV" limit=8 %}
 
 ## Electronics Flea Market June 2026
 
-Click [here](https://drive.google.com/drive/folders/1ePiQI0nH6rk7ouAIYY9ZzaY6bRSNLWc9?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/events/images/Electronics_Flea_Market_06_13_2026.jpg)
+{% include gallery.html folder_id="1ePiQI0nH6rk7ouAIYY9ZzaY6bRSNLWc9" limit=8 %}
 
 ## Antenna Party #4 June 2026
 
-Click [here](https://drive.google.com/drive/folders/1saOwZFb-a9gaGV9-0JZ0rSa79a01to8m?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-antenna-party-4.jpg)
+{% include gallery.html folder_id="1saOwZFb-a9gaGV9-0JZ0rSa79a01to8m" limit=8 %}
 
 ## Antenna Party #3 May 2026
 
-Click [here](https://drive.google.com/drive/folders/1LwCjwFPgHzLfAQh-PiMqYtp_r3ASSyo6){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-antenna-party-3.jpg)
+{% include gallery.html folder_id="1LwCjwFPgHzLfAQh-PiMqYtp_r3ASSyo6" limit=8 %}
 
 ## Antenna Party #2 May 2026
 
-Click [here](https://drive.google.com/drive/folders/1GmVfPO3n6nkftSHZ-x_XN6su5G_e0KU2){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-antenna-party-2.jpg)
+{% include gallery.html folder_id="1GmVfPO3n6nkftSHZ-x_XN6su5G_e0KU2" limit=8 %}
 
 ## Antenna Party #1 May 2026
 
-Click [here](https://drive.google.com/drive/folders/1zOX7CrEHZfCd9sFirHwLuGcfTFNlJBtd){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2026-antenna-party-1.jpg)
+{% include gallery.html folder_id="1zOX7CrEHZfCd9sFirHwLuGcfTFNlJBtd" limit=8 %}
 
 ## PAARA In The Park April 2026
 
-Click [here](https://drive.google.com/drive/folders/1bq0-yMjyYLnO6Np19YOa-sttGJMlITE0?usp=drive_link){:target="_blank"} for more photographs taken during the event.
-
-![image](/events/images/2026/20260418-PITA-group-photo.jpg)
+{% include gallery.html folder_id="1bq0-yMjyYLnO6Np19YOa-sttGJMlITE0" limit=8 %}
 
 ## Pacificon 2025
 
-Click [here](https://drive.google.com/drive/folders/1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P?usp=drive_link){:target="_blank"} for more photographs taken during the event.
-
-![image](/events/images/2025/pacificon.jpeg)
+{% include gallery.html folder_id="1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P" limit=8 %}
 
 ## PAARA In The Park September 2025
 
-Click [here](https://drive.google.com/drive/folders/1SDa_vbEOPX8oIGkRVRJhPsx5xoj0jy-n?usp=sharing){:target="_blank"} for more photographs taken during the event.
-
-![image](/events/images/2025/20250913-PITA-soldering.jpg)
+{% include gallery.html folder_id="1SDa_vbEOPX8oIGkRVRJhPsx5xoj0jy-n" limit=8 %}
 
 ## USS Hornet August 2025
 
-Click [here](https://drive.google.com/drive/folders/1kbdJdBriD9NU6NDemypaSKbKBFIqGC5C?usp=sharing){:target="_blank"} for more pictures.
-
-![image](/events/images/2025/uss-hornet-radio-club.jpg)
+{% include gallery.html folder_id="1kbdJdBriD9NU6NDemypaSKbKBFIqGC5C" limit=8 %}
 
 ## Field Day 2025
 
-Click [here](https://drive.google.com/drive/folders/1GC_4KvBGCKAhKpVJ7mvMoml3ELhVEzV2?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2025-field-day.jpg)
+{% include gallery.html folder_id="1GC_4KvBGCKAhKpVJ7mvMoml3ELhVEzV2" limit=8 %}
 
 ## Antenna party #3 June 2025
 
-Click [here](https://drive.google.com/drive/folders/1d0kaDwHEMC0d55ncbOw3IjxD36TcRZH_?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2025-antenna-party-3.jpg)
+{% include gallery.html folder_id="1d0kaDwHEMC0d55ncbOw3IjxD36TcRZH_" limit=8 %}
 
 ## Electronics Flea Market May 2025
 
-Click [here](https://drive.google.com/drive/folders/1dfzrSj6794Mx09dpJeFzk-vi3_iUsgBB?usp=drive_link){:target="_blank"} for more pictures.
-
-![image](/events/images/Electronics-Flea-Market-05-18-2025.fpeg)
+{% include gallery.html folder_id="1dfzrSj6794Mx09dpJeFzk-vi3_iUsgBB" limit=8 %}
 
 ## Antenna Party #2 May 2025
 
-![image](/fieldday/images/2025-antenna-party-2.jpg)
-
-Click [here](https://drive.google.com/drive/folders/12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI?usp=drive_link){:target="_blank"} for more pictures.
+{% include gallery.html folder_id="12rLN7qmxPZGCq2kmcqKQoBy_97bzRaLI" limit=8 %}
 
 ## Field Day 2019
 
-Click [here](https://drive.google.com/file/d/1X7B8sa8REHGBw8mC9BH9r5ne6pVJisfG/view?usp=drive_link){:target="_blank"} to view the time-lapse for the 40m beam and tower installation.
-
-![2019-field-day-40m-beam-and-tower-timelapse.png](/fieldday/images/2019-field-day-40m-beam-and-tower-timelapse.png)
+{% include gallery.html folder_id="1X7B8sa8REHGBw8mC9BH9r5ne6pVJisfG" limit=8 %}
 
 ## Antenna Party #1 May 2025
 
-Click [here](https://drive.google.com/drive/folders/12moAUAgE0SXoR_hgiooxX_FOZuLcKyn6){:target="_blank"} for more pictures.
-
-![image](/fieldday/images/2025-antenna-party-1.jpg)
+{% include gallery.html folder_id="12moAUAgE0SXoR_hgiooxX_FOZuLcKyn6" limit=8 %}
 
 ## PAARA In The Park May 2025
 
-Check [here](https://drive.google.com/drive/folders/1ZF-T91YtrTV37B_fNQRced4kS8BL3bDY?usp=sharing){:target="_blank"} for more photographs taken during [PAARA In The Park](/events/20250503.html)
-
-![image](/events/images/2025/20250503/IMG_9603.jpeg)
+{% include gallery.html folder_id="1ZF-T91YtrTV37B_fNQRced4kS8BL3bDY" limit=8 %}
 
 ## Pictures from the old website
 

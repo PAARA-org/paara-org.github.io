@@ -5,9 +5,7 @@
 
 ## Pictures
 
-Click [here](https://drive.google.com/drive/folders/1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P?usp=drive_link){:target="_blank"} for more photographs taken during the event.
-
-![image](/events/images/2025/pacificon.jpeg)
+{% include gallery.html folder_id="1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P" limit=6 %}
 
 ## What is PAARA doing at Pacificon?
 

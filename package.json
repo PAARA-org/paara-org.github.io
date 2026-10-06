@@ -1,0 +1,13 @@
+{
+  "name": "paara-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PAARA (Palo Alto Amateur Radio Association) Website",
+  "scripts": {
+    "postinstall": "node script/prepare-vendor.js",
+    "prepare-vendor": "node script/prepare-vendor.js"
+  },
+  "dependencies": {
+    "glightbox": "^3.3.0"
+  }
+}

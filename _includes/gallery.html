@@ -1,0 +1,121 @@
+{% assign folder_key = include.folder_id %}
+{% assign gallery = site.data.galleries[folder_key] %}
+
+{% if gallery and gallery.items.size > 0 %}
+  {% assign preview_limit = include.limit | default: 8 | plus: 0 %}
+  {% assign show_meta = include.show_meta | default: true %}
+  {% assign is_photos_page = false %}
+  {% if page.path == 'photos.md' or page.name == 'photos.md' or page.url == '/photos.html' or page.url == '/photos/' %}
+    {% assign is_photos_page = true %}
+  {% endif %}
+  {% assign show_hint = include.show_hint %}
+  {% if show_hint == nil %}
+    {% if is_photos_page %}
+      {% assign show_hint = false %}
+    {% elsif gallery.items.size > preview_limit %}
+      {% assign show_hint = true %}
+    {% else %}
+      {% assign show_hint = false %}
+    {% endif %}
+  {% endif %}
+
+  <div class="gallery-container" data-gallery-id="{{ folder_key }}">
+    <div class="gallery-grid" data-preview-limit="{{ preview_limit }}">
+      {% for item in gallery.items %}
+        {% assign is_extra = false %}
+        {% if forloop.index > preview_limit %}
+          {% assign is_extra = true %}
+        {% endif %}
+
+        {% assign item_caption = gallery.title %}
+        {% if item.date_time %}
+          {% assign item_caption = item_caption | append: " &bull; " | append: item.date_time %}
+        {% endif %}
+
+        {% if item.type == "video" %}
+          <a href="{{ item.preview }}"
+             class="gallery-item is-video glightbox{% if is_extra %} gallery-item-extra{% endif %}"
+             data-gallery="{{ folder_key }}"
+             data-type="external"
+             data-glightbox="type: external; width: 960px; height: 540px; title: {{ item.name | escape }}; description: Video &bull; {{ item_caption | escape }};"
+             data-width="960px"
+             data-height="540px"
+             data-title="{{ item.name | escape }}"
+             data-description="Video &bull; {{ item_caption | escape }}"
+             data-date="{{ item.date_time | escape }}"
+             data-proofer-ignore
+             referrerpolicy="no-referrer"
+             title="{{ item.name | escape }}"
+             {% if is_extra %}style="display: none;"{% endif %}>
+            <img class="gallery-thumb" src="{{ item.thumb }}" alt="{{ item.name | escape }}" loading="lazy" referrerpolicy="no-referrer">
+            <span class="video-play-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polygon points="7,4 19,12 7,20"/></svg>
+            </span>
+          </a>
+        {% else %}
+          <a href="{{ item.full }}"
+             class="gallery-item glightbox{% if is_extra %} gallery-item-extra{% endif %}"
+             data-gallery="{{ folder_key }}"
+             data-type="image"
+             data-glightbox="type: image; title: {{ item.name | escape }}; description: {{ item_caption | escape }};"
+             data-title="{{ item.name | escape }}"
+             data-description="{{ item_caption | escape }}"
+             data-date="{{ item.date_time | escape }}"
+             data-proofer-ignore
+             referrerpolicy="no-referrer"
+             title="{{ item.name | escape }}"
+             {% if is_extra %}style="display: none;"{% endif %}>
+            <img class="gallery-thumb" src="{{ item.thumb }}" alt="{{ item.name | escape }}" loading="lazy" referrerpolicy="no-referrer">
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    {% if show_meta %}
+      <div class="gallery-meta">
+        <div class="gallery-counts">
+          <span>{{ gallery.total_count }} item{% if gallery.total_count != 1 %}s{% endif %}</span>
+          {% if gallery.video_count > 0 %}
+            <span>({{ gallery.image_count }} photo{% if gallery.image_count != 1 %}s{% endif %}, {{ gallery.video_count }} video{% if gallery.video_count != 1 %}s{% endif %})</span>
+          {% endif %}
+        </div>
+
+        <div class="gallery-actions">
+          <button type="button"
+                  class="gallery-start-btn"
+                  onclick="openGalleryFromStart('{{ folder_key }}')"
+                  title="Browse album chronologically starting with the oldest photo">
+            &#x25B6; Start from oldest
+          </button>
+          {% if gallery.items.size > preview_limit %}
+            <button type="button"
+                    class="gallery-toggle-btn"
+                    data-total="{{ gallery.total_count }}"
+                    onclick="toggleGalleryExpand('{{ folder_key }}', this)">
+              View all {{ gallery.total_count }} &rarr;
+            </button>
+          {% endif %}
+          {% if gallery.drive_url %}
+            <a href="{{ gallery.drive_url }}"
+               class="gallery-drive-link"
+               target="_blank"
+               rel="noopener noreferrer"
+               data-proofer-ignore>
+              Open in Google Drive &#x2197;
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if show_hint %}
+      <div class="gallery-hint">
+        <span class="gallery-hint-icon" aria-hidden="true">&#9432;</span>
+        <span>Showing a fresh selection on each visit. Click any photo to browse, or use <strong>&#x25B6; Start from oldest</strong>.</span>
+      </div>
+    {% endif %}
+  </div>
+{% else %}
+  <!-- Fallback if gallery data not yet synced -->
+  <p><a href="https://drive.google.com/drive/folders/{{ folder_key }}" target="_blank" rel="noopener noreferrer" data-proofer-ignore>Open Google Drive Folder &#x2197;</a></p>
+{% endif %}

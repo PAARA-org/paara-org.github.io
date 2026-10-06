@@ -105,3 +105,64 @@ The following steps must be followed:
 4. Run `GITHUB_TOKEN=<token_from_step_1> ./script/generate-newsletter.py > newsletter.md`
 5. Push the repo up and create a pull request (`git push -u origin <branch>`, click the link in the output to create a pull request)
 
+## How to add and synchronize photo albums (Google Drive)
+
+Event photo albums are backed by public Google Drive folders, indexed in `_data/galleries.json`, and displayed with a responsive thumbnail grid and full-screen lightbox viewer with camera EXIF timestamps. On each page visit, thumbnail grids highlight a fresh, continuous sequential slice of photos from the event, while the underlying album always preserves true chronological order (oldest to newest) with a **"▶ Start from oldest"** button.
+
+### 1. Add the album to `photos.md`
+
+Add a new heading and the gallery include snippet in `photos.md`:
+
+```markdown
+## Field Day 2027
+
+{% include gallery.html folder_id="YOUR_GOOGLE_DRIVE_FOLDER_ID" %}
+```
+
+*(You can also use this include snippet in any event post under `events/YYYYMMDD.md`)*.
+
+### 2. Synchronize and index the photos
+
+Run the photo sync script for the folder:
+
+```bash
+go run ./script/sync-photos.go -folder=YOUR_GOOGLE_DRIVE_FOLDER_ID
+```
+
+The script automatically:
+* Auto-detects the album title from `photos.md` (or use `-title="Custom Title"`).
+* Scrapes all photos and videos from the Google Drive folder without the 50-item limit.
+* Concurrently extracts camera EXIF capture dates/times using fast HTTP Range requests.
+* Sorts the entire album chronologically from earliest to latest (morning to evening).
+* Saves the metadata to `_data/galleries.json`.
+
+### 3. Optional parameters for the gallery include
+
+You can customize the preview grid on any page:
+
+```liquid
+{% include gallery.html folder_id="YOUR_FOLDER_ID" limit=4 show_meta=true %}
+```
+
+* `folder_id` *(required)*: The Google Drive folder ID.
+* `limit` *(optional, default: 8)*: Number of preview thumbnails to show on the page. On each page visit, a fresh random continuous slice of `<limit>` photos is displayed.
+* `show_meta` *(optional, default: true)*: Displays the item counter, "▶ Start from oldest" button, "View all N" toggle, and Google Drive link.
+
+### 4. Commit the changes
+
+```bash
+git add _data/galleries.json photos.md
+git commit -m "Add and index photos for Field Day 2027"
+git push
+```
+
+### Photo Sync Script Command Reference
+
+| Command | Description |
+| :--- | :--- |
+| `go run ./script/sync-photos.go -folder=ID` | Sync, extract EXIF, and sort a single new folder (title auto-detected from `photos.md`). |
+| `go run ./script/sync-photos.go -folder=ID -title="Title"` | Sync a single folder with an explicit custom title. |
+| `go run ./script/sync-photos.go` | Scan `photos.md` and synchronize all Google Drive folders. |
+| `go run ./script/sync-photos.go -enrich-only` | Re-extract EXIF timestamps and re-sort existing galleries without re-scraping Drive. |
+| `go run ./script/sync-photos.go -key="AIza..."` | Optional: Use an official Google Drive API v3 key if available. |
+
