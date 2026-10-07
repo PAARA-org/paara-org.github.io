@@ -13,18 +13,18 @@
           {% assign count = count | plus: 1 %}
           {% assign item_caption = gal_pair[1].title %}
           {% if first_it.date_time %}
-            {% assign item_caption = item_caption | append: " &bull; " | append: first_it.date_time %}
+            {% assign item_caption = item_caption | append: " • " | append: first_it.date_time %}
           {% endif %}
           {% if first_it.type == "video" %}
             <a href="{{ first_it.preview }}"
                class="gallery-item is-video glightbox"
                data-gallery="featured"
                data-type="external"
-               data-glightbox="type: external; width: 960px; height: 540px; title: {{ first_it.name | escape }}; description: Video &bull; {{ item_caption | escape }};"
+               data-glightbox="type: external; width: 960px; height: 540px; title: {{ first_it.name | escape }}; description: Video • {{ item_caption | escape }};"
                data-width="960px"
                data-height="540px"
                data-title="{{ first_it.name | escape }}"
-               data-description="Video &bull; {{ item_caption | escape }}"
+               data-description="Video • {{ item_caption | escape }}"
                data-date="{{ first_it.date_time | escape }}"
                data-proofer-ignore
                referrerpolicy="no-referrer"
@@ -56,7 +56,7 @@
     <div class="gallery-meta">
       <div class="gallery-counts">
         <span class="gallery-featured-label">Featured Photos</span>
-        <span class="gallery-featured-sub">&bull; Picked at random from all club albums</span>
+        <span class="gallery-featured-sub">• Picked at random from all club albums</span>
       </div>
 
       <div class="gallery-actions">
@@ -107,7 +107,7 @@
 
         {% assign item_caption = gallery.title %}
         {% if item.date_time %}
-          {% assign item_caption = item_caption | append: " &bull; " | append: item.date_time %}
+          {% assign item_caption = item_caption | append: " • " | append: item.date_time %}
         {% endif %}
 
         {% if item.type == "video" %}
@@ -115,11 +115,11 @@
              class="gallery-item is-video glightbox{% if is_extra %} gallery-item-extra{% endif %}"
              data-gallery="{{ folder_key }}"
              data-type="external"
-             data-glightbox="type: external; width: 960px; height: 540px; title: {{ item.name | escape }}; description: Video &bull; {{ item_caption | escape }};"
+             data-glightbox="type: external; width: 960px; height: 540px; title: {{ item.name | escape }}; description: Video • {{ item_caption | escape }};"
              data-width="960px"
              data-height="540px"
              data-title="{{ item.name | escape }}"
-             data-description="Video &bull; {{ item_caption | escape }}"
+             data-description="Video • {{ item_caption | escape }}"
              data-date="{{ item.date_time | escape }}"
              data-proofer-ignore
              referrerpolicy="no-referrer"

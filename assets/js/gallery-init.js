@@ -256,14 +256,14 @@
 
     var caption = album;
     if (dateTime) {
-      caption += " &bull; " + dateTime;
+      caption += " • " + dateTime;
     }
 
     var a = document.createElement("a");
     a.className = "gallery-item glightbox" + (isVideo ? " is-video" : "");
     a.dataset.gallery = "featured";
     a.dataset.title = name;
-    a.dataset.description = (isVideo ? "Video &bull; " : "") + caption;
+    a.dataset.description = (isVideo ? "Video • " : "") + caption;
     if (dateTime) {
       a.dataset.date = dateTime;
     }
@@ -276,7 +276,7 @@
       a.dataset.type = "external";
       a.dataset.width = "960px";
       a.dataset.height = "540px";
-      a.dataset.glightbox = "type: external; width: 960px; height: 540px; title: " + escapeHtml(name) + "; description: Video &bull; " + escapeHtml(caption) + ";";
+      a.dataset.glightbox = "type: external; width: 960px; height: 540px; title: " + escapeHtml(name) + "; description: Video • " + escapeHtml(caption) + ";";
 
       var img = document.createElement("img");
       img.className = "gallery-thumb";
