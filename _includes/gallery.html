@@ -1,7 +1,85 @@
 {% assign folder_key = include.folder_id %}
 {% assign gallery = site.data.galleries[folder_key] %}
 
-{% if gallery and gallery.items.size > 0 %}
+{% if include.mode == 'random_all' or include.random_all %}
+  {% assign preview_limit = include.limit | default: 8 | plus: 0 %}
+  <div class="gallery-container gallery-featured" data-gallery-mode="random_all">
+    <div class="gallery-grid" data-gallery-mode="random_all" data-manifest-url="{{ '/assets/data/photos-manifest.json' | relative_url }}" data-preview-limit="{{ preview_limit }}">
+      {% assign count = 0 %}
+      {% for gal_pair in site.data.galleries %}
+        {% if count >= preview_limit %}{% break %}{% endif %}
+        {% assign first_it = gal_pair[1].items.first %}
+        {% if first_it %}
+          {% assign count = count | plus: 1 %}
+          {% assign item_caption = gal_pair[1].title %}
+          {% if first_it.date_time %}
+            {% assign item_caption = item_caption | append: " &bull; " | append: first_it.date_time %}
+          {% endif %}
+          {% if first_it.type == "video" %}
+            <a href="{{ first_it.preview }}"
+               class="gallery-item is-video glightbox"
+               data-gallery="featured"
+               data-type="external"
+               data-glightbox="type: external; width: 960px; height: 540px; title: {{ first_it.name | escape }}; description: Video &bull; {{ item_caption | escape }};"
+               data-width="960px"
+               data-height="540px"
+               data-title="{{ first_it.name | escape }}"
+               data-description="Video &bull; {{ item_caption | escape }}"
+               data-date="{{ first_it.date_time | escape }}"
+               data-proofer-ignore
+               referrerpolicy="no-referrer"
+               title="{{ first_it.name | escape }}">
+              <img class="gallery-thumb" src="{{ first_it.thumb }}" alt="{{ first_it.name | escape }}" loading="lazy" referrerpolicy="no-referrer">
+              <span class="video-play-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><polygon points="7,4 19,12 7,20"/></svg>
+              </span>
+            </a>
+          {% else %}
+            <a href="{{ first_it.full }}"
+               class="gallery-item glightbox"
+               data-gallery="featured"
+               data-type="image"
+               data-glightbox="type: image; title: {{ first_it.name | escape }}; description: {{ item_caption | escape }};"
+               data-title="{{ first_it.name | escape }}"
+               data-description="{{ item_caption | escape }}"
+               data-date="{{ first_it.date_time | escape }}"
+               data-proofer-ignore
+               referrerpolicy="no-referrer"
+               title="{{ first_it.name | escape }}">
+              <img class="gallery-thumb" src="{{ first_it.thumb }}" alt="{{ first_it.name | escape }}" loading="lazy" referrerpolicy="no-referrer">
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="gallery-meta">
+      <div class="gallery-counts">
+        <span class="gallery-featured-label">Featured Photos</span>
+        <span class="gallery-featured-sub">&bull; Picked at random from all club albums</span>
+      </div>
+
+      <div class="gallery-actions">
+        <button type="button"
+                class="gallery-start-btn gallery-shuffle-btn"
+                onclick="shuffleFeaturedGallery(this)"
+                title="Shuffle and pick 8 new random photos from all albums">
+          &#x1F500; Shuffle
+        </button>
+        <a href="{{ '/photos.html' | relative_url }}"
+           class="gallery-toggle-btn"
+           title="Browse all photo albums on the Photos page">
+          View all photos &rarr;
+        </a>
+      </div>
+    </div>
+
+    <div class="gallery-hint">
+      <span class="gallery-hint-icon" aria-hidden="true">&#9432;</span>
+      <span>Showing 8 random photos across all club albums on each visit. For more photos, visit the <a href="{{ '/photos.html' | relative_url }}">Photos page</a>.</span>
+    </div>
+  </div>
+{% elsif gallery and gallery.items.size > 0 %}
   {% assign preview_limit = include.limit | default: 8 | plus: 0 %}
   {% assign show_meta = include.show_meta | default: true %}
   {% assign is_photos_page = false %}

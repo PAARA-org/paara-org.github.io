@@ -678,7 +678,8 @@ func loadExistingGalleries(path string) map[string]Gallery {
 	return galleries
 }
 
-// saveGalleries writes gallery data to galleries.json formatted with indent.
+// saveGalleries writes gallery data to galleries.json formatted with indent
+// and updates the compact assets/data/photos-manifest.json index.
 func saveGalleries(path string, galleries map[string]Gallery) error {
 	dir := filepath.Dir(path)
 	if err := os.MkdirAll(dir, 0755); err != nil {
@@ -690,7 +691,49 @@ func saveGalleries(path string, galleries map[string]Gallery) error {
 		return err
 	}
 
-	return os.WriteFile(path, data, 0644)
+	if err := os.WriteFile(path, data, 0644); err != nil {
+		return err
+	}
+
+	// Update manifest if saving to standard galleries.json path
+	if strings.HasSuffix(filepath.Clean(path), filepath.Join("_data", "galleries.json")) {
+		manifestPath := filepath.Join(filepath.Dir(dir), "assets", "data", "photos-manifest.json")
+		_ = saveManifest(manifestPath, galleries)
+	}
+
+	return nil
+}
+
+// saveManifest writes a compact JSON array of all photos across all galleries.
+func saveManifest(manifestPath string, galleries map[string]Gallery) error {
+	var manifestItems [][]interface{}
+	for _, gal := range galleries {
+		album := gal.Title
+		for _, it := range gal.Items {
+			isVideo := 0
+			if it.Type == "video" {
+				isVideo = 1
+			}
+			manifestItems = append(manifestItems, []interface{}{
+				it.ID,
+				it.Name,
+				album,
+				it.DateTime,
+				isVideo,
+			})
+		}
+	}
+
+	data, err := json.Marshal(manifestItems)
+	if err != nil {
+		return err
+	}
+
+	if err := os.MkdirAll(filepath.Dir(manifestPath), 0755); err != nil {
+		return err
+	}
+
+	return os.WriteFile(manifestPath, data, 0644)
 }
 
 // ============================================================================

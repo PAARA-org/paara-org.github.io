@@ -196,12 +196,165 @@
       });
   }
 
+  var photoManifestPromise = null;
+
+  function loadPhotoManifest(manifestUrl) {
+    if (window.__paaraPhotoManifest) {
+      return Promise.resolve(window.__paaraPhotoManifest);
+    }
+    if (!photoManifestPromise) {
+      var url = manifestUrl || "/assets/data/photos-manifest.json";
+      photoManifestPromise = fetch(url)
+        .then(function (r) {
+          if (!r.ok) throw new Error("HTTP " + r.status);
+          return r.json();
+        })
+        .then(function (data) {
+          window.__paaraPhotoManifest = data;
+          return data;
+        })
+        .catch(function (err) {
+          console.warn("Could not load photos manifest:", err);
+          photoManifestPromise = null;
+          return null;
+        });
+    }
+    return photoManifestPromise;
+  }
+
+  function pickRandomIndices(totalCount, count) {
+    if (totalCount <= count) {
+      var all = [];
+      for (var i = 0; i < totalCount; i++) all.push(i);
+      return all;
+    }
+    var chosen = new Set();
+    while (chosen.size < count) {
+      var r = Math.floor(Math.random() * totalCount);
+      chosen.add(r);
+    }
+    return Array.from(chosen);
+  }
+
+  function escapeHtml(str) {
+    if (!str) return "";
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function createFeaturedItemElement(item) {
+    // item format: [id, name, album, date_time, is_video]
+    var id = item[0];
+    var name = item[1];
+    var album = item[2];
+    var dateTime = item[3] || "";
+    var isVideo = item[4] === 1;
+
+    var caption = album;
+    if (dateTime) {
+      caption += " &bull; " + dateTime;
+    }
+
+    var a = document.createElement("a");
+    a.className = "gallery-item glightbox" + (isVideo ? " is-video" : "");
+    a.dataset.gallery = "featured";
+    a.dataset.title = name;
+    a.dataset.description = (isVideo ? "Video &bull; " : "") + caption;
+    if (dateTime) {
+      a.dataset.date = dateTime;
+    }
+    a.setAttribute("data-proofer-ignore", "");
+    a.setAttribute("referrerpolicy", "no-referrer");
+    a.title = name;
+
+    if (isVideo) {
+      a.href = "https://drive.google.com/file/d/" + id + "/preview";
+      a.dataset.type = "external";
+      a.dataset.width = "960px";
+      a.dataset.height = "540px";
+      a.dataset.glightbox = "type: external; width: 960px; height: 540px; title: " + escapeHtml(name) + "; description: Video &bull; " + escapeHtml(caption) + ";";
+
+      var img = document.createElement("img");
+      img.className = "gallery-thumb";
+      img.src = "https://lh3.googleusercontent.com/d/" + id + "=w400";
+      img.alt = name;
+      img.loading = "lazy";
+      img.setAttribute("referrerpolicy", "no-referrer");
+      a.appendChild(img);
+
+      var badge = document.createElement("span");
+      badge.className = "video-play-badge";
+      badge.setAttribute("aria-hidden", "true");
+      badge.innerHTML = '<svg viewBox="0 0 24 24"><polygon points="7,4 19,12 7,20"/></svg>';
+      a.appendChild(badge);
+    } else {
+      a.href = "https://lh3.googleusercontent.com/d/" + id + "=w2048";
+      a.dataset.type = "image";
+      a.dataset.glightbox = "type: image; title: " + escapeHtml(name) + "; description: " + escapeHtml(caption) + ";";
+
+      var img = document.createElement("img");
+      img.className = "gallery-thumb";
+      img.src = "https://lh3.googleusercontent.com/d/" + id + "=w400";
+      img.alt = name;
+      img.loading = "lazy";
+      img.setAttribute("referrerpolicy", "no-referrer");
+      a.appendChild(img);
+    }
+
+    return a;
+  }
+
+  function renderFeaturedGallery(grid, manifest, callback) {
+    var limit = parseInt(grid.dataset.previewLimit, 10) || 8;
+    var randomIndices = pickRandomIndices(manifest.length, limit);
+
+    grid.style.opacity = "0.3";
+    grid.style.transition = "opacity 0.2s ease";
+
+    setTimeout(function () {
+      grid.innerHTML = "";
+      randomIndices.forEach(function (idx) {
+        var el = createFeaturedItemElement(manifest[idx]);
+        grid.appendChild(el);
+      });
+      grid.style.opacity = "1";
+
+      if (lightbox && typeof lightbox.reload === "function") {
+        lightbox.reload();
+      }
+      if (typeof callback === "function") {
+        callback();
+      }
+    }, 150);
+  }
+
+  function setupFeaturedRandomGalleries() {
+    var featuredGrids = document.querySelectorAll('.gallery-grid[data-gallery-mode="random_all"]');
+    if (featuredGrids.length === 0) return;
+
+    featuredGrids.forEach(function (grid) {
+      loadPhotoManifest(grid.dataset.manifestUrl).then(function (manifest) {
+        if (manifest && manifest.length > 0) {
+          renderFeaturedGallery(grid, manifest);
+        }
+      });
+    });
+  }
+
   // Displays a fresh random continuous slice of <x> items on each page load.
   // The underlying DOM order is kept 100% strictly chronological (oldest to newest, 0 to N-1).
   // Slide 1 in the album is ALWAYS the oldest photo.
   function setupRandomContinuousGalleries() {
     var grids = document.querySelectorAll(".gallery-grid");
     grids.forEach(function (grid) {
+      if (grid.dataset.galleryMode === "random_all") {
+        return; // Handled by setupFeaturedRandomGalleries
+      }
+
       var items = Array.prototype.slice.call(grid.querySelectorAll(".gallery-item"));
       var total = items.length;
       var limit = parseInt(grid.dataset.previewLimit, 10) || 8;
@@ -242,6 +395,7 @@
     }
 
     setupRandomContinuousGalleries();
+    setupFeaturedRandomGalleries();
 
     lightbox = GLightbox({
       selector: ".glightbox",
@@ -377,6 +531,32 @@
           lightbox.reload();
         }
       }
+    };
+
+    window.shuffleFeaturedGallery = function (btn) {
+      var container = btn ? btn.closest(".gallery-container") : document.querySelector('.gallery-container[data-gallery-mode="random_all"]');
+      if (!container) return;
+      var grid = container.querySelector(".gallery-grid");
+      if (!grid) return;
+
+      if (btn) {
+        btn.disabled = true;
+        btn.classList.add("is-shuffling");
+      }
+
+      loadPhotoManifest(grid.dataset.manifestUrl).then(function (manifest) {
+        if (manifest && manifest.length > 0) {
+          renderFeaturedGallery(grid, manifest, function () {
+            if (btn) {
+              btn.disabled = false;
+              btn.classList.remove("is-shuffling");
+            }
+          });
+        } else if (btn) {
+          btn.disabled = false;
+          btn.classList.remove("is-shuffling");
+        }
+      });
     };
   }
 

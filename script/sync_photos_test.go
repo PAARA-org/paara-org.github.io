@@ -463,6 +463,27 @@ func TestLoadAndSaveGalleries(t *testing.T) {
 	if err := saveGalleries(badPath, original); err == nil {
 		t.Errorf("Expected error when saving to invalid directory path")
 	}
+
+	// Test saveManifest directly
+	manifestPath := filepath.Join(tempDir, "assets", "data", "photos-manifest.json")
+	if err := saveManifest(manifestPath, original); err != nil {
+		t.Fatalf("saveManifest failed: %v", err)
+	}
+	manifestBytes, err := os.ReadFile(manifestPath)
+	if err != nil || len(manifestBytes) == 0 {
+		t.Fatalf("Failed to read manifest file: %v", err)
+	}
+
+	// Test saveManifest with invalid path
+	if err := saveManifest("/dev/null/impossible/manifest.json", original); err == nil {
+		t.Errorf("Expected error when saving manifest to invalid path")
+	}
+
+	// Test saveGalleries with _data/galleries.json suffix to trigger manifest update
+	standardPath := filepath.Join(tempDir, "_data", "galleries.json")
+	if err := saveGalleries(standardPath, original); err != nil {
+		t.Fatalf("saveGalleries with standard path failed: %v", err)
+	}
 }
 
 // ============================================================================

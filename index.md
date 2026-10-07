@@ -9,6 +9,12 @@ For more information, visit the [meetings page](/meetings.html).
 {% include raffle.md %}
 
 ---
+
+## Club Photos
+
+{% include gallery.html mode="random_all" limit=8 %}
+
+---
 ## Pacificon 2026
 
 [Pacificon](https://www.pacificon.org){:target="_blank"} runs in San Ramon from **Friday, October 16** through **Sunday, October 18**.
