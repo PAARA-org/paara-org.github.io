@@ -10,4 +10,3 @@ bundle exec htmlproofer ./_site --disable-external --check-html --check-sri --ur
 bundle exec script/check-orphans
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
-gem build jekyll-theme-architect.gemspec
