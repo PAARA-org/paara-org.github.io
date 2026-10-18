@@ -4,7 +4,7 @@ This repository contains the PAARA.org website which is hosted on Github Pages.
 
 Club members are encouraged to help file Issues for the problems encountered on the website, but at the same time we are more than happy to receive Pull Requests with fixes or improvements.
 
-This page acts mainly as a HowTo for other contributors. The old readme is now at [ARCHITECT.md](ARCHITECT.md).
+This page acts mainly as a HowTo for other contributors.
 
 ## How to add a new meeting?
 

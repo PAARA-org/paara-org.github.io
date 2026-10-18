@@ -13,10 +13,8 @@ plugins:
 # Setting exclude replaces Jekyll's defaults, so those are repeated here.
 exclude:
 - AGENTS.md
-- ARCHITECT.md
 - PREVIEW.md
 - README.md
-- docs/
 - script/
 - preview.sh
 - go.mod
@@ -24,6 +22,5 @@ exclude:
 - package-lock.json
 - Gemfile
 - Gemfile.lock
-- jekyll-theme-architect.gemspec
 - node_modules/
 - vendor/
