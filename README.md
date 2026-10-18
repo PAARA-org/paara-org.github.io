@@ -35,22 +35,26 @@ Add zoom meeting link and phone dial number to the `_includes/meeting-short.md` 
 
 ## What to do after a monthly meeting ends? Rollover to a new month!
 
-Run the `./script/rollover-to-next-month.sh` script from the top repository location which will generate an output similar to this:
+Run the `./script/rollover-to-next-month.sh` script from the top repository location. It needs `bash` and `cal`: macOS includes both; on Ubuntu install `cal` with `sudo apt install ncal`. If `cal` is missing, the script stops before changing anything. **Run it only once per month**: it reads the current month from the `meetings.md` symlink and advances it each time it runs. It generates an output similar to this:
 
 ```
 % ./script/rollover-to-next-month.sh
 [ Step 1: Detecting next monthly meeting filename ]
   File meetings.md exists.
-  Current meeting is for year(2025) month(08). Next meeting is year(2025) month(09).
-[ Step 2: Deleting the current symlink ]
+  Current meeting is for year(2026) month(11). Next meeting is year(2026) month(12).
+[ Step 2: Deleting the current meetings.md symlink ]
   Running: 'rm meetings.md' ...DONE
+[ Step 2.1: Deleting the current _includes/raffle.md file ]
+  Running: 'rm _includes/raffle.md' ...DONE
 [ Step 3: Creating the new meeting file if necessary ]
-  The file 'meetings/2025/202509.md' does not exist or is empty. Initializing from meetings/template.md ... DONE
 [ Step 4: Creating the new symlink ]
-  Running: 'ln -s meetings/2025/202509.md meetings.md' ...DONE
+  Running: 'ln -s meetings/2026/202612.md meetings.md' ...DONE
 [ Step 5: Updating the _includes/meeting-short.md file ]
   Successfully updated _includes/meeting-short.md.
-[ Step 6: Updating past meeting history ]
+[ Step 6: Create new raffle include file ]
+[ Step 7: Create a copy of _includes/raffle/202612.md into _includes/raffle.md ]
+  Running: 'cp _includes/raffle/202612.md _includes/raffle.md' ...DONE
+[ Step 8: Updating past meeting history ]
   Running ./script/parse-past-meetings.sh ...DONE
 ```
 
