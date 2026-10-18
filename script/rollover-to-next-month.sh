@@ -143,11 +143,11 @@ echo """
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-4.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-3.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-2.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-1.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png\" alt=\"5th prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-4.png\" alt=\"4th prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-3.png\" alt=\"3rd prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-2.png\" alt=\"2nd prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-1.png\" alt=\"1st prize\"></td>
     </tr>
     <tr>
         <td>5th Prize description</td>
