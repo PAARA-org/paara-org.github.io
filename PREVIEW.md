@@ -2,13 +2,13 @@
 
 ## Prerequisites
 
-The following packages are required (correct for Ubuntu 24.04.4 — your distro may differ):
+The following packages are required on Ubuntu (other distros may differ):
 
 ```sh
-sudo apt install build-essential ruby3.2-dev
+sudo apt install build-essential ruby-dev
 ```
 
-`ruby3.2-dev` pulls in `ruby3.2`. `build-essential` is needed to compile native gem extensions.
+`ruby-dev` installs the Ruby headers for your distro's Ruby version (for example `ruby3.3-dev` on Ubuntu 25.04). `build-essential` is needed to compile native gem extensions.
 
 ## Usage
 
