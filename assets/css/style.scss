@@ -10,6 +10,16 @@
   color: black;
 }
 
+/* Keep embedded videos and calendars within narrow screens. */
+iframe {
+  max-width: 100%;
+}
+
+iframe[src*="youtube.com/embed"] {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
 /* 1. Explicitly define Light Mode colors first */
 .custom-notice {
   background-color: #f4f7f6 !important; /* Forces light gray background */
