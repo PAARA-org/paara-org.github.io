@@ -60,6 +60,6 @@ If you need to update your personal information, please fill the [membership app
 
 ## How can I order a badge?
 
-![membership/nametag-100.jpg](/membership/nametag-100.jpg)
+![Sample PAARA name badge with the club logo, name, call sign, and city](/membership/nametag-100.jpg)
 
 Please visit the dedicated page [here](/badges.html).

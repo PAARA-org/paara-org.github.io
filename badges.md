@@ -2,7 +2,7 @@
 
 ## How can I order a badge?
 
-![membership/nametag-100.jpg](/membership/nametag-100.jpg)
+![Sample PAARA name badge with the club logo, name, call sign, and city](/membership/nametag-100.jpg)
 
 Members interested in obtaining a club badge with their First Name, Callsign, City, and PAARA logo on it can purchase one for $30.00. You can order one at any PAARA meeting or use the form below. Your badge will be ordered and mailed to you. The price includes shipping.
 

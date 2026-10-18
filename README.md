@@ -58,6 +58,15 @@ Run the `./script/rollover-to-next-month.sh` script from the top repository loca
 
 Update `meetings/2025/202506.md` and `_includes/meeting-short.md` with the topic and presenter details.
 
+## How to add raffle prizes
+
+The rollover script creates `_includes/raffle/YYYYMM.md` and placeholder images in `meetings/raffle/YYYY/`. For each prize:
+
+1. Replace the placeholder image `meetings/raffle/YYYY/YYYYMM-N.png` (N=1 is the 1st prize), and update the `src` extension if the new image is not `.png`
+2. Replace the `Nth Prize description` text
+3. Update the image's `alt` text to match, for example `alt="1st prize: Bioenno Power 12V 12Ah LiFePO4 Battery"`; screen readers read it in place of the image
+4. Copy the finished file over `_includes/raffle.md`, which is what the homepage shows
+
 ## How to add presentation materials to a meeting?
 
 For some of the meetings, we get a PDF of PPT that we can link in the meeting page (for example <https://paara.org/meetings/2025/202504.html>).

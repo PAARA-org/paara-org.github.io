@@ -17,7 +17,7 @@ The Palo Alto Amateur Radio Association meets on the 1st Friday of the month at 
 * **Location**: Room H6, Cubberley Community Center 4000 Middlefield Road, Palo Alto, CA 94303
 * **Telephone**: (650) 329-2418
 
-![cubberley-600.jpg](/meetings/cubberley-600.jpg)
+![Cubberley Community Center, where PAARA meets](/meetings/cubberley-600.jpg)
 
 After the meeting, many members gather for beer, pizza, and eyeball QSO at **Round Table Pizza**, located at [702 Colorado Ave in Palo Alto](https://maps.app.goo.gl/Dw8ffGAppmK5vQUk8). If there's not enough parking in front, go past Round Table and past the **7-Eleven** and turn right (twice) into the [larger parking lot behind](https://maps.app.goo.gl/JmPanVagaNTpvs1P7), which is shared with **Safeway**.
 

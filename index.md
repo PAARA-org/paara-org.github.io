@@ -23,7 +23,7 @@ PAARA sets up and runs the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_bla
 
 If you can help set up, operate, or tear down — we are always short overnight — see the [event page](/events/pacificon-2026.html).
 
-![pacificon2026-logo.jpg](/events/images/pacificon2026-logo.jpg)
+![Pacificon 2026 logo](/events/images/pacificon2026-logo.jpg)
 
 ---
 
