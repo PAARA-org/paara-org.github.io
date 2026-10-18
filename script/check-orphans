@@ -1,0 +1,78 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Fails if any page in the built site (_site) cannot be reached by following
+# links from the homepage. html-proofer catches broken links; this catches
+# pages that nothing links to.
+
+require "cgi"
+require "nokogiri"
+require "pathname"
+require "set"
+require "uri"
+
+ROOT = File.expand_path("..", __dir__)
+SITE = File.join(ROOT, "_site")
+SITE_HOSTS = ["paara.org", "www.paara.org"].freeze
+
+# Pages that are intentionally unlinked.
+ALLOWED = Set[
+  "/google39b1e89a4bce5086.html" # Google Search Console verification
+].freeze
+
+# Root pages like meetings.md are symlinks to the current meeting or year, so
+# the symlink target is also published at its own URL with the same content.
+def symlink_targets
+  Dir.glob(File.join(ROOT, "*.md")).select { |f| File.symlink?(f) }.map do |f|
+    target = Pathname.new(File.realpath(f)).relative_path_from(Pathname.new(ROOT))
+    "/#{target.sub_ext('.html')}"
+  end
+end
+
+def site_pages
+  Dir.glob(File.join(SITE, "**", "*.html")).map { |f| f.delete_prefix(SITE) }.to_set
+end
+
+# Resolves an href on page_url to a site page path, or nil if it isn't one.
+def resolve(page_url, href, pages)
+  uri = URI.parse(href.strip)
+  return nil if uri.scheme && !%w(http https).include?(uri.scheme)
+  return nil if uri.host && !SITE_HOSTS.include?(uri.host.downcase)
+  return nil if uri.path.nil? || uri.path.empty?
+
+  path = CGI.unescape(URI.join("https://paara.org#{page_url}", uri.path).path)
+  path += "index.html" if path.end_with?("/")
+  path += ".html" if File.extname(path).empty? && pages.include?("#{path}.html")
+  pages.include?(path) ? path : nil
+rescue URI::Error
+  nil
+end
+
+def reachable_pages(pages)
+  seen = Set.new
+  queue = ["/index.html"]
+  until queue.empty?
+    page = queue.shift
+    next if seen.include?(page)
+
+    seen << page
+    html = Nokogiri::HTML(File.read(File.join(SITE, page)))
+    html.css("a[href]").each do |a|
+      target = resolve(page, a["href"], pages)
+      queue << target if target && !seen.include?(target)
+    end
+  end
+  seen
+end
+
+pages = site_pages
+orphans = (pages - reachable_pages(pages) - ALLOWED - symlink_targets).sort
+
+if orphans.empty?
+  puts "No orphan pages (#{pages.size} pages checked)."
+else
+  puts "Pages not linked from anywhere on the site:"
+  orphans.each { |page| puts "  #{page}" }
+  puts "Link each page from a relevant page, delete it, or add it to ALLOWED in script/check-orphans."
+  exit 1
+end
