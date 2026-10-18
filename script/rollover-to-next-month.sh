@@ -14,6 +14,14 @@ RAFFLE_MAIN="_includes/raffle.md"
 TEMPLATE_INCLUDE="_includes/meetings-template.md"
 PARSE_PAST_MEETINGS="./script/parse-past-meetings.sh"
 
+# cal computes the meeting date. Without it the script would still run and
+# write the new meeting page with blank dates, so stop before changing anything.
+if ! command -v cal >/dev/null
+then
+	echo "Error: 'cal' not found. Install it first (Ubuntu: sudo apt install ncal). Nothing was changed."
+	exit 1
+fi
+
 echo "[ Step 1: Detecting next monthly meeting filename ]"
 if ls $MEETINGS >/dev/null
 then
