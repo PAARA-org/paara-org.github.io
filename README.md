@@ -35,7 +35,7 @@ Add zoom meeting link and phone dial number to the `_includes/meeting-short.md` 
 
 ## What to do after a monthly meeting ends? Rollover to a new month!
 
-Run the `./script/rollover-to-next-month.sh` script from the top repository location. It needs `bash` and `cal`: macOS includes both; on Ubuntu install `cal` with `sudo apt install ncal`. **Run it only once per month**: it reads the current month from the `meetings.md` symlink and advances it each time it runs. It generates an output similar to this:
+Run the `./script/rollover-to-next-month.sh` script from the top repository location. It needs `bash` and `cal`: macOS includes both; on Ubuntu install `cal` with `sudo apt install ncal`. If `cal` is missing, the script stops before changing anything. **Run it only once per month**: it reads the current month from the `meetings.md` symlink and advances it each time it runs. It generates an output similar to this:
 
 ```
 % ./script/rollover-to-next-month.sh
@@ -57,8 +57,6 @@ Run the `./script/rollover-to-next-month.sh` script from the top repository loca
 [ Step 8: Updating past meeting history ]
   Running ./script/parse-past-meetings.sh ...DONE
 ```
-
-If you see `cal: command not found`, the new meeting page and homepage box were created with blank dates. Install `cal`, undo the files the script changed or created (`git status` lists them), and run the script again.
 
 ## What to do when we know the topic and presenter?
 
