@@ -8,6 +8,10 @@
 {:toc}
 ---
 
+## Pacificon 2026
+
+{% include gallery.html folder_id="1kIi6CrWk20tMD4fgEBEvXFvHWeFKliwT" limit=8 %}
+
 ## PAARA In The Park October 2026
 
 {% include gallery.html folder_id="1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82" limit=8 %}

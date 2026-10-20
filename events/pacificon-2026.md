@@ -2,6 +2,10 @@
 
 [Pacificon](https://www.pacificon.org){:target="_blank"} runs in San Ramon from **Friday, October 16** through **Sunday, October 18**. See their website for the venue, hotels, and talk schedule.
 
+## Pictures
+
+{% include gallery.html folder_id="1kIi6CrWk20tMD4fgEBEvXFvHWeFKliwT" limit=8 %}
+
 ## What is PAARA doing at Pacificon?
 
 PAARA sets up and runs the [W1AW/6](https://www.qrz.com/db/W1AW/6){:target="_blank"} Special Event Station (SES) for Pacificon. If you can help set up, operate, or tear down, read on.

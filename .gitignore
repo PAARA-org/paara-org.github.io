@@ -9,3 +9,5 @@ vendor/
 .ruby-version
 node_modules/
 assets/vendor/
+sync-photos
+scripts/sync-photos

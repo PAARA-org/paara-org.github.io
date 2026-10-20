@@ -2,7 +2,7 @@
 
 ## Upcoming events
 
-* [2026/10/16 - Pacificon](/events/pacificon-2026.html)
+No upcoming events.
 
 ## Yearly events
 

@@ -5,7 +5,7 @@
 
 ## Pictures
 
-{% include gallery.html folder_id="1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P" limit=6 %}
+{% include gallery.html folder_id="1QrhiD8gq-I1Z4-rLyvSBr-wXlQlsIG6P" limit=8 %}
 
 ## What is PAARA doing at Pacificon?
 
