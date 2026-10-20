@@ -11,6 +11,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -704,36 +705,58 @@ func saveGalleries(path string, galleries map[string]Gallery) error {
 	return nil
 }
 
-// saveManifest writes a compact JSON array of all photos across all galleries.
+// saveManifest writes a compact JSON array of all photos across all galleries,
+// formatted with deterministic sorting and one item per line for clean diffs.
 func saveManifest(manifestPath string, galleries map[string]Gallery) error {
-	var manifestItems [][]interface{}
-	for _, gal := range galleries {
+	// Sort folder IDs to guarantee deterministic ordering
+	folderIDs := make([]string, 0, len(galleries))
+	for id := range galleries {
+		folderIDs = append(folderIDs, id)
+	}
+	sort.Strings(folderIDs)
+
+	var buf bytes.Buffer
+	buf.WriteString("[\n")
+	first := true
+	for _, id := range folderIDs {
+		gal := galleries[id]
 		album := gal.Title
 		for _, it := range gal.Items {
 			isVideo := 0
 			if it.Type == "video" {
 				isVideo = 1
 			}
-			manifestItems = append(manifestItems, []interface{}{
+			row, err := json.Marshal([]interface{}{
 				it.ID,
 				it.Name,
 				album,
 				it.DateTime,
 				isVideo,
 			})
+			if err != nil {
+				return err
+			}
+			if !first {
+				buf.WriteString(",\n")
+			}
+			buf.WriteString("  ")
+			buf.Write(row)
+			first = false
 		}
 	}
 
-	data, err := json.Marshal(manifestItems)
-	if err != nil {
-		return err
+	if first {
+		buf.Reset()
+		buf.WriteString("[]\n")
+	} else {
+		buf.WriteString("\n]\n")
 	}
 
 	if err := os.MkdirAll(filepath.Dir(manifestPath), 0755); err != nil {
 		return err
 	}
 
-	return os.WriteFile(manifestPath, data, 0644)
+	return os.WriteFile(manifestPath, buf.Bytes(), 0644)
 }
 
 // ============================================================================

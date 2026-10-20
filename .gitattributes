@@ -1,0 +1,3 @@
+# Treat generated gallery data and photo manifest as generated files in GitHub PR reviews
+_data/galleries.json linguist-generated=true
+assets/data/photos-manifest.json linguist-generated=true

@@ -3,6 +3,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
@@ -472,6 +473,27 @@ func TestLoadAndSaveGalleries(t *testing.T) {
 	manifestBytes, err := os.ReadFile(manifestPath)
 	if err != nil || len(manifestBytes) == 0 {
 		t.Fatalf("Failed to read manifest file: %v", err)
+	}
+	// Verify manifest is formatted across multiple lines (one photo per line)
+	if !strings.Contains(string(manifestBytes), "\n  [") {
+		t.Errorf("Expected manifest to contain line-by-line formatted items, got: %s", string(manifestBytes))
+	}
+	var unmarshaled [][]interface{}
+	if err := json.Unmarshal(manifestBytes, &unmarshaled); err != nil {
+		t.Fatalf("Failed to parse manifest JSON: %v", err)
+	}
+	if len(unmarshaled) != 1 {
+		t.Errorf("Expected 1 item in manifest, got %d", len(unmarshaled))
+	}
+
+	// Test empty galleries outputs valid empty array
+	emptyPath := filepath.Join(tempDir, "assets", "data", "empty-manifest.json")
+	if err := saveManifest(emptyPath, map[string]Gallery{}); err != nil {
+		t.Fatalf("saveManifest with empty galleries failed: %v", err)
+	}
+	emptyBytes, _ := os.ReadFile(emptyPath)
+	if string(emptyBytes) != "[]\n" {
+		t.Errorf("Expected empty manifest to be '[]\\n', got %q", string(emptyBytes))
 	}
 
 	// Test saveManifest with invalid path
