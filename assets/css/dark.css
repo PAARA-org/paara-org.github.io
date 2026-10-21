@@ -198,3 +198,14 @@ html[data-theme="dark"] footer a {
 html[data-theme="dark"] footer a:hover {
   color: #cfd4db;
 }
+
+/* NOTICE BOX (.custom-notice in style.scss) */
+
+html[data-theme="dark"] .custom-notice {
+  background-color: #1f292e !important;
+  border-left-color: #3a86d4 !important;
+  color: #e2e8f0 !important;
+}
+html[data-theme="dark"] .custom-notice strong {
+  color: #3a86d4 !important;
+}

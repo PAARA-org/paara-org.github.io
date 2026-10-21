@@ -8,3 +8,19 @@ theme: jekyll-theme-architect
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+# Repository files that must not be published as pages.
+# Setting exclude replaces Jekyll's defaults, so those are repeated here.
+exclude:
+- AGENTS.md
+- PREVIEW.md
+- README.md
+- script/
+- preview.sh
+- go.mod
+- package.json
+- package-lock.json
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/

@@ -4,7 +4,7 @@ This repository contains the PAARA.org website which is hosted on Github Pages.
 
 Club members are encouraged to help file Issues for the problems encountered on the website, but at the same time we are more than happy to receive Pull Requests with fixes or improvements.
 
-This page acts mainly as a HowTo for other contributors. The old readme is now at [ARCHITECT.md](ARCHITECT.md).
+This page acts mainly as a HowTo for other contributors.
 
 ## How to add a new meeting?
 
@@ -35,28 +35,41 @@ Add zoom meeting link and phone dial number to the `_includes/meeting-short.md` 
 
 ## What to do after a monthly meeting ends? Rollover to a new month!
 
-Run the `./script/rollover-to-next-month.sh` script from the top repository location which will generate an output similar to this:
+Run the `./script/rollover-to-next-month.sh` script from the top repository location. It needs `bash` and `cal`: macOS includes both; on Ubuntu install `cal` with `sudo apt install ncal`. If `cal` is missing, the script stops before changing anything. **Run it only once per month**: it reads the current month from the `meetings.md` symlink and advances it each time it runs. It generates an output similar to this:
 
 ```
 % ./script/rollover-to-next-month.sh
 [ Step 1: Detecting next monthly meeting filename ]
   File meetings.md exists.
-  Current meeting is for year(2025) month(08). Next meeting is year(2025) month(09).
-[ Step 2: Deleting the current symlink ]
+  Current meeting is for year(2026) month(11). Next meeting is year(2026) month(12).
+[ Step 2: Deleting the current meetings.md symlink ]
   Running: 'rm meetings.md' ...DONE
+[ Step 2.1: Deleting the current _includes/raffle.md file ]
+  Running: 'rm _includes/raffle.md' ...DONE
 [ Step 3: Creating the new meeting file if necessary ]
-  The file 'meetings/2025/202509.md' does not exist or is empty. Initializing from meetings/template.md ... DONE
 [ Step 4: Creating the new symlink ]
-  Running: 'ln -s meetings/2025/202509.md meetings.md' ...DONE
+  Running: 'ln -s meetings/2026/202612.md meetings.md' ...DONE
 [ Step 5: Updating the _includes/meeting-short.md file ]
   Successfully updated _includes/meeting-short.md.
-[ Step 6: Updating past meeting history ]
+[ Step 6: Create new raffle include file ]
+[ Step 7: Create a copy of _includes/raffle/202612.md into _includes/raffle.md ]
+  Running: 'cp _includes/raffle/202612.md _includes/raffle.md' ...DONE
+[ Step 8: Updating past meeting history ]
   Running ./script/parse-past-meetings.sh ...DONE
 ```
 
 ## What to do when we know the topic and presenter?
 
 Update `meetings/2025/202506.md` and `_includes/meeting-short.md` with the topic and presenter details.
+
+## How to add raffle prizes
+
+The rollover script creates `_includes/raffle/YYYYMM.md` and placeholder images in `meetings/raffle/YYYY/`. For each prize:
+
+1. Replace the placeholder image `meetings/raffle/YYYY/YYYYMM-N.png` (N=1 is the 1st prize), and update the `src` extension if the new image is not `.png`
+2. Replace the `Nth Prize description` text
+3. Update the image's `alt` text to match, for example `alt="1st prize: Bioenno Power 12V 12Ah LiFePO4 Battery"`; screen readers read it in place of the image
+4. Copy the finished file over `_includes/raffle.md`, which is what the homepage shows
 
 ## How to add presentation materials to a meeting?
 
@@ -82,9 +95,10 @@ The following steps must be followed:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5QrTYcUS4hU?si=ImhnyzMrJMUEigxn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 
-3. Add this code into the particular monthly meeting file, just above the `## Presentation materials` line
+3. Change the `title` attribute from `YouTube video player` to describe the video (for example `title="October 2026 meeting video"`); screen readers announce it
+4. Add this code into the particular monthly meeting file, just above the `## Presentation materials` line
 
-4. Regenerate the past meetings index, which will add the video tag to this meeting as well:
+5. Regenerate the past meetings index, which will add the video tag to this meeting as well:
 
 ```bash
 ./script/parse-past-meetings.sh > _includes/meetings-template.md

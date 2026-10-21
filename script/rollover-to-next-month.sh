@@ -14,6 +14,14 @@ RAFFLE_MAIN="_includes/raffle.md"
 TEMPLATE_INCLUDE="_includes/meetings-template.md"
 PARSE_PAST_MEETINGS="./script/parse-past-meetings.sh"
 
+# cal computes the meeting date. Without it the script would still run and
+# write the new meeting page with blank dates, so stop before changing anything.
+if ! command -v cal >/dev/null
+then
+	echo "Error: 'cal' not found. Install it first (Ubuntu: sudo apt install ncal). Nothing was changed."
+	exit 1
+fi
+
 echo "[ Step 1: Detecting next monthly meeting filename ]"
 if ls $MEETINGS >/dev/null
 then
@@ -143,11 +151,11 @@ echo """
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-4.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-3.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-2.png\" alt=\"image\"></td>
-        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-1.png\" alt=\"image\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-5.png\" alt=\"5th prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-4.png\" alt=\"4th prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-3.png\" alt=\"3rd prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-2.png\" alt=\"2nd prize\"></td>
+        <td><img src=\"/meetings/raffle/${YEAR}/${YEAR}${MONTH}-1.png\" alt=\"1st prize\"></td>
     </tr>
     <tr>
         <td>5th Prize description</td>

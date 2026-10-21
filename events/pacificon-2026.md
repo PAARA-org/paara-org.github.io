@@ -26,7 +26,7 @@ Sunday | Noon | Teardown
 
 <mark>If you can help with the Special Event Station, please fill in this</mark> [form](https://forms.gle/ZUBiJrpuPU72WkuB6){:target="_blank"} **!**
 
-![pacificon2026-logo.jpg](/events/images/pacificon2026-logo.jpg)
+![Pacificon 2026 logo](/events/images/pacificon2026-logo.jpg)
 
 ## What is W1AW/6
 

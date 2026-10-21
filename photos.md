@@ -94,12 +94,12 @@
 
 ## Pictures from the old website
 
-![image](/images/meeting-02.jpg)
+![Club members seated in rows at a PAARA meeting](/images/meeting-02.jpg)
 
-![image](/images/af6tf-funny.jpg)
+![AF6TF making a surprised face for the camera](/images/af6tf-funny.jpg)
 
-![image](/images/meeting-04.jpg)
+![A smiling member holding up a boxed ICOM radio won at a meeting](/images/meeting-04.jpg)
 
-![image](/images/sign-01.jpg)
+![Yellow roadside sign with two arrows pointing the way to PAARA](/images/sign-01.jpg)
 
-![image](/images/meeting-03.jpg)
+![Members gathered around a cake at a meeting, under a PAARA banner](/images/meeting-03.jpg)

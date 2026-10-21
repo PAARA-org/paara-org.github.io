@@ -1,0 +1,62 @@
+name: External Links
+
+on:
+  schedule:
+    # Mondays at 14:17 UTC
+    - cron: 17 14 * * 1
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    name: Check external links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: 'npm'
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.0
+          bundler-cache: true
+      - name: Build site
+        run: |
+          script/bootstrap
+          bundle exec jekyll build
+      - name: Check external links
+        id: check
+        run: |
+          set +e
+          script/check-external-links > proofer.log 2>&1
+          status=$?
+          cat proofer.log
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+      - name: Open or update broken-links issue
+        if: steps.check.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh label create broken-links --color d93f0b \
+            --description "External links that failed the weekly check" --force
+          {
+            echo "The weekly external link check found failures ($RUN_URL)."
+            echo
+            echo "Fix or remove each link. If a site is reliably up but blocks the checker, add it to the ignore list in \`script/check-external-links\`."
+            echo
+            echo '```'
+            grep -E '^- \./_site|^  \*' proofer.log | head -c 60000
+            echo '```'
+          } > body.md
+          issue=$(gh issue list --label broken-links --state open --json number --jq '.[0].number')
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body-file body.md
+          else
+            gh issue create --title "Broken external links" --label broken-links --body-file body.md
+          fi

@@ -12,14 +12,14 @@ The goal is for each guide to be detailed enough that a prepared setup crew can 
 
 ## Event Setup Guides
 
-Event setup guides describe the full event layout and link to the equipment guides needed for each station.
+[Event setup guides]({{ '/setup-guides/events/' | relative_url }}) describe the full event layout and link to the equipment guides needed for each station.
 
 * [Pacificon]({{ '/setup-guides/events/pacificon.html' | relative_url }})
 * [Field Day]({{ '/setup-guides/events/field-day.html' | relative_url }})
 
 ## Equipment Setup Guides
 
-Equipment setup guides describe reusable setup steps for individual pieces of club equipment. Event guides should link to these pages instead of duplicating equipment-specific instructions.
+[Equipment setup guides]({{ '/setup-guides/equipment/' | relative_url }}) describe reusable setup steps for individual pieces of club equipment. Event guides should link to these pages instead of duplicating equipment-specific instructions.
 
 * [KLM KT36 yagi antenna]({{ '/setup-guides/equipment/klm-kt36.html' | relative_url }})
 * [KLM KT34A yagi antenna]({{ '/setup-guides/equipment/klm-kt34.html' | relative_url }})

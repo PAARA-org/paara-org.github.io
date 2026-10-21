@@ -24,7 +24,7 @@ Sunday | 00:00 - 11:59 | Station is operating - need Station Captains!
 
 <mark>If you think you can help us with the Special Event Station, please fill in this</mark> [form](https://forms.gle/to4V6YguzCcgZi9G8){:target="_blank"} **!**
 
-![pacificon2025-logo.jpg](/events/images/pacificon2025-logo.jpg)
+![Pacificon 2025 logo](/events/images/pacificon2025-logo.jpg)
 
 ## What is W1AW/6
 

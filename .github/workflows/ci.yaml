@@ -22,7 +22,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Test parse-past-meetings.sh
         run: |
           chmod +x script/parse-past-meetings.sh
@@ -38,10 +38,12 @@ jobs:
     name: Test sync-photos.go
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-go@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
         with:
           go-version: '1.22'
+          # No go.sum (stdlib only), so there is nothing to cache.
+          cache: false
       - name: Run unit tests
         run: go test -v -cover ./script/...
 
@@ -50,10 +52,10 @@ jobs:
     name: script/cibuild
     needs: [test-parse-script, test-sync-photos]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 24
           cache: 'npm'
       - uses: ruby/setup-ruby@v1
         with:
@@ -65,13 +67,13 @@ jobs:
         run: script/cibuild
       - name: Upload site artifact
         if: success()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: _site
       - name: Upload Pages artifact
         if: success() && github.ref == 'refs/heads/master' && github.event_name == 'push'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -86,5 +88,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
