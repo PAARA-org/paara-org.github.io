@@ -63,6 +63,8 @@ jobs:
         run: script/bootstrap
       - name: test
         run: script/cibuild
+      - name: page checks
+        run: script/check-pages --report-only
       - name: Upload site artifact
         if: success()
         uses: actions/upload-artifact@v4

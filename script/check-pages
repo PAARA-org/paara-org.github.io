@@ -1,0 +1,188 @@
+#!/usr/bin/env node
+// Loads every page of the built site (_site) in headless Chrome and fails on
+// accessibility and layout problems that html-proofer can't see:
+//
+//   - axe-core WCAG 2.1 AA violations, in both light and dark theme
+//   - horizontal scrolling at phone width (375px)
+//   - JavaScript errors and failed requests for the site's own files
+//
+// Third-party requests (YouTube, PayPal, Google Photos) are blocked so the
+// check is fast and doesn't depend on other sites.
+//
+// Usage: script/check-pages [--report-only]
+// Set CHROME_PATH if Chrome isn't at /usr/bin/google-chrome.
+
+"use strict";
+
+const fs = require("fs");
+const http = require("http");
+const path = require("path");
+const puppeteer = require("puppeteer-core");
+
+const SITE = path.join(__dirname, "..", "_site");
+const CHROME = process.env.CHROME_PATH || "/usr/bin/google-chrome";
+const REPORT_ONLY = process.argv.includes("--report-only");
+const AXE = fs.readFileSync(require.resolve("axe-core/axe.min.js"), "utf8");
+const WORKERS = 6;
+
+// Pages that aren't real site pages.
+const SKIP = new Set(["/google39b1e89a4bce5086.html"]);
+
+// Errors caused by blocking third-party scripts rather than by the site.
+const IGNORED_ERRORS = [/\bpaypal is not defined\b/, /\bcartPaypal is not defined\b/];
+
+const MODES = [
+  { name: "light", viewport: { width: 1280, height: 900 }, theme: "light", axe: true },
+  { name: "dark", viewport: { width: 1280, height: 900 }, theme: "dark", axe: true },
+  {
+    name: "phone",
+    viewport: { width: 375, height: 812, isMobile: true, hasTouch: true, deviceScaleFactor: 2 },
+    theme: "light",
+    axe: false,
+  },
+];
+
+const TYPES = {
+  ".html": "text/html; charset=utf-8",
+  ".css": "text/css",
+  ".js": "text/javascript",
+  ".json": "application/json",
+  ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".gif": "image/gif",
+  ".webp": "image/webp",
+  ".ico": "image/x-icon",
+  ".pdf": "application/pdf",
+};
+
+function listPages(dir, prefix = "") {
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const url = `${prefix}/${entry.name}`;
+    if (entry.isDirectory()) return listPages(path.join(dir, entry.name), url);
+    return entry.name.endsWith(".html") && !SKIP.has(url) ? [url] : [];
+  });
+}
+
+function serve() {
+  const server = http.createServer((req, res) => {
+    let file = path.join(SITE, decodeURIComponent(new URL(req.url, "http://x").pathname));
+    if (!file.startsWith(SITE)) file = SITE;
+    if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file = path.join(file, "index.html");
+    fs.readFile(file, (err, data) => {
+      if (err) {
+        res.writeHead(404);
+        res.end();
+        return;
+      }
+      res.writeHead(200, { "Content-Type": TYPES[path.extname(file).toLowerCase()] || "application/octet-stream" });
+      res.end(data);
+    });
+  });
+  return new Promise((resolve) => server.listen(0, "127.0.0.1", () => resolve(server)));
+}
+
+async function checkPage(context, origin, url, mode) {
+  const problems = [];
+  const page = await context.newPage();
+  await page.setViewport(mode.viewport);
+  await page.evaluateOnNewDocument((theme) => {
+    try {
+      localStorage.setItem("paara-theme", theme);
+    } catch (e) {
+      // Ignore; the page falls back to light.
+    }
+  }, mode.theme);
+  await page.setRequestInterception(true);
+  page.on("request", (req) => {
+    const local = req.url().startsWith(origin) || req.url().startsWith("data:");
+    local ? req.continue() : req.abort("blockedbyclient");
+  });
+  page.on("pageerror", (err) => {
+    const message = String(err.message || err);
+    if (!IGNORED_ERRORS.some((re) => re.test(message))) problems.push(`JavaScript error: ${message}`);
+  });
+  page.on("response", (res) => {
+    if (res.url().startsWith(origin) && res.status() >= 400) problems.push(`${res.status()} for ${res.url().slice(origin.length)}`);
+  });
+
+  await page.goto(origin + url, { waitUntil: "load", timeout: 60000 });
+
+  if (mode.viewport.isMobile) {
+    const wide = await page.evaluate(() => {
+      const width = window.innerWidth;
+      if (document.documentElement.scrollWidth <= width + 1) return null;
+      const culprits = [...document.querySelectorAll("body *")].filter((el) => {
+        if (el.getBoundingClientRect().right <= width + 1) return false;
+        return ![...el.children].some((child) => child.getBoundingClientRect().right > width + 1);
+      });
+      return culprits.slice(0, 3).map((el) => el.outerHTML.slice(0, 100));
+    });
+    if (wide) problems.push(`scrolls sideways at ${mode.viewport.width}px: ${wide.join(" | ")}`);
+  }
+
+  if (mode.axe) {
+    await page.evaluate(AXE);
+    const violations = await page.evaluate(async () => {
+      const result = await window.axe.run(document, {
+        runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"] },
+        resultTypes: ["violations"],
+      });
+      return result.violations.map((v) => ({ id: v.id, help: v.help, targets: v.nodes.map((n) => n.target.join(" ")) }));
+    });
+    for (const v of violations) {
+      const more = v.targets.length > 3 ? ` (+${v.targets.length - 3} more)` : "";
+      problems.push(`${v.id}: ${v.help} [${v.targets.slice(0, 3).join(", ")}${more}]`);
+    }
+  }
+
+  await page.close();
+  return problems;
+}
+
+async function main() {
+  const pages = listPages(SITE).sort();
+  const server = await serve();
+  const origin = `http://127.0.0.1:${server.address().port}`;
+  const browser = await puppeteer.launch({ executablePath: CHROME, args: ["--no-sandbox"] });
+
+  // One context per mode, so parallel pages don't share the stored theme.
+  const contexts = {};
+  for (const mode of MODES) contexts[mode.name] = await browser.createBrowserContext();
+
+  const jobs = pages.flatMap((url) => MODES.map((mode) => ({ url, mode })));
+  const failures = [];
+  let next = 0;
+  async function worker() {
+    while (next < jobs.length) {
+      const { url, mode } = jobs[next++];
+      // Retry once if Chrome itself fails (e.g. a lost tab); page problems
+      // are reported on the first try.
+      for (let attempt = 1; attempt <= 2; attempt++) {
+        try {
+          for (const problem of await checkPage(contexts[mode.name], origin, url, mode)) {
+            failures.push(`${url} (${mode.name}): ${problem}`);
+          }
+          break;
+        } catch (err) {
+          if (attempt === 2) failures.push(`${url} (${mode.name}): could not check page: ${err.message}`);
+        }
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: WORKERS }, worker));
+  await browser.close();
+  server.close();
+
+  failures.sort();
+  for (const failure of failures) console.log(failure);
+  console.log(`${failures.length} problem(s) on ${pages.length} pages (${MODES.map((m) => m.name).join(", ")}).`);
+  if (failures.length && REPORT_ONLY) console.log("Report-only mode: not failing the build.");
+  process.exitCode = failures.length && !REPORT_ONLY ? 1 : 0;
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exitCode = 1;
+});
