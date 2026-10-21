@@ -27,4 +27,4 @@ if ! bundle check >/dev/null 2>&1; then
     bundle install
 fi
 
-exec bundle exec jekyll serve
+exec bundle exec jekyll serve "$@"
