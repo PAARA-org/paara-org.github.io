@@ -207,5 +207,5 @@ html[data-theme="dark"] .custom-notice {
   color: #e2e8f0 !important;
 }
 html[data-theme="dark"] .custom-notice strong {
-  color: #3a86d4 !important;
+  color: #6cb0f0 !important; /* 6.4:1 on the box background */
 }
