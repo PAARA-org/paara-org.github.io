@@ -138,6 +138,25 @@ iframe[src*="youtube.com/embed"] {
   aspect-ratio: 16 / 9;
 }
 
+/* Underline links in running text so they don't rely on color alone
+   (WCAG 1.4.1). Navigation, gallery items and buttons have classes and
+   keep their own styling. */
+#main-content a:not([class]),
+#footer a,
+.weekly-net a {
+  text-decoration: underline;
+}
+
+/* The table of contents is a navigation list, not running text. */
+#main-content #markdown-toc a {
+  text-decoration: none;
+}
+
+/* The theme's #2879d0 is just under 4.5:1 on white; use its hover blue. */
+pre code {
+  color: #2268b2;
+}
+
 /* Notice box. Dark mode colors are in dark.css. */
 .custom-notice {
   background-color: #f4f7f6 !important; /* Forces light gray background */
@@ -149,5 +168,9 @@ iframe[src*="youtube.com/embed"] {
 
   strong {
     color: #1e6bb8 !important;
+  }
+
+  a {
+    color: #2268b2;
   }
 }
