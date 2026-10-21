@@ -23,6 +23,14 @@
   -webkit-appearance: none;
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
+
+@media print {
+  .mobile-navigation-bar,
+  .mobile-drawer,
+  .theme-toggle {
+    display: none;
+  }
+}
 .theme-toggle:hover {
   background: rgba(13, 27, 42, 0.6);
   transform: scale(1.06);
@@ -58,6 +66,45 @@ html[data-theme="dark"] .theme-toggle {
 }
 html[data-theme="dark"] .theme-toggle:hover {
   background: rgba(230, 233, 238, 0.22);
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-theme-controls .theme-toggle {
+    position: static;
+    width: 44px;
+    height: 44px;
+    color: #2879d0;
+    background: rgba(40, 121, 208, 0.06);
+    border-color: currentColor;
+  }
+
+  .mobile-theme-controls .theme-toggle:focus-visible {
+    outline-color: currentColor;
+  }
+
+  html[data-theme="dark"] #navigation-open,
+  html[data-theme="dark"] .drawer-close {
+    color: #6cb0f0;
+  }
+
+  html[data-theme="dark"] .mobile-drawer { color: #c7cbd1; background: #14171c; }
+  html[data-theme="dark"] .drawer-heading { border-bottom-color: #2d333b; }
+  html[data-theme="dark"] .mobile-drawer a:hover { background: rgba(108, 176, 240, 0.08); }
+
+  html[data-theme="dark"] .mobile-drawer a.sidebar {
+    color: #6cb0f0;
+  }
+
+  html[data-theme="dark"] .mobile-drawer a.current {
+    color: #fff;
+    background: rgba(108, 176, 240, 0.2);
+    box-shadow: inset 3px 0 #6cb0f0;
+  }
+
+  html[data-theme="dark"] .mobile-theme-controls .theme-toggle {
+    color: #ffd45e;
+    background: rgba(230, 233, 238, 0.12);
+  }
 }
 
 /* LAYOUT STYLES */

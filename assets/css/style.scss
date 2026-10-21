@@ -10,6 +10,128 @@
   color: black;
 }
 
+.mobile-navigation-bar,
+.mobile-drawer:not([open]) {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .navigation-ready aside#sidebar { display: none; }
+  .navigation-ready .mobile-navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  #navigation-open,
+  .drawer-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 8px;
+    color: #2268b2;
+    font: inherit;
+    font-weight: bold;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  #navigation-open svg,
+  .drawer-close svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+  }
+  #navigation-open:focus-visible,
+  .drawer-close:focus-visible,
+  .mobile-drawer a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: -2px;
+  }
+  .mobile-theme-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .mobile-drawer[open] {
+    position: fixed;
+    inset: 0 auto 0 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: min(320px, 86vw);
+    max-width: none;
+    height: 100%;
+    height: 100dvh;
+    max-height: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: #263442;
+    background: #fafafa;
+    border: 0;
+    box-shadow: 8px 0 32px rgba(0, 0, 0, 0.15);
+    animation: drawer-enter 180ms ease-out;
+  }
+  .mobile-drawer::backdrop {
+    background: rgba(0, 0, 0, 0.45);
+  }
+  .drawer-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding: 16px 16px 12px 24px;
+    border-bottom: 1px solid #dde2e7;
+  }
+  #navigation-title { font-size: 22px; font-weight: bold; }
+  #navigation-title small { display: block; font-size: 13px; font-weight: normal; }
+  .drawer-links {
+    min-height: 0;
+    padding: 12px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .mobile-drawer br { display: none; }
+  .mobile-drawer hr { margin: 12px 0; }
+  .mobile-drawer a.sidebar {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+    color: #2268b2;
+    overflow-wrap: anywhere;
+    border-radius: 4px;
+  }
+  .mobile-drawer a:hover { background: rgba(40, 121, 208, 0.06); }
+  .mobile-drawer a.current {
+    color: #174a7e;
+    font-weight: bold;
+    background: rgba(40, 121, 208, 0.12);
+    box-shadow: inset 3px 0 #2879d0;
+  }
+  html.navigation-open,
+  .navigation-open body { overflow: hidden; }
+}
+
+@keyframes drawer-enter {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mobile-drawer[open] { animation: none; }
+}
+
 /* 1. Explicitly define Light Mode colors first */
 .custom-notice {
   background-color: #f4f7f6 !important; /* Forces light gray background */
@@ -36,4 +158,3 @@
     }
   }
 }
-

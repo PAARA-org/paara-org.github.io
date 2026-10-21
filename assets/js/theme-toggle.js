@@ -59,7 +59,14 @@
     if (document.querySelector(".theme-toggle")) {
       return;
     }
-    document.body.appendChild(buildButton());
+    var btn = buildButton();
+    var mobile = window.matchMedia('(max-width: 767px)');
+    var controls = document.querySelector('.mobile-theme-controls');
+    function positionButton() {
+      (mobile.matches && controls ? controls : document.body).appendChild(btn);
+    }
+    mobile.addEventListener('change', positionButton);
+    positionButton();
   }
 
   if (document.readyState === "loading") {
