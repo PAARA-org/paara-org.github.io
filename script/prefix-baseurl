@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Usage: script/prefix-baseurl SITE_DIR BASE_PATH
+# Prefixes root-relative href, src and data-manifest-url values in built HTML
+# with BASE_PATH (e.g. /paara-org.github.io) so a fork's Pages preview, served
+# from a subpath, keeps its styles, images and links.
+
+site, base = ARGV
+abort "usage: #{$PROGRAM_NAME} SITE_DIR BASE_PATH" unless site && base
+base = base.chomp("/")
+exit if base.empty?
+
+# Skip protocol-relative URLs and ones that already start with BASE_PATH.
+pattern = %r{(\s(?:href|src|data-manifest-url)=["'])/(?!/|#{Regexp.escape(base.delete_prefix("/"))}/)}
+Dir.glob(File.join(site, "**", "*.html")).each do |file|
+  html = File.read(file)
+  fixed = html.gsub(pattern) { "#{Regexp.last_match(1)}#{base}/" }
+  File.write(file, fixed) unless fixed == html
+end

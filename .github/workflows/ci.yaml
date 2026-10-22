@@ -73,6 +73,16 @@ jobs:
         with:
           name: site
           path: _site
+      # A fork's Pages site is usually served from /<repo>/, so prefix the
+      # site's root-relative links for its preview. Never runs in PAARA-org.
+      - name: Get fork Pages path
+        id: pages
+        if: success() && github.repository != 'PAARA-org/paara-org.github.io' && github.ref == 'refs/heads/master' && github.event_name == 'push'
+        continue-on-error: true
+        uses: actions/configure-pages@v6
+      - name: Prefix links for fork Pages preview
+        if: steps.pages.outcome == 'success'
+        run: script/prefix-baseurl _site "${{ steps.pages.outputs.base_path }}"
       - name: Upload Pages artifact
         if: success() && github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: actions/upload-pages-artifact@v5
