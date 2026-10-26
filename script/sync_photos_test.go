@@ -474,9 +474,12 @@ func TestLoadAndSaveGalleries(t *testing.T) {
 	if err != nil || len(manifestBytes) == 0 {
 		t.Fatalf("Failed to read manifest file: %v", err)
 	}
-	// Verify manifest is formatted across multiple lines (one photo per line)
+	// Verify manifest is formatted across multiple lines with spaces after commas
 	if !strings.Contains(string(manifestBytes), "\n  [") {
 		t.Errorf("Expected manifest to contain line-by-line formatted items, got: %s", string(manifestBytes))
+	}
+	if !strings.Contains(string(manifestBytes), `", "`) {
+		t.Errorf("Expected manifest to format array elements with spaces after commas, got: %s", string(manifestBytes))
 	}
 	var unmarshaled [][]interface{}
 	if err := json.Unmarshal(manifestBytes, &unmarshaled); err != nil {
@@ -484,6 +487,37 @@ func TestLoadAndSaveGalleries(t *testing.T) {
 	}
 	if len(unmarshaled) != 1 {
 		t.Errorf("Expected 1 item in manifest, got %d", len(unmarshaled))
+	}
+
+	// Test sorting by album title
+	multiGalleries := map[string]Gallery{
+		"f-zebra": {
+			Title: "Zebra Album",
+			Items: []GalleryItem{{ID: "z1", Name: "z.jpg", Type: "image", DateTime: "Jan 1, 2026"}},
+		},
+		"f-alpha": {
+			Title: "Alpha Album",
+			Items: []GalleryItem{{ID: "a1", Name: "a.jpg", Type: "image", DateTime: "Jan 2, 2026"}},
+		},
+	}
+	sortedManifestPath := filepath.Join(tempDir, "assets", "data", "sorted-manifest.json")
+	if err := saveManifest(sortedManifestPath, multiGalleries); err != nil {
+		t.Fatalf("saveManifest failed for multiGalleries: %v", err)
+	}
+	sortedBytes, err := os.ReadFile(sortedManifestPath)
+	if err != nil {
+		t.Fatalf("Failed to read sorted manifest: %v", err)
+	}
+	var sortedUnmarshaled [][]interface{}
+	if err := json.Unmarshal(sortedBytes, &sortedUnmarshaled); err != nil {
+		t.Fatalf("Failed to unmarshal sorted manifest: %v", err)
+	}
+	if len(sortedUnmarshaled) != 2 {
+		t.Fatalf("Expected 2 items, got %d", len(sortedUnmarshaled))
+	}
+	if sortedUnmarshaled[0][2] != "Alpha Album" || sortedUnmarshaled[1][2] != "Zebra Album" {
+		t.Errorf("Expected manifest sorted by album title (Alpha then Zebra), got %v then %v",
+			sortedUnmarshaled[0][2], sortedUnmarshaled[1][2])
 	}
 
 	// Test empty galleries outputs valid empty array

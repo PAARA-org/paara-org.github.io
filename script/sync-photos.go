@@ -3,10 +3,10 @@
 // into _data/galleries.json for embedding responsive photo galleries on the PAARA website.
 //
 // Usage:
-//   go run ./script/sync-photos.go
-//   go run ./script/sync-photos.go -folder="1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82"
-//   go run ./script/sync-photos.go -enrich-only
 //
+//	go run ./script/sync-photos.go
+//	go run ./script/sync-photos.go -folder="1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82"
+//	go run ./script/sync-photos.go -enrich-only
 package main
 
 import (
@@ -706,41 +706,62 @@ func saveGalleries(path string, galleries map[string]Gallery) error {
 }
 
 // saveManifest writes a compact JSON array of all photos across all galleries,
-// formatted with deterministic sorting and one item per line for clean diffs.
+// formatted with deterministic sorting by album title and one item per line for clean diffs.
 func saveManifest(manifestPath string, galleries map[string]Gallery) error {
-	// Sort folder IDs to guarantee deterministic ordering
-	folderIDs := make([]string, 0, len(galleries))
-	for id := range galleries {
-		folderIDs = append(folderIDs, id)
+	type albumEntry struct {
+		id  string
+		gal Gallery
 	}
-	sort.Strings(folderIDs)
+	albums := make([]albumEntry, 0, len(galleries))
+	for id, gal := range galleries {
+		albums = append(albums, albumEntry{id: id, gal: gal})
+	}
+	sort.Slice(albums, func(i, j int) bool {
+		if albums[i].gal.Title != albums[j].gal.Title {
+			return albums[i].gal.Title < albums[j].gal.Title
+		}
+		return albums[i].id < albums[j].id
+	})
 
 	var buf bytes.Buffer
 	buf.WriteString("[\n")
 	first := true
-	for _, id := range folderIDs {
-		gal := galleries[id]
-		album := gal.Title
-		for _, it := range gal.Items {
+	for _, entry := range albums {
+		album := entry.gal.Title
+		for _, it := range entry.gal.Items {
 			isVideo := 0
 			if it.Type == "video" {
 				isVideo = 1
 			}
-			row, err := json.Marshal([]interface{}{
-				it.ID,
-				it.Name,
-				album,
-				it.DateTime,
-				isVideo,
-			})
+			idJSON, err := json.Marshal(it.ID)
 			if err != nil {
 				return err
 			}
+			nameJSON, err := json.Marshal(it.Name)
+			if err != nil {
+				return err
+			}
+			albumJSON, err := json.Marshal(album)
+			if err != nil {
+				return err
+			}
+			dtJSON, err := json.Marshal(it.DateTime)
+			if err != nil {
+				return err
+			}
+
 			if !first {
 				buf.WriteString(",\n")
 			}
-			buf.WriteString("  ")
-			buf.Write(row)
+			buf.WriteString("  [")
+			buf.Write(idJSON)
+			buf.WriteString(", ")
+			buf.Write(nameJSON)
+			buf.WriteString(", ")
+			buf.Write(albumJSON)
+			buf.WriteString(", ")
+			buf.Write(dtJSON)
+			fmt.Fprintf(&buf, ", %d]", isVideo)
 			first = false
 		}
 	}
