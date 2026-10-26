@@ -16,6 +16,10 @@
 
 {% include gallery.html folder_id="1ccgA24vYa5udg7r3pI-JyGQXdU1KvO82" limit=8 %}
 
+## Preparing the kits for PitP September 2026
+
+{% include gallery.html folder_id="1_EZUoFoaMkLzzbUG7mOnTt7Oot-GMN_v" limit=8 %}
+
 ## Electronics Flea Market September 2026
 
 {% include gallery.html folder_id="1cRbEuwo7-tZYFPgPamXnm-8kGspkL6Z1" limit=8 %}
