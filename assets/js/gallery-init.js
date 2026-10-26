@@ -325,6 +325,8 @@
 
       if (lightbox && typeof lightbox.reload === "function") {
         lightbox.reload();
+      } else {
+        initLightbox();
       }
       if (typeof callback === "function") {
         callback();
@@ -389,175 +391,188 @@
     });
   }
 
-  function initGallery() {
-    if (typeof GLightbox === "undefined") {
+  function initLightbox() {
+    if (typeof GLightbox === "undefined" || lightbox) {
       return;
     }
 
-    setupRandomContinuousGalleries();
-    setupFeaturedRandomGalleries();
-
-    lightbox = GLightbox({
-      selector: ".glightbox",
-      touchNavigation: true,
-      loop: true,
-      autoplayVideos: true,
-      zoomable: true,
-      draggable: true,
-      openEffect: "zoom",
-      closeEffect: "fade",
-      slideEffect: "slide",
-      width: "960px",
-      height: "540px",
-      beforeSlideLoad: function (slideObj) {
-        var slide = slideObj.slide;
-        var container = slide ? slide.querySelector(".ginner-container") : null;
-        if (container) {
-          var isVideo = slide.querySelector(".gslide-external") || (lightbox.elements && lightbox.elements[slideObj.index] && lightbox.elements[slideObj.index].type === "external");
-          if (isVideo) {
+    try {
+      lightbox = GLightbox({
+        selector: ".glightbox",
+        touchNavigation: true,
+        loop: true,
+        autoplayVideos: true,
+        zoomable: true,
+        draggable: true,
+        openEffect: "zoom",
+        closeEffect: "fade",
+        slideEffect: "slide",
+        width: "960px",
+        height: "540px",
+        beforeSlideLoad: function (slideObj) {
+          var slide = slideObj.slide;
+          var container = slide ? slide.querySelector(".ginner-container") : null;
+          if (container) {
+            var isVideo = slide.querySelector(".gslide-external") || (lightbox.elements && lightbox.elements[slideObj.index] && lightbox.elements[slideObj.index].type === "external");
+            if (isVideo) {
+              container.classList.add("has-external-video");
+            }
+          }
+        },
+        afterSlideLoad: function (slideObj) {
+          var slide = slideObj.slide;
+          var index = slideObj.index;
+          var img = slide ? slide.querySelector("img") : null;
+          if (img) {
+            img.setAttribute("referrerpolicy", "no-referrer");
+          }
+          var iframe = slide ? slide.querySelector("iframe") : null;
+          if (iframe) {
+            iframe.setAttribute(
+              "allow",
+              "autoplay; encrypted-media; fullscreen; picture-in-picture"
+            );
+            iframe.setAttribute("allowfullscreen", "true");
+          }
+          var container = slide ? slide.querySelector(".ginner-container") : null;
+          if (container && iframe) {
             container.classList.add("has-external-video");
           }
-        }
-      },
-      afterSlideLoad: function (slideObj) {
-        var slide = slideObj.slide;
-        var index = slideObj.index;
-        var img = slide ? slide.querySelector("img") : null;
-        if (img) {
-          img.setAttribute("referrerpolicy", "no-referrer");
-        }
-        var iframe = slide ? slide.querySelector("iframe") : null;
-        if (iframe) {
-          iframe.setAttribute(
-            "allow",
-            "autoplay; encrypted-media; fullscreen; picture-in-picture"
-          );
-          iframe.setAttribute("allowfullscreen", "true");
-        }
-        var container = slide ? slide.querySelector(".ginner-container") : null;
-        if (container && iframe) {
-          container.classList.add("has-external-video");
-        }
 
-        // Display image EXIF time or filename timestamp
-        fetchAndApplyExifDate(slide, index);
-      },
-      beforeSlideChange: function (prev, current) {
-        if (prev && prev.slide) {
-          var prevIframe = prev.slide.querySelector("iframe");
-          if (prevIframe) {
-            var src = prevIframe.src;
-            prevIframe.src = "";
-            prevIframe.src = src;
-          }
-        }
-      },
-      onClose: function () {
-        var iframes = document.querySelectorAll(".glightbox-container iframe");
-        iframes.forEach(function (iframe) {
-          var src = iframe.src;
-          iframe.src = "";
-          iframe.src = src;
-        });
-      }
-    });
-
-    lightbox.on("slide_after_load", function (data) {
-      if (data && data.slide) {
-        fetchAndApplyExifDate(data.slide, data.index);
-      }
-    });
-
-    lightbox.on("slide_changed", function (data) {
-      if (data && data.current && data.current.slide) {
-        fetchAndApplyExifDate(data.current.slide, data.current.index);
-      }
-    });
-
-    window.openGalleryFromStart = function (folderId) {
-      var container = document.querySelector(
-        '.gallery-container[data-gallery-id="' + CSS.escape(folderId) + '"]'
-      );
-      if (!container) return;
-      var firstItem = container.querySelector(".gallery-item");
-      if (!firstItem) return;
-
-      if (lightbox && lightbox.elements) {
-        for (var i = 0; i < lightbox.elements.length; i++) {
-          if (lightbox.elements[i].node === firstItem) {
-            lightbox.openAt(i);
-            return;
-          }
-        }
-      }
-      firstItem.click();
-    };
-
-    window.toggleGalleryExpand = function (folderId, btn) {
-      var container = document.querySelector(
-        '.gallery-container[data-gallery-id="' + CSS.escape(folderId) + '"]'
-      );
-      if (!container) return;
-
-      var grid = container.querySelector(".gallery-grid");
-      var items = container.querySelectorAll(".gallery-item");
-      var isExpanded = container.classList.contains("is-expanded");
-      var limit = grid ? (parseInt(grid.dataset.previewLimit, 10) || 8) : 8;
-      var sliceStart = grid && grid.dataset.sliceStart !== undefined ? parseInt(grid.dataset.sliceStart, 10) : 0;
-      var sliceEnd = grid && grid.dataset.sliceEnd !== undefined ? parseInt(grid.dataset.sliceEnd, 10) : limit;
-
-      if (isExpanded) {
-        items.forEach(function (el, index) {
-          if (index >= sliceStart && index < sliceEnd) {
-            el.style.display = "block";
-            el.classList.remove("gallery-item-extra");
-          } else {
-            el.style.display = "none";
-            el.classList.add("gallery-item-extra");
-          }
-        });
-        container.classList.remove("is-expanded");
-        btn.innerHTML = "View all " + btn.dataset.total + " &rarr;";
-      } else {
-        items.forEach(function (el) {
-          el.style.display = "block";
-          el.classList.remove("gallery-item-extra");
-        });
-        container.classList.add("is-expanded");
-        btn.innerHTML = "Show less &uarr;";
-
-        // Reload lightbox so it recognizes all newly visible slides if needed
-        if (lightbox && typeof lightbox.reload === "function") {
-          lightbox.reload();
-        }
-      }
-    };
-
-    window.shuffleFeaturedGallery = function (btn) {
-      var container = btn ? btn.closest(".gallery-container") : document.querySelector('.gallery-container[data-gallery-mode="random_all"]');
-      if (!container) return;
-      var grid = container.querySelector(".gallery-grid");
-      if (!grid) return;
-
-      if (btn) {
-        btn.disabled = true;
-        btn.classList.add("is-shuffling");
-      }
-
-      loadPhotoManifest(grid.dataset.manifestUrl).then(function (manifest) {
-        if (manifest && manifest.length > 0) {
-          renderFeaturedGallery(grid, manifest, function () {
-            if (btn) {
-              btn.disabled = false;
-              btn.classList.remove("is-shuffling");
+          // Display image EXIF time or filename timestamp
+          fetchAndApplyExifDate(slide, index);
+        },
+        beforeSlideChange: function (prev, current) {
+          if (prev && prev.slide) {
+            var prevIframe = prev.slide.querySelector("iframe");
+            if (prevIframe) {
+              var src = prevIframe.src;
+              prevIframe.src = "";
+              prevIframe.src = src;
             }
+          }
+        },
+        onClose: function () {
+          var iframes = document.querySelectorAll(".glightbox-container iframe");
+          iframes.forEach(function (iframe) {
+            var src = iframe.src;
+            iframe.src = "";
+            iframe.src = src;
           });
-        } else if (btn) {
-          btn.disabled = false;
-          btn.classList.remove("is-shuffling");
         }
       });
-    };
+
+      lightbox.on("slide_after_load", function (data) {
+        if (data && data.slide) {
+          fetchAndApplyExifDate(data.slide, data.index);
+        }
+      });
+
+      lightbox.on("slide_changed", function (data) {
+        if (data && data.current && data.current.slide) {
+          fetchAndApplyExifDate(data.current.slide, data.current.index);
+        }
+      });
+    } catch (err) {
+      console.warn("Could not initialize GLightbox:", err);
+    }
+  }
+
+  window.openGalleryFromStart = function (folderId) {
+    var container = document.querySelector(
+      '.gallery-container[data-gallery-id="' + CSS.escape(folderId) + '"]'
+    );
+    if (!container) return;
+    var firstItem = container.querySelector(".gallery-item");
+    if (!firstItem) return;
+
+    if (!lightbox) {
+      initLightbox();
+    }
+
+    if (lightbox && lightbox.elements) {
+      for (var i = 0; i < lightbox.elements.length; i++) {
+        if (lightbox.elements[i].node === firstItem) {
+          lightbox.openAt(i);
+          return;
+        }
+      }
+    }
+    firstItem.click();
+  };
+
+  window.toggleGalleryExpand = function (folderId, btn) {
+    var container = document.querySelector(
+      '.gallery-container[data-gallery-id="' + CSS.escape(folderId) + '"]'
+    );
+    if (!container) return;
+
+    var grid = container.querySelector(".gallery-grid");
+    var items = container.querySelectorAll(".gallery-item");
+    var isExpanded = container.classList.contains("is-expanded");
+    var limit = grid ? (parseInt(grid.dataset.previewLimit, 10) || 8) : 8;
+    var sliceStart = grid && grid.dataset.sliceStart !== undefined ? parseInt(grid.dataset.sliceStart, 10) : 0;
+    var sliceEnd = grid && grid.dataset.sliceEnd !== undefined ? parseInt(grid.dataset.sliceEnd, 10) : limit;
+
+    if (isExpanded) {
+      items.forEach(function (el, index) {
+        if (index >= sliceStart && index < sliceEnd) {
+          el.style.display = "block";
+          el.classList.remove("gallery-item-extra");
+        } else {
+          el.style.display = "none";
+          el.classList.add("gallery-item-extra");
+        }
+      });
+      container.classList.remove("is-expanded");
+      btn.innerHTML = "View all " + btn.dataset.total + " &rarr;";
+    } else {
+      items.forEach(function (el) {
+        el.style.display = "block";
+        el.classList.remove("gallery-item-extra");
+      });
+      container.classList.add("is-expanded");
+      btn.innerHTML = "Show less &uarr;";
+
+      // Reload lightbox so it recognizes all newly visible slides if needed
+      if (lightbox && typeof lightbox.reload === "function") {
+        lightbox.reload();
+      } else {
+        initLightbox();
+      }
+    }
+  };
+
+  window.shuffleFeaturedGallery = function (btn) {
+    var container = btn ? btn.closest(".gallery-container") : document.querySelector('.gallery-container[data-gallery-mode="random_all"]');
+    if (!container) return;
+    var grid = container.querySelector(".gallery-grid");
+    if (!grid) return;
+
+    if (btn) {
+      btn.disabled = true;
+      btn.classList.add("is-shuffling");
+    }
+
+    loadPhotoManifest(grid.dataset.manifestUrl).then(function (manifest) {
+      if (manifest && manifest.length > 0) {
+        renderFeaturedGallery(grid, manifest, function () {
+          if (btn) {
+            btn.disabled = false;
+            btn.classList.remove("is-shuffling");
+          }
+        });
+      } else if (btn) {
+        btn.disabled = false;
+        btn.classList.remove("is-shuffling");
+      }
+    });
+  };
+
+  function initGallery() {
+    setupRandomContinuousGalleries();
+    setupFeaturedRandomGalleries();
+    initLightbox();
   }
 
   if (document.readyState === "loading") {
