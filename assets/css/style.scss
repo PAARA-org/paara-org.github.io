@@ -138,6 +138,18 @@ iframe[src*="youtube.com/embed"] {
   aspect-ratio: 16 / 9;
 }
 
+/* Wrap long URLs and strings to keep running text within narrow screens. */
+#main-content {
+  overflow-wrap: anywhere;
+}
+
+/* Keep wide tables within narrow screens without pushing page layout out. */
+#main-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 /* Underline links in running text so they don't rely on color alone
    (WCAG 1.4.1). Navigation, gallery items and buttons have classes and
    keep their own styling. */

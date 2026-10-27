@@ -149,12 +149,12 @@
       })();
     </script>
     <script>
-      // Let keyboard users scroll code blocks that are wider than the page.
+      // Let keyboard users scroll code blocks and tables that are wider than the page.
       (function () {
         function update() {
-          document.querySelectorAll('#main-content pre').forEach(function (pre) {
-            if (pre.scrollWidth > pre.clientWidth) pre.setAttribute('tabindex', '0');
-            else pre.removeAttribute('tabindex');
+          document.querySelectorAll('#main-content pre, #main-content table').forEach(function (el) {
+            if (el.scrollWidth > el.clientWidth) el.setAttribute('tabindex', '0');
+            else el.removeAttribute('tabindex');
           });
         }
         window.addEventListener('resize', update);
