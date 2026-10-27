@@ -133,6 +133,10 @@ async function checkPage(context, origin, url) {
 
   // 2. Accessibility in dark theme
   await page.evaluate(() => {
+    const style = document.createElement("style");
+    style.id = "disable-transitions";
+    style.textContent = "*, *::before, *::after { transition: none !important; }";
+    document.head.appendChild(style);
     document.documentElement.setAttribute("data-theme", "dark");
   });
   const darkViolations = await page.evaluate(async () => {
@@ -147,7 +151,12 @@ async function checkPage(context, origin, url) {
     problems.push(`(dark): ${v.id}: ${v.help} [${v.targets.slice(0, 3).join(", ")}${more}]`);
   }
 
-  // 3. Layout at phone width
+  // 3. Layout at phone width (restoring light mode)
+  await page.evaluate(() => {
+    document.documentElement.removeAttribute("data-theme");
+    const style = document.getElementById("disable-transitions");
+    if (style) style.remove();
+  });
   await page.setViewport(PHONE_VIEWPORT);
   const wide = await page.evaluate((targetWidth) => {
     const width = Math.min(window.innerWidth, targetWidth);
@@ -170,10 +179,29 @@ async function main() {
   const origin = `http://127.0.0.1:${server.address().port}`;
   const browser = await puppeteer.launch({ executablePath: CHROME, args: ["--no-sandbox"] });
 
+  const failures = [];
+
+  // Verify that a stored dark-theme preference initializes dark mode on page load.
+  const initContext = await browser.createBrowserContext();
+  try {
+    const initPage = await initContext.newPage();
+    await initPage.evaluateOnNewDocument(() => {
+      try {
+        localStorage.setItem("paara-theme", "dark");
+      } catch (e) {}
+    });
+    await initPage.goto(origin + "/index.html", { waitUntil: "domcontentloaded" });
+    const isDark = await initPage.evaluate(() => document.documentElement.getAttribute("data-theme") === "dark");
+    if (!isDark) failures.push("Dark mode failed to initialize from localStorage on page load.");
+    await initPage.close();
+  } catch (err) {
+    failures.push(`Could not check dark mode initialization: ${err.message}`);
+  } finally {
+    await initContext.close();
+  }
+
   // One context per worker so concurrent workers don't share cookies or storage.
   const contexts = await Promise.all(Array.from({ length: WORKERS }, () => browser.createBrowserContext()));
-
-  const failures = [];
   let next = 0;
   async function worker(context) {
     while (next < pages.length) {
