@@ -40,6 +40,7 @@ Around 2021 (during the COVID pandemic), we started recording our monthly presen
 
 ### 2026
 
+* [202611](/meetings/2026/202611.html)  **Roy Gross KM6EOO** : `Scalable Phased Arrays with QuadRF`
 * [202610](/meetings/2026/202610.html)  : `All-Year DX Contest` (<mark>with video</mark>)
 * [202609](/meetings/2026/202609.html)  **Benjamin Friedlander AD6JA** : `Radio Direction Finding -  History and Techniques` (<mark>with video</mark>)
 * [202608](/meetings/2026/202608.html)  **Greg Mihran, KJ6ER** : `Antenna design, efficiency, and portability` (<mark>with video</mark>)

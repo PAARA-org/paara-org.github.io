@@ -10,18 +10,18 @@
         <th>1st prize</th>
     </tr>
     <tr>
-        <td><img src="/meetings/raffle/2026/202611-5.jpeg" alt="5th prize: Anker Prime USB C to USB C Cable, 240W Fast Charging Durable Cable (3 ft)"></td>
-        <td><img src="/meetings/raffle/2026/202611-4.jpeg" alt="4th prize: Endoscope Camera"></td>
-        <td><img src="/meetings/raffle/2026/202611-3.jpeg" alt="3rd prize: TIDRADIO TD-H3 Multi-Band Ham Radio"></td>
-        <td><img src="/meetings/raffle/2026/202611-2.jpeg" alt="2nd prize: Surecom SW-102 125-525Mhz Power &amp; SWR Meter"></td>
-        <td><img src="/meetings/raffle/2026/202611-1.jpeg" alt="1st prize: Bioenno Power 12V 12Ah LiFePO4 Battery"></td>
+        <td><img src="/meetings/raffle/2026/202612-5.png" alt="5th prize"></td>
+        <td><img src="/meetings/raffle/2026/202612-4.png" alt="4th prize"></td>
+        <td><img src="/meetings/raffle/2026/202612-3.png" alt="3rd prize"></td>
+        <td><img src="/meetings/raffle/2026/202612-2.png" alt="2nd prize"></td>
+        <td><img src="/meetings/raffle/2026/202612-1.png" alt="1st prize"></td>
     </tr>
     <tr>
-        <td>Anker Prime USB C to USB C Cable, 240W Fast Charging Durable Cable (3 ft)</td>
-        <td>Endoscope Camera</td>
-        <td>TIDRADIO TD-H3 Multi-Band Ham Radio</td>
-        <td>Surecom SW-102 125-525Mhz Power &amp; SWR Meter</td>
-        <td>Bioenno Power 12V 12Ah LiFePO4 Battery</td>
+        <td>5th Prize description</td>
+        <td>4th Prize description</td>
+        <td>3rd Prize description</td>
+        <td>2nd Prize description</td>
+        <td>1st Prize description</td>
     </tr>
   </table>
 </details>
