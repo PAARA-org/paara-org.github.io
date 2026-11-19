@@ -16,7 +16,7 @@ The launch of this program was originally announced in the [May 2023 PAARAgraphs
 
 There are two club owned radios in the program at the moment.
 
-### Yaesu FT-920 (1/28/2026 out on loan)
+### Yaesu FT-920
 
 ![ft920](/images/ft920.jpg)
 
