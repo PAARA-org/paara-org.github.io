@@ -8,7 +8,7 @@ Please choose one of the methods below that works best for you!
 
 ## Zelle
 
-You can pay us by Zelle by sending money to **`payments@paara.org`**.
+To pay by Zelle, log in to your banking app (or online banking) and transfer the membership dues to **`payments@paara.org`**.
 
 **Important**: Please make sure to specify the follwing in the description field:
 1. **Full Name**
