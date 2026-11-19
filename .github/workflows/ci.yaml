@@ -3,7 +3,6 @@ name: CI
 on:
   push:
   pull_request:
-    types: [opened, synchronize]
 
 permissions:
   contents: read
@@ -15,16 +14,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test-parse-script:
-    name: Test parse-past-meetings.sh
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest]
+  test-parse-script-ubuntu:
+    name: Test parse-past-meetings.sh (ubuntu-latest)
+    runs-on: ubuntu-latest
+    outputs:
+      run_macos: ${{ steps.changes.outputs.run_macos }}
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+      - name: Check if macOS test is needed
+        id: changes
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if git rev-parse --verify HEAD^2 >/dev/null 2>&1 && git cat-file -e HEAD^1^{tree} 2>/dev/null; then
+            changed=$(git diff --name-only HEAD^1 HEAD)
+          else
+            git fetch --no-tags --depth=1 origin "$BASE_SHA"
+            changed=$(git diff --name-only "$BASE_SHA" HEAD)
+          fi
+          if printf '%s\n' "$changed" | grep -Eq '^(script/|\.github/workflows/)'; then
+            echo "run_macos=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_macos=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Test parse-past-meetings.sh
         run: |
+          bash -n script/*.sh
           chmod +x script/parse-past-meetings.sh
           script/parse-past-meetings.sh > /tmp/meetings-output.md
           # Verify output contains expected content
@@ -32,7 +50,26 @@ jobs:
             echo "Error: Output missing expected '## Past Meetings' header"
             exit 1
           fi
-          echo "✓ parse-past-meetings.sh executed successfully on ${{ matrix.os }}"
+          echo "✓ parse-past-meetings.sh executed successfully on ubuntu-latest"
+
+  test-parse-script-macos:
+    name: Test parse-past-meetings.sh (macos-latest)
+    runs-on: macos-latest
+    needs: test-parse-script-ubuntu
+    if: github.event_name == 'pull_request' && needs.test-parse-script-ubuntu.outputs.run_macos == 'true'
+    steps:
+      - uses: actions/checkout@v7
+      - name: Test parse-past-meetings.sh
+        run: |
+          bash -n script/*.sh
+          chmod +x script/parse-past-meetings.sh
+          script/parse-past-meetings.sh > /tmp/meetings-output.md
+          # Verify output contains expected content
+          if ! grep -q "## Past Meetings" /tmp/meetings-output.md; then
+            echo "Error: Output missing expected '## Past Meetings' header"
+            exit 1
+          fi
+          echo "✓ parse-past-meetings.sh executed successfully on macos-latest"
 
   test-sync-photos:
     name: Test sync-photos.go
@@ -50,7 +87,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: script/cibuild
-    needs: [test-parse-script, test-sync-photos]
+    needs: [test-parse-script-ubuntu, test-parse-script-macos, test-sync-photos]
+    if: >-
+      !cancelled() &&
+      needs.test-parse-script-ubuntu.result == 'success' &&
+      (needs.test-parse-script-macos.result == 'success' || needs.test-parse-script-macos.result == 'skipped') &&
+      needs.test-sync-photos.result == 'success'
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -84,7 +126,7 @@ jobs:
         if: steps.pages.outcome == 'success'
         run: script/prefix-baseurl _site "${{ steps.pages.outputs.base_path }}"
       - name: Upload Pages artifact
-        if: success() && github.ref == 'refs/heads/master' && github.event_name == 'push'
+        if: success() && (github.event_name == 'pull_request' || (github.ref == 'refs/heads/master' && github.event_name == 'push'))
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
